@@ -1,0 +1,116 @@
+Ganho de Informação e Entropia
+    Quanto mais você souber sobre um tópico, menos informações novas você poderá
+    obter sobre ele. Para ser mais conciso: Se você sabe que um evento é muito provável,
+    não é nenhuma surpresa quando isso acontece, ou seja, dá pouca informação de que
+    realmente aconteceu.
+
+    A partir da declaração acima, podemos formular que a quantidade de informação
+    obtida é inversamente proporcional à probabilidade de um evento acontecer.
+    Podemos também dizer que à medida que o Entropy aumenta, o ganho de informação
+    diminui. Isso ocorre porque o Entropy se refere à probabilidade de um evento.
+
+    No caso das Árvores de Decisão, é essencial que o nó esteja alinhado de tal
+    forma que a entropia diminua com a divisão para baixo. Isso basicamente significa
+    que quanto mais a divisão é feita apropriadamente, chegar a uma decisão definitiva
+    se torna mais fácil.
+
+Poda
+
+    A poda refere-se à remoção dessas ramificações em nossa árvore de decisão, que
+    consideramos não contribuir significativamente para o nosso processo de decisão.
+    O conceito de Poda nos permite evitar Overfitting do modelo de regressão ou
+    classificação, de modo que, para uma pequena amostra de dados, os erros na medição
+    não sejam incluídos durante a geração do modelo.
+
+Algoritmo
+    Verifique para os acima de base casos .
+    Para cada atributo a ,
+        encontre a taxa de ganho de informação normalizada da divisão em a .
+    Seja a_best o atributo com o maior ganho de informação normalizado .
+    Crie um nó de decisão que seja dividido em a_best .
+    Repitam nas sublists obtidos por dividir em a_best , e adicionar esses
+    nós como filhos de nó .
+
+Vantagens do C4.5 sobre outros sistemas da Decision Tree:
+
+    O algoritmo utiliza inerentemente o processo de remoção de passagem única
+    para reduzir o overfitting.
+    Pode trabalhar com dados discretos e contínuos C4.5 pode lidar com a
+    questão de dados incompletos muito bem
+
+O que é
+    É um classificador estatístico baseado no algoritmo id3 usado em aprendizado de
+    máquina. Trabalha no conceito de entropia da informação. Os dados de treinamento
+    são um conjunto de amostras classificadas tendo vetores p-dimensionais definindo
+    os atributos da amostra.
+
+    C 4.5 gera uma árvore de decisão em que cada nó divide as classes com base no
+    ganho de informações. O atributo com o maior ganho de informação normalizado é
+    usado como critério de divisão.
+
+    As árvores de decisão são um poderoso método de previsão e extremamente popular.
+    Eles são populares porque o modelo final é tão fácil de entender por profissionais
+    e especialistas em domínio. A árvore de decisão final pode explicar exatamente
+    por que uma previsão específica foi feita, tornando-a muito atrativa para uso
+    operacional.
+
+    As árvores de decisão são um tipo importante de algoritmo para o aprendizado de
+    máquina de modelagem preditiva.
+
+    Os algoritmos clássicos de árvore de decisão existem há décadas e variações
+    modernas como floresta aleatória estão entre as técnicas mais poderosas disponíveis.
+
+    As árvores de decisão também fornecem a base para métodos conjuntos mais avançados,
+    como ensacamento, florestas aleatórias e aumento do gradiente.
+
+    A seleção de qual variável de entrada usar e a divisão ou ponto de corte específico
+    é escolhida usando um algoritmo guloso para minimizar uma função de custo.
+    A construção da árvore termina usando um critério de parada predefinido, como um
+    número mínimo de instâncias de treinamento atribuídas a cada nó folha da árvore.
+
+Árvores de Classificação e Regressão ou abreviadamente CART
+
+    É um acrônimo introduzido por Leo Breiman para se referir aos algoritmos da Árvore
+    de Decisões que podem ser usados ​​para problemas de modelagem preditiva de
+    classificação ou regressão.
+
+    A representação do modelo CART é uma árvore binária. Esta é a mesma árvore binária
+    de algoritmos e estruturas de dados, nada muito chique (cada nó pode ter zero,
+    um ou dois nós filhos).
+
+    Um nó representa uma única variável de entrada (X) e um ponto de divisão nessa
+    variável, assumindo que a variável é numérica. Os nós da folha (também chamados
+    nós terminais) da árvore contêm uma variável de saída (y) que é usada para fazer
+    uma previsão.
+
+    Uma vez criada, uma árvore pode ser navegada com uma nova linha de dados após
+    cada ramificação com as divisões até que uma previsão final seja feita.
+
+    Criar uma árvore de decisão binária é, na verdade, um processo de dividir o
+    espaço de entrada. Uma abordagem gulosa é usada para dividir o espaço chamado
+    divisão binária recursiva. Este é um procedimento numérico em que todos os
+    valores são alinhados e diferentes pontos de divisão são testados e testados
+    usando uma função de custo.
+
+    A divisão com o melhor custo (menor custo porque minimizamos o custo) é selecionada.
+    Todas as variáveis ​​de entrada e todos os possíveis pontos de divisão são
+    avaliados e escolhidos de maneira gananciosa com base na função de custo.
+
+    Classificação : A função de custo de Gini é usada, o que fornece uma indicação de
+    quão puros são os nós, onde a pureza do nó se refere a quão misturados são os
+    dados de treinamento atribuídos a cada nó.
+
+    Precisamos decidir quando parar de cultivar uma árvore. Podemos fazer isso usando
+    a profundidade e o número de linhas pelas quais o nó é responsável no conjunto
+    de dados de treinamento.
+
+    Profundidade Máxima da Árvore . Esse é o número máximo de nós do nó raiz da
+    árvore. Quando a profundidade máxima da árvore é atingida, devemos parar de
+    dividir a adição de novos nós. Árvores mais profundas são mais complexas e têm
+    maior probabilidade de sobrecarregar os dados de treinamento.
+
+    Registros Mínimos de Nó . Este é o número mínimo de padrões de treinamento
+    pelos quais um determinado nó é responsável. Uma vez abaixo ou no mínimo,
+    devemos parar de dividir e adicionar novos nós. Espera-se que os nós
+    que são responsáveis ​​por muito poucos padrões de treinamento sejam muito
+    específicos e provavelmente superarão os dados de treinamento.

@@ -1,0 +1,52 @@
+Conjunto de dados são formados por objetos que podem representar um objeto físico.
+Em geral cada objeto é descrito por um conjunto de atributos de entrada ou vetor
+de características. Cada objeto corresponde a uma ocorrência dos dados. Cada
+atributo está associado a uma propriedade do objeto.
+
+Um atributo alvo, também denominado atributo meta ou de saída, que representa o
+fenômeno de interesse sobre o qual se deseja fazer previsões.  Em tarefas descritivas,
+os dados não apresentam tal atributo, e, muitas vezes, a definição desse tipo de
+atributo pode ser obtida como um de seus resultados. Já as tarefas preditivas se
+baseiam na presença desse atributo.
+
+Quando um atributo alvo contém rótulos que identificam categorias ou classes às quais
+os objetos pertencem, ele é denominado classe e assume valores discretos 1,...,k.
+Tem-se, nesse caso, um problema de classificação.
+Se as classes tiverem diferentes números de objetos, a classe com o maior número é
+denominada, classe majoritária, e a com menos, minoritária.
+Se por outro lado, o atributo alvo contém valores numéricos contínuos, tem-se um
+problema de regressão.
+
+
+Os valores que um atributo pode assumir podem ser definidos de diferentes formas.
+O tipo de um atributo diz respeito ao grau de quantização nos dados, e a
+escala indica a significância relativa dos valores.
+Conhecer o tipo/escala dos atributos auxilia a identificar a forma adequada
+de preparar os dados e posteriormente de modelá-los.
+
+Tipo de atributos
+
+    Define se o atributo representa quantidades, sendo então denominado quantitativo
+    ou numérico, oui qualidades, quando é chamado de qualitativo, simbólico ou categórico,
+    pois os valores podem ser associados a categorias.
+
+    Apesar de alguns atributos qualitativos poderem ter seus valores ordenados, operações
+    aritméticas não podem ser aplicadas aos seus valores.
+
+
+    Os atributos quantitativos são numéricos e podem tanto ser ordenados quanto utilizados
+    em operações aritméticas. Valores quantitativos podem ser ainda contínuos ou discretos.
+
+    Atributos contínuos podem assumir um número infinito de valores. Geralmente esses atributos
+    são resultados de medidas. Frequentemente, esses valores são representados por números reais.
+    O número infinito não ocorrem quando computadores digitais são utilizados, pois a precisão
+    para valores reais ou ponto flutuante adotada pelo computador utilizado define um limite.
+
+    Atributos discretos contêm um número finito ou infinito contável de valores. Um caso
+    especial dos atributos discretos são os atributos binários (ou booleanos), que
+    apresentam apenas dois valores.
+
+    Além do valor numérico uma medida quantitativa possui uma unidade de medida associada, como metros.
+
+Escala
+    pag 33
