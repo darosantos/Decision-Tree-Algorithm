@@ -1,0 +1,29 @@
+Artigo 01 - A Influência da Precisão Numérica de Ponto Flutuante em um Algoritmo de Classificação com Arvores de Decisão
+            Influence of Floating Point Numerical Precision on a Classification Algorithm with Decision Trees
+            
+    Referência teórico:
+        -
+        -
+        -
+        -
+        -
+        -
+    Estado da arte:
+        -
+        -
+        -
+        -
+        -
+    Estado da prática:
+        -
+        -
+        -
+        -
+        -
+    Objetivos: Descrever como a alteração do número de casas decimais podem influenciar no cálculos de ganho de informação e entropia
+                usado no algoritmo de classificação C4.5 e consequentemente alterar a formação da arvore de decisão que é o 
+                classificador final obtido no processo.
+                
+    Experimento: Escolher uma ordem de n=20 bases de dados com atributos discretos e continuos e rodar o algoritmo C4.5.
+                    Deve registrar cada etapa do algoritmo no processo de criar a arvore de decisão e anotar quais nodos escolhidos
+                    Repetir o teste começando em n=1 casas decimais e repetindo até 16

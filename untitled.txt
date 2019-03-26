@@ -1,0 +1,15 @@
+#column_frequency = []
+                #for unique_value in column_unique_value:
+                #    mask_uv = column + ' == ' + '"' + unique_value + '"'
+                #    df_uv = df_work.query(mask_uv)
+                #    total_instances = df_uv[column].count()
+                #    mask_target = self.__column_label_class + ' == ' + '"' + self.__target_class + '"'
+                #    class_positive = df_uv.query(mask_target)[column].count()
+                #    class_negative = total_instances - class_positive
+                #    column_frequency.append({'value': unique_value, 
+                #                             'class_positive': class_positive, 
+                #                             'class_negative': class_negative
+                #                            })
+                
+                
+             
