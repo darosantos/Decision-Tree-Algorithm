@@ -1,0 +1,1068 @@
+2019-03-29 10:39:14,985 - DEBUG - [Prepare calc entropy]:	Column Label Trainning = ['classe', 'age', 'menopause', 'tumor_size', 'inv_nodes', 'node_caps', 'deg_malig', 'breast', 'breast_quad', 'irradiat']
+2019-03-29 10:39:15,053 - DEBUG - [Entropy for calculate]:	Class positive = 201	Class negative = 85	Total instances = 286	Entropy = 0.8778446951746506
+2019-03-29 10:40:16,933 - DEBUG - [Prepare calc entropy]:	Column Label Trainning = ['classe', 'age', 'menopause', 'tumor_size', 'inv_nodes', 'node_caps', 'deg_malig', 'breast', 'breast_quad', 'irradiat']
+2019-03-29 10:40:16,941 - DEBUG - [Entropy for calculate]:	Class positive = 201	Class negative = 85	Total instances = 286	Entropy = 0.8778446951746506
+2019-03-29 10:40:40,622 - DEBUG - [Prepare calc entropy]:	Column Label Trainning = ['classe', 'age', 'menopause', 'tumor_size', 'inv_nodes', 'node_caps', 'deg_malig', 'breast', 'breast_quad', 'irradiat']
+2019-03-29 10:40:40,630 - DEBUG - [Entropy for calculate]:	Class positive = 201	Class negative = 85	Total instances = 286	Entropy = 0.8778446951746506
+2019-03-29 10:40:40,630 - DEBUG - [Gauge Stop Recursion]:	 Label Trainning = ['age', 'menopause', 'tumor_size', 'inv_nodes', 'node_caps', 'deg_malig', 'breast', 'breast_quad', 'irradiat']
+2019-03-29 10:41:59,086 - DEBUG - [Prepare calc entropy]:	Column Label Trainning = <__main__.DecisionTree object at 0x0000000D717819E8>
+2019-03-29 10:41:59,092 - DEBUG - [Entropy for calculate]:	Class positive = 201	Class negative = 85	Total instances = 286	Entropy = 0.8778446951746506
+2019-03-29 10:41:59,092 - DEBUG - [Gauge Stop Recursion]:	 Label Trainning = ['age', 'menopause', 'tumor_size', 'inv_nodes', 'node_caps', 'deg_malig', 'breast', 'breast_quad', 'irradiat']
+2019-03-29 10:41:59,093 - DEBUG - [Split Decision Tree]	Column Trainning = ['age', 'menopause', 'tumor_size', 'inv_nodes', 'node_caps', 'deg_malig', 'breast', 'breast_quad', 'irradiat']
+2019-03-29 10:41:59,093 - DEBUG - [Split Decision Tree]	Column = age
+2019-03-29 11:31:54,820 - DEBUG - [Prepare calc entropy]:	Column Label Trainning = <__main__.DecisionTree object at 0x0000000D717665C0>
+2019-03-29 11:31:54,826 - DEBUG - [Entropy for calculate]:	Class positive = 201	Class negative = 85	Total instances = 286	Entropy = 0.8778446951746506
+2019-03-29 11:31:54,827 - DEBUG - [Gauge Stop Recursion]:	 Label Trainning = ['age', 'menopause', 'tumor_size', 'inv_nodes', 'node_caps', 'deg_malig', 'breast', 'breast_quad', 'irradiat']
+2019-03-29 11:31:54,827 - DEBUG - [Split Decision Tree]	Column Trainning = ['age', 'menopause', 'tumor_size', 'inv_nodes', 'node_caps', 'deg_malig', 'breast', 'breast_quad', 'irradiat']
+2019-03-29 11:31:54,827 - DEBUG - [Split Decision Tree]	Column = age
+2019-03-29 11:35:30,236 - DEBUG - [Prepare calc entropy]:	Column Label Trainning = <__main__.DecisionTree object at 0x0000000D68F9A668>
+2019-03-29 11:35:30,245 - DEBUG - [Entropy for calculate]:	Class positive = 201	Class negative = 85	Total instances = 286	Entropy = 0.8778446951746506
+2019-03-29 11:35:30,245 - DEBUG - [Gauge Stop Recursion]:	 Label Trainning = ['age', 'menopause', 'tumor_size', 'inv_nodes', 'node_caps', 'deg_malig', 'breast', 'breast_quad', 'irradiat']
+2019-03-29 11:35:30,245 - DEBUG - [Split Decision Tree]	Column Trainning = ['age', 'menopause', 'tumor_size', 'inv_nodes', 'node_caps', 'deg_malig', 'breast', 'breast_quad', 'irradiat']
+2019-03-29 11:35:30,246 - DEBUG - [Split Decision Tree]	Column = age
+2019-03-29 11:35:30,281 - DEBUG - [Gain Information]:	Frequencies = [{'value': '30-39', 'class_positive': 21, 'class_negative': 15}, {'value': '40-49', 'class_positive': 63, 'class_negative': 27}, {'value': '60-69', 'class_positive': 40, 'class_negative': 17}, {'value': '50-59', 'class_positive': 71, 'class_negative': 25}, {'value': '70-79', 'class_positive': 5, 'class_negative': 1}, {'value': '20-29', 'class_positive': 1, 'class_negative': 0}]	 Total instances = 286
+2019-03-29 11:35:30,281 - DEBUG - [Entropy for calculate]:	Class positive = 21	Class negative = 15	Total instances = 36	Entropy = 0.9798687566511528
+2019-03-29 11:35:30,281 - DEBUG - [Entropy for calculate]:	Class positive = 63	Class negative = 27	Total instances = 90	Entropy = 0.8812908992306927
+2019-03-29 11:35:30,282 - DEBUG - [Entropy for calculate]:	Class positive = 40	Class negative = 17	Total instances = 57	Entropy = 0.8791357668533336
+2019-03-29 11:35:30,283 - DEBUG - [Entropy for calculate]:	Class positive = 71	Class negative = 25	Total instances = 96	Entropy = 0.8273744775003172
+2019-03-29 11:35:30,283 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 1	Total instances = 6	Entropy = 0.6500224216483541
+2019-03-29 11:35:30,283 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8672387386390366	Gain Information = 0.010605956535614025
+2019-03-29 11:35:30,283 - DEBUG - [Split Decision Tree]	Column = menopause
+2019-03-29 11:35:30,300 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'premeno', 'class_positive': 102, 'class_negative': 48}, {'value': 'ge40', 'class_positive': 94, 'class_negative': 35}, {'value': 'lt40', 'class_positive': 5, 'class_negative': 2}]	 Total instances = 286
+2019-03-29 11:35:30,300 - DEBUG - [Entropy for calculate]:	Class positive = 102	Class negative = 48	Total instances = 150	Entropy = 0.904381457724494
+2019-03-29 11:35:30,300 - DEBUG - [Entropy for calculate]:	Class positive = 94	Class negative = 35	Total instances = 129	Entropy = 0.8433492891382018
+2019-03-29 11:35:30,301 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 2	Total instances = 7	Entropy = 0.863120568566631
+2019-03-29 11:35:30,301 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8758430802009389	Gain Information = 0.0020016149737116518
+2019-03-29 11:35:30,301 - DEBUG - [Split Decision Tree]	Column = tumor_size
+2019-03-29 11:35:30,347 - DEBUG - [Gain Information]:	Frequencies = [{'value': '30-34', 'class_positive': 35, 'class_negative': 25}, {'value': '20-24', 'class_positive': 34, 'class_negative': 16}, {'value': '15-19', 'class_positive': 23, 'class_negative': 7}, {'value': '0-4', 'class_positive': 7, 'class_negative': 1}, {'value': '25-29', 'class_positive': 36, 'class_negative': 18}, {'value': '50-54', 'class_positive': 5, 'class_negative': 3}, {'value': '10-14', 'class_positive': 27, 'class_negative': 1}, {'value': '40-44', 'class_positive': 16, 'class_negative': 6}, {'value': '35-39', 'class_positive': 12, 'class_negative': 7}, {'value': '5-9', 'class_positive': 4, 'class_negative': 0}, {'value': '45-49', 'class_positive': 2, 'class_negative': 1}]	 Total instances = 286
+2019-03-29 11:35:30,347 - DEBUG - [Entropy for calculate]:	Class positive = 35	Class negative = 25	Total instances = 60	Entropy = 0.9798687566511528
+2019-03-29 11:35:30,347 - DEBUG - [Entropy for calculate]:	Class positive = 34	Class negative = 16	Total instances = 50	Entropy = 0.904381457724494
+2019-03-29 11:35:30,347 - DEBUG - [Entropy for calculate]:	Class positive = 23	Class negative = 7	Total instances = 30	Entropy = 0.783776947484701
+2019-03-29 11:35:30,347 - DEBUG - [Entropy for calculate]:	Class positive = 7	Class negative = 1	Total instances = 8	Entropy = 0.5435644431995964
+2019-03-29 11:35:30,347 - DEBUG - [Entropy for calculate]:	Class positive = 36	Class negative = 18	Total instances = 54	Entropy = 0.9182958340544896
+2019-03-29 11:35:30,347 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 3	Total instances = 8	Entropy = 0.954434002924965
+2019-03-29 11:35:30,347 - DEBUG - [Entropy for calculate]:	Class positive = 27	Class negative = 1	Total instances = 28	Entropy = 0.222284830685688
+2019-03-29 11:35:30,348 - DEBUG - [Entropy for calculate]:	Class positive = 16	Class negative = 6	Total instances = 22	Entropy = 0.8453509366224365
+2019-03-29 11:35:30,348 - DEBUG - [Entropy for calculate]:	Class positive = 12	Class negative = 7	Total instances = 19	Entropy = 0.9494520153879484
+2019-03-29 11:35:30,348 - DEBUG - [Entropy for calculate]:	Class positive = 2	Class negative = 1	Total instances = 3	Entropy = 0.9182958340544896
+2019-03-29 11:35:30,348 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8206735698503539	Gain Information = 0.05717112532429669
+2019-03-29 11:35:30,348 - DEBUG - [Split Decision Tree]	Column = inv_nodes
+2019-03-29 11:35:30,374 - DEBUG - [Gain Information]:	Frequencies = [{'value': '0-2', 'class_positive': 167, 'class_negative': 46}, {'value': '6-8', 'class_positive': 7, 'class_negative': 10}, {'value': '9-11', 'class_positive': 4, 'class_negative': 6}, {'value': '3-5', 'class_positive': 19, 'class_negative': 17}, {'value': '15-17', 'class_positive': 3, 'class_negative': 3}, {'value': '12-14', 'class_positive': 1, 'class_negative': 2}, {'value': '24-26', 'class_positive': 0, 'class_negative': 1}]	 Total instances = 286
+2019-03-29 11:35:30,374 - DEBUG - [Entropy for calculate]:	Class positive = 167	Class negative = 46	Total instances = 213	Entropy = 0.7527262079169682
+2019-03-29 11:35:30,374 - DEBUG - [Entropy for calculate]:	Class positive = 7	Class negative = 10	Total instances = 17	Entropy = 0.9774178175281716
+2019-03-29 11:35:30,375 - DEBUG - [Entropy for calculate]:	Class positive = 4	Class negative = 6	Total instances = 10	Entropy = 0.9709505944546686
+2019-03-29 11:35:30,375 - DEBUG - [Entropy for calculate]:	Class positive = 19	Class negative = 17	Total instances = 36	Entropy = 0.9977724720899821
+2019-03-29 11:35:30,375 - DEBUG - [Entropy for calculate]:	Class positive = 3	Class negative = 3	Total instances = 6	Entropy = 1.0
+2019-03-29 11:35:30,375 - DEBUG - [Entropy for calculate]:	Class positive = 1	Class negative = 2	Total instances = 3	Entropy = 0.9182958340544896
+2019-03-29 11:35:30,375 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8088496070847645	Gain Information = 0.06899508808988608
+2019-03-29 11:35:30,375 - DEBUG - [Split Decision Tree]	Column = node_caps
+2019-03-29 11:35:30,387 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'no', 'class_positive': 171, 'class_negative': 51}, {'value': 'yes', 'class_positive': 25, 'class_negative': 31}, {'value': '?', 'class_positive': 5, 'class_negative': 3}]	 Total instances = 286
+2019-03-29 11:35:30,387 - DEBUG - [Entropy for calculate]:	Class positive = 171	Class negative = 51	Total instances = 222	Entropy = 0.7775398641607599
+2019-03-29 11:35:30,387 - DEBUG - [Entropy for calculate]:	Class positive = 25	Class negative = 31	Total instances = 56	Entropy = 0.9917033083725818
+2019-03-29 11:35:30,387 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 3	Total instances = 8	Entropy = 0.954434002924965
+2019-03-29 11:35:30,387 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8244220529229127	Gain Information = 0.05342264225173787
+2019-03-29 11:35:30,387 - DEBUG - [Split Decision Tree]	Column = deg_malig
+2019-03-29 11:35:30,431 - DEBUG - [Gain Information]:	Frequencies = [{'value': '<=', 'class_positive': 161, 'class_negative': 40}, {'value': '>', 'class_positive': 40, 'class_negative': 45}]	 Total instances = 286
+2019-03-29 11:35:30,432 - DEBUG - [Entropy for calculate]:	Class positive = 161	Class negative = 40	Total instances = 201	Entropy = 0.7199335758956061
+2019-03-29 11:35:30,432 - DEBUG - [Entropy for calculate]:	Class positive = 40	Class negative = 45	Total instances = 85	Entropy = 0.9975025463691153
+2019-03-29 11:35:30,432 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8024278503370337	Gain Information = 0.0754168448376169
+2019-03-29 11:35:30,432 - DEBUG - [Split Decision Tree]	Column = breast
+2019-03-29 11:35:30,441 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'left', 'class_positive': 103, 'class_negative': 49}, {'value': 'right', 'class_positive': 98, 'class_negative': 36}]	 Total instances = 286
+2019-03-29 11:35:30,441 - DEBUG - [Entropy for calculate]:	Class positive = 103	Class negative = 49	Total instances = 152	Entropy = 0.906938456459923
+2019-03-29 11:35:30,442 - DEBUG - [Entropy for calculate]:	Class positive = 98	Class negative = 36	Total instances = 134	Entropy = 0.8395304981054317
+2019-03-29 11:35:30,442 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8753557067413851	Gain Information = 0.0024889884332655043
+2019-03-29 11:35:30,442 - DEBUG - [Split Decision Tree]	Column = breast_quad
+2019-03-29 11:35:30,464 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'left_low', 'class_positive': 75, 'class_negative': 35}, {'value': 'right_up', 'class_positive': 20, 'class_negative': 13}, {'value': 'left_up', 'class_positive': 71, 'class_negative': 26}, {'value': 'right_low', 'class_positive': 18, 'class_negative': 6}, {'value': 'central', 'class_positive': 17, 'class_negative': 4}, {'value': '?', 'class_positive': 0, 'class_negative': 1}]	 Total instances = 286
+2019-03-29 11:35:30,465 - DEBUG - [Entropy for calculate]:	Class positive = 75	Class negative = 35	Total instances = 110	Entropy = 0.9023932827949788
+2019-03-29 11:35:30,465 - DEBUG - [Entropy for calculate]:	Class positive = 20	Class negative = 13	Total instances = 33	Entropy = 0.9672947789468944
+2019-03-29 11:35:30,465 - DEBUG - [Entropy for calculate]:	Class positive = 71	Class negative = 26	Total instances = 97	Entropy = 0.8386398715015524
+2019-03-29 11:35:30,465 - DEBUG - [Entropy for calculate]:	Class positive = 18	Class negative = 6	Total instances = 24	Entropy = 0.8112781244591328
+2019-03-29 11:35:30,465 - DEBUG - [Entropy for calculate]:	Class positive = 17	Class negative = 4	Total instances = 21	Entropy = 0.7024665512903903
+2019-03-29 11:35:30,465 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8627780731205006	Gain Information = 0.015066622054149992
+2019-03-29 11:35:30,465 - DEBUG - [Split Decision Tree]	Column = irradiat
+2019-03-29 11:35:30,474 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'no', 'class_positive': 164, 'class_negative': 54}, {'value': 'yes', 'class_positive': 37, 'class_negative': 31}]	 Total instances = 286
+2019-03-29 11:35:30,474 - DEBUG - [Entropy for calculate]:	Class positive = 164	Class negative = 54	Total instances = 218	Entropy = 0.8076226097576923
+2019-03-29 11:35:30,474 - DEBUG - [Entropy for calculate]:	Class positive = 37	Class negative = 31	Total instances = 68	Entropy = 0.9943766625699826
+2019-03-29 11:35:30,475 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8520256712655094	Gain Information = 0.025819023909141148
+2019-03-29 11:35:30,475 - DEBUG - [Split Decision Tree]	Gain Information = {'age': 0.010605956535614025, 'menopause': 0.0020016149737116518, 'tumor_size': 0.05717112532429669, 'inv_nodes': 0.06899508808988608, 'node_caps': 0.05342264225173787, 'deg_malig': 0.0754168448376169, 'breast': 0.0024889884332655043, 'breast_quad': 0.015066622054149992, 'irradiat': 0.025819023909141148}
+2019-03-29 11:35:47,147 - DEBUG - [Prepare calc entropy]:	Column Label Trainning = <__main__.DecisionTree object at 0x0000000D68F6EF98>
+2019-03-29 11:35:47,155 - DEBUG - [Entropy for calculate]:	Class positive = 201	Class negative = 85	Total instances = 286	Entropy = 0.8778446951746506
+2019-03-29 11:35:47,155 - DEBUG - [Gauge Stop Recursion]:	 Label Trainning = ['age', 'menopause', 'tumor_size', 'inv_nodes', 'node_caps', 'deg_malig', 'breast', 'breast_quad', 'irradiat']
+2019-03-29 11:35:47,155 - DEBUG - [Split Decision Tree]	Column Trainning = ['age', 'menopause', 'tumor_size', 'inv_nodes', 'node_caps', 'deg_malig', 'breast', 'breast_quad', 'irradiat']
+2019-03-29 11:35:47,155 - DEBUG - [Split Decision Tree]	Column = age
+2019-03-29 11:35:47,198 - DEBUG - [Gain Information]:	Frequencies = [{'value': '30-39', 'class_positive': 21, 'class_negative': 15}, {'value': '40-49', 'class_positive': 63, 'class_negative': 27}, {'value': '60-69', 'class_positive': 40, 'class_negative': 17}, {'value': '50-59', 'class_positive': 71, 'class_negative': 25}, {'value': '70-79', 'class_positive': 5, 'class_negative': 1}, {'value': '20-29', 'class_positive': 1, 'class_negative': 0}]	 Total instances = 286
+2019-03-29 11:35:47,198 - DEBUG - [Entropy for calculate]:	Class positive = 21	Class negative = 15	Total instances = 36	Entropy = 0.9798687566511528
+2019-03-29 11:35:47,198 - DEBUG - [Entropy for calculate]:	Class positive = 63	Class negative = 27	Total instances = 90	Entropy = 0.8812908992306927
+2019-03-29 11:35:47,198 - DEBUG - [Entropy for calculate]:	Class positive = 40	Class negative = 17	Total instances = 57	Entropy = 0.8791357668533336
+2019-03-29 11:35:47,199 - DEBUG - [Entropy for calculate]:	Class positive = 71	Class negative = 25	Total instances = 96	Entropy = 0.8273744775003172
+2019-03-29 11:35:47,199 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 1	Total instances = 6	Entropy = 0.6500224216483541
+2019-03-29 11:35:47,199 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8672387386390366	Gain Information = 0.010605956535614025
+2019-03-29 11:35:47,199 - DEBUG - [Split Decision Tree]	Column = menopause
+2019-03-29 11:35:47,214 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'premeno', 'class_positive': 102, 'class_negative': 48}, {'value': 'ge40', 'class_positive': 94, 'class_negative': 35}, {'value': 'lt40', 'class_positive': 5, 'class_negative': 2}]	 Total instances = 286
+2019-03-29 11:35:47,214 - DEBUG - [Entropy for calculate]:	Class positive = 102	Class negative = 48	Total instances = 150	Entropy = 0.904381457724494
+2019-03-29 11:35:47,214 - DEBUG - [Entropy for calculate]:	Class positive = 94	Class negative = 35	Total instances = 129	Entropy = 0.8433492891382018
+2019-03-29 11:35:47,214 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 2	Total instances = 7	Entropy = 0.863120568566631
+2019-03-29 11:35:47,214 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8758430802009389	Gain Information = 0.0020016149737116518
+2019-03-29 11:35:47,215 - DEBUG - [Split Decision Tree]	Column = tumor_size
+2019-03-29 11:35:47,255 - DEBUG - [Gain Information]:	Frequencies = [{'value': '30-34', 'class_positive': 35, 'class_negative': 25}, {'value': '20-24', 'class_positive': 34, 'class_negative': 16}, {'value': '15-19', 'class_positive': 23, 'class_negative': 7}, {'value': '0-4', 'class_positive': 7, 'class_negative': 1}, {'value': '25-29', 'class_positive': 36, 'class_negative': 18}, {'value': '50-54', 'class_positive': 5, 'class_negative': 3}, {'value': '10-14', 'class_positive': 27, 'class_negative': 1}, {'value': '40-44', 'class_positive': 16, 'class_negative': 6}, {'value': '35-39', 'class_positive': 12, 'class_negative': 7}, {'value': '5-9', 'class_positive': 4, 'class_negative': 0}, {'value': '45-49', 'class_positive': 2, 'class_negative': 1}]	 Total instances = 286
+2019-03-29 11:35:47,255 - DEBUG - [Entropy for calculate]:	Class positive = 35	Class negative = 25	Total instances = 60	Entropy = 0.9798687566511528
+2019-03-29 11:35:47,255 - DEBUG - [Entropy for calculate]:	Class positive = 34	Class negative = 16	Total instances = 50	Entropy = 0.904381457724494
+2019-03-29 11:35:47,255 - DEBUG - [Entropy for calculate]:	Class positive = 23	Class negative = 7	Total instances = 30	Entropy = 0.783776947484701
+2019-03-29 11:35:47,255 - DEBUG - [Entropy for calculate]:	Class positive = 7	Class negative = 1	Total instances = 8	Entropy = 0.5435644431995964
+2019-03-29 11:35:47,255 - DEBUG - [Entropy for calculate]:	Class positive = 36	Class negative = 18	Total instances = 54	Entropy = 0.9182958340544896
+2019-03-29 11:35:47,255 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 3	Total instances = 8	Entropy = 0.954434002924965
+2019-03-29 11:35:47,255 - DEBUG - [Entropy for calculate]:	Class positive = 27	Class negative = 1	Total instances = 28	Entropy = 0.222284830685688
+2019-03-29 11:35:47,255 - DEBUG - [Entropy for calculate]:	Class positive = 16	Class negative = 6	Total instances = 22	Entropy = 0.8453509366224365
+2019-03-29 11:35:47,256 - DEBUG - [Entropy for calculate]:	Class positive = 12	Class negative = 7	Total instances = 19	Entropy = 0.9494520153879484
+2019-03-29 11:35:47,256 - DEBUG - [Entropy for calculate]:	Class positive = 2	Class negative = 1	Total instances = 3	Entropy = 0.9182958340544896
+2019-03-29 11:35:47,256 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8206735698503539	Gain Information = 0.05717112532429669
+2019-03-29 11:35:47,256 - DEBUG - [Split Decision Tree]	Column = inv_nodes
+2019-03-29 11:35:47,290 - DEBUG - [Gain Information]:	Frequencies = [{'value': '0-2', 'class_positive': 167, 'class_negative': 46}, {'value': '6-8', 'class_positive': 7, 'class_negative': 10}, {'value': '9-11', 'class_positive': 4, 'class_negative': 6}, {'value': '3-5', 'class_positive': 19, 'class_negative': 17}, {'value': '15-17', 'class_positive': 3, 'class_negative': 3}, {'value': '12-14', 'class_positive': 1, 'class_negative': 2}, {'value': '24-26', 'class_positive': 0, 'class_negative': 1}]	 Total instances = 286
+2019-03-29 11:35:47,290 - DEBUG - [Entropy for calculate]:	Class positive = 167	Class negative = 46	Total instances = 213	Entropy = 0.7527262079169682
+2019-03-29 11:35:47,290 - DEBUG - [Entropy for calculate]:	Class positive = 7	Class negative = 10	Total instances = 17	Entropy = 0.9774178175281716
+2019-03-29 11:35:47,290 - DEBUG - [Entropy for calculate]:	Class positive = 4	Class negative = 6	Total instances = 10	Entropy = 0.9709505944546686
+2019-03-29 11:35:47,290 - DEBUG - [Entropy for calculate]:	Class positive = 19	Class negative = 17	Total instances = 36	Entropy = 0.9977724720899821
+2019-03-29 11:35:47,290 - DEBUG - [Entropy for calculate]:	Class positive = 3	Class negative = 3	Total instances = 6	Entropy = 1.0
+2019-03-29 11:35:47,290 - DEBUG - [Entropy for calculate]:	Class positive = 1	Class negative = 2	Total instances = 3	Entropy = 0.9182958340544896
+2019-03-29 11:35:47,290 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8088496070847645	Gain Information = 0.06899508808988608
+2019-03-29 11:35:47,290 - DEBUG - [Split Decision Tree]	Column = node_caps
+2019-03-29 11:35:47,304 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'no', 'class_positive': 171, 'class_negative': 51}, {'value': 'yes', 'class_positive': 25, 'class_negative': 31}, {'value': '?', 'class_positive': 5, 'class_negative': 3}]	 Total instances = 286
+2019-03-29 11:35:47,304 - DEBUG - [Entropy for calculate]:	Class positive = 171	Class negative = 51	Total instances = 222	Entropy = 0.7775398641607599
+2019-03-29 11:35:47,305 - DEBUG - [Entropy for calculate]:	Class positive = 25	Class negative = 31	Total instances = 56	Entropy = 0.9917033083725818
+2019-03-29 11:35:47,305 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 3	Total instances = 8	Entropy = 0.954434002924965
+2019-03-29 11:35:47,305 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8244220529229127	Gain Information = 0.05342264225173787
+2019-03-29 11:35:47,305 - DEBUG - [Split Decision Tree]	Column = deg_malig
+2019-03-29 11:35:47,314 - DEBUG - [Gain Information]:	Frequencies = [{'value': '<=', 'class_positive': 161, 'class_negative': 40}, {'value': '>', 'class_positive': 40, 'class_negative': 45}]	 Total instances = 286
+2019-03-29 11:35:47,314 - DEBUG - [Entropy for calculate]:	Class positive = 161	Class negative = 40	Total instances = 201	Entropy = 0.7199335758956061
+2019-03-29 11:35:47,314 - DEBUG - [Entropy for calculate]:	Class positive = 40	Class negative = 45	Total instances = 85	Entropy = 0.9975025463691153
+2019-03-29 11:35:47,314 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8024278503370337	Gain Information = 0.0754168448376169
+2019-03-29 11:35:47,314 - DEBUG - [Split Decision Tree]	Column = breast
+2019-03-29 11:35:47,324 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'left', 'class_positive': 103, 'class_negative': 49}, {'value': 'right', 'class_positive': 98, 'class_negative': 36}]	 Total instances = 286
+2019-03-29 11:35:47,325 - DEBUG - [Entropy for calculate]:	Class positive = 103	Class negative = 49	Total instances = 152	Entropy = 0.906938456459923
+2019-03-29 11:35:47,325 - DEBUG - [Entropy for calculate]:	Class positive = 98	Class negative = 36	Total instances = 134	Entropy = 0.8395304981054317
+2019-03-29 11:35:47,325 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8753557067413851	Gain Information = 0.0024889884332655043
+2019-03-29 11:35:47,325 - DEBUG - [Split Decision Tree]	Column = breast_quad
+2019-03-29 11:35:47,347 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'left_low', 'class_positive': 75, 'class_negative': 35}, {'value': 'right_up', 'class_positive': 20, 'class_negative': 13}, {'value': 'left_up', 'class_positive': 71, 'class_negative': 26}, {'value': 'right_low', 'class_positive': 18, 'class_negative': 6}, {'value': 'central', 'class_positive': 17, 'class_negative': 4}, {'value': '?', 'class_positive': 0, 'class_negative': 1}]	 Total instances = 286
+2019-03-29 11:35:47,348 - DEBUG - [Entropy for calculate]:	Class positive = 75	Class negative = 35	Total instances = 110	Entropy = 0.9023932827949788
+2019-03-29 11:35:47,348 - DEBUG - [Entropy for calculate]:	Class positive = 20	Class negative = 13	Total instances = 33	Entropy = 0.9672947789468944
+2019-03-29 11:35:47,348 - DEBUG - [Entropy for calculate]:	Class positive = 71	Class negative = 26	Total instances = 97	Entropy = 0.8386398715015524
+2019-03-29 11:35:47,348 - DEBUG - [Entropy for calculate]:	Class positive = 18	Class negative = 6	Total instances = 24	Entropy = 0.8112781244591328
+2019-03-29 11:35:47,348 - DEBUG - [Entropy for calculate]:	Class positive = 17	Class negative = 4	Total instances = 21	Entropy = 0.7024665512903903
+2019-03-29 11:35:47,348 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8627780731205006	Gain Information = 0.015066622054149992
+2019-03-29 11:35:47,348 - DEBUG - [Split Decision Tree]	Column = irradiat
+2019-03-29 11:35:47,357 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'no', 'class_positive': 164, 'class_negative': 54}, {'value': 'yes', 'class_positive': 37, 'class_negative': 31}]	 Total instances = 286
+2019-03-29 11:35:47,357 - DEBUG - [Entropy for calculate]:	Class positive = 164	Class negative = 54	Total instances = 218	Entropy = 0.8076226097576923
+2019-03-29 11:35:47,357 - DEBUG - [Entropy for calculate]:	Class positive = 37	Class negative = 31	Total instances = 68	Entropy = 0.9943766625699826
+2019-03-29 11:35:47,357 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8520256712655094	Gain Information = 0.025819023909141148
+2019-03-29 11:35:47,357 - DEBUG - [Split Decision Tree]	Gain Information = {'age': 0.010605956535614025, 'menopause': 0.0020016149737116518, 'tumor_size': 0.05717112532429669, 'inv_nodes': 0.06899508808988608, 'node_caps': 0.05342264225173787, 'deg_malig': 0.0754168448376169, 'breast': 0.0024889884332655043, 'breast_quad': 0.015066622054149992, 'irradiat': 0.025819023909141148}
+2019-03-29 11:37:23,740 - DEBUG - [Prepare calc entropy]:	Column Label Trainning = <__main__.DecisionTree object at 0x0000000D718B4EF0>
+2019-03-29 11:37:23,746 - DEBUG - [Entropy for calculate]:	Class positive = 201	Class negative = 85	Total instances = 286	Entropy = 0.8778446951746506
+2019-03-29 11:37:23,748 - DEBUG - [Gauge Stop Recursion]:	 Label Trainning = ['age', 'menopause', 'tumor_size', 'inv_nodes', 'node_caps', 'deg_malig', 'breast', 'breast_quad', 'irradiat']
+2019-03-29 11:37:23,748 - DEBUG - [Split Decision Tree]	Column Trainning = ['age', 'menopause', 'tumor_size', 'inv_nodes', 'node_caps', 'deg_malig', 'breast', 'breast_quad', 'irradiat']
+2019-03-29 11:37:23,748 - DEBUG - [Split Decision Tree]	Column = age
+2019-03-29 11:37:23,786 - DEBUG - [Gain Information]:	Frequencies = [{'value': '30-39', 'class_positive': 21, 'class_negative': 15}, {'value': '40-49', 'class_positive': 63, 'class_negative': 27}, {'value': '60-69', 'class_positive': 40, 'class_negative': 17}, {'value': '50-59', 'class_positive': 71, 'class_negative': 25}, {'value': '70-79', 'class_positive': 5, 'class_negative': 1}, {'value': '20-29', 'class_positive': 1, 'class_negative': 0}]	 Total instances = 286
+2019-03-29 11:37:23,786 - DEBUG - [Entropy for calculate]:	Class positive = 21	Class negative = 15	Total instances = 36	Entropy = 0.9798687566511528
+2019-03-29 11:37:23,787 - DEBUG - [Entropy for calculate]:	Class positive = 63	Class negative = 27	Total instances = 90	Entropy = 0.8812908992306927
+2019-03-29 11:37:23,787 - DEBUG - [Entropy for calculate]:	Class positive = 40	Class negative = 17	Total instances = 57	Entropy = 0.8791357668533336
+2019-03-29 11:37:23,787 - DEBUG - [Entropy for calculate]:	Class positive = 71	Class negative = 25	Total instances = 96	Entropy = 0.8273744775003172
+2019-03-29 11:37:23,787 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 1	Total instances = 6	Entropy = 0.6500224216483541
+2019-03-29 11:37:23,787 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8672387386390366	Gain Information = 0.010605956535614025
+2019-03-29 11:37:23,788 - DEBUG - [Split Decision Tree]	Column = menopause
+2019-03-29 11:37:23,804 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'premeno', 'class_positive': 102, 'class_negative': 48}, {'value': 'ge40', 'class_positive': 94, 'class_negative': 35}, {'value': 'lt40', 'class_positive': 5, 'class_negative': 2}]	 Total instances = 286
+2019-03-29 11:37:23,805 - DEBUG - [Entropy for calculate]:	Class positive = 102	Class negative = 48	Total instances = 150	Entropy = 0.904381457724494
+2019-03-29 11:37:23,805 - DEBUG - [Entropy for calculate]:	Class positive = 94	Class negative = 35	Total instances = 129	Entropy = 0.8433492891382018
+2019-03-29 11:37:23,805 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 2	Total instances = 7	Entropy = 0.863120568566631
+2019-03-29 11:37:23,805 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8758430802009389	Gain Information = 0.0020016149737116518
+2019-03-29 11:37:23,805 - DEBUG - [Split Decision Tree]	Column = tumor_size
+2019-03-29 11:37:23,846 - DEBUG - [Gain Information]:	Frequencies = [{'value': '30-34', 'class_positive': 35, 'class_negative': 25}, {'value': '20-24', 'class_positive': 34, 'class_negative': 16}, {'value': '15-19', 'class_positive': 23, 'class_negative': 7}, {'value': '0-4', 'class_positive': 7, 'class_negative': 1}, {'value': '25-29', 'class_positive': 36, 'class_negative': 18}, {'value': '50-54', 'class_positive': 5, 'class_negative': 3}, {'value': '10-14', 'class_positive': 27, 'class_negative': 1}, {'value': '40-44', 'class_positive': 16, 'class_negative': 6}, {'value': '35-39', 'class_positive': 12, 'class_negative': 7}, {'value': '5-9', 'class_positive': 4, 'class_negative': 0}, {'value': '45-49', 'class_positive': 2, 'class_negative': 1}]	 Total instances = 286
+2019-03-29 11:37:23,847 - DEBUG - [Entropy for calculate]:	Class positive = 35	Class negative = 25	Total instances = 60	Entropy = 0.9798687566511528
+2019-03-29 11:37:23,847 - DEBUG - [Entropy for calculate]:	Class positive = 34	Class negative = 16	Total instances = 50	Entropy = 0.904381457724494
+2019-03-29 11:37:23,847 - DEBUG - [Entropy for calculate]:	Class positive = 23	Class negative = 7	Total instances = 30	Entropy = 0.783776947484701
+2019-03-29 11:37:23,847 - DEBUG - [Entropy for calculate]:	Class positive = 7	Class negative = 1	Total instances = 8	Entropy = 0.5435644431995964
+2019-03-29 11:37:23,847 - DEBUG - [Entropy for calculate]:	Class positive = 36	Class negative = 18	Total instances = 54	Entropy = 0.9182958340544896
+2019-03-29 11:37:23,847 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 3	Total instances = 8	Entropy = 0.954434002924965
+2019-03-29 11:37:23,847 - DEBUG - [Entropy for calculate]:	Class positive = 27	Class negative = 1	Total instances = 28	Entropy = 0.222284830685688
+2019-03-29 11:37:23,847 - DEBUG - [Entropy for calculate]:	Class positive = 16	Class negative = 6	Total instances = 22	Entropy = 0.8453509366224365
+2019-03-29 11:37:23,847 - DEBUG - [Entropy for calculate]:	Class positive = 12	Class negative = 7	Total instances = 19	Entropy = 0.9494520153879484
+2019-03-29 11:37:23,848 - DEBUG - [Entropy for calculate]:	Class positive = 2	Class negative = 1	Total instances = 3	Entropy = 0.9182958340544896
+2019-03-29 11:37:23,848 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8206735698503539	Gain Information = 0.05717112532429669
+2019-03-29 11:37:23,848 - DEBUG - [Split Decision Tree]	Column = inv_nodes
+2019-03-29 11:37:23,874 - DEBUG - [Gain Information]:	Frequencies = [{'value': '0-2', 'class_positive': 167, 'class_negative': 46}, {'value': '6-8', 'class_positive': 7, 'class_negative': 10}, {'value': '9-11', 'class_positive': 4, 'class_negative': 6}, {'value': '3-5', 'class_positive': 19, 'class_negative': 17}, {'value': '15-17', 'class_positive': 3, 'class_negative': 3}, {'value': '12-14', 'class_positive': 1, 'class_negative': 2}, {'value': '24-26', 'class_positive': 0, 'class_negative': 1}]	 Total instances = 286
+2019-03-29 11:37:23,874 - DEBUG - [Entropy for calculate]:	Class positive = 167	Class negative = 46	Total instances = 213	Entropy = 0.7527262079169682
+2019-03-29 11:37:23,875 - DEBUG - [Entropy for calculate]:	Class positive = 7	Class negative = 10	Total instances = 17	Entropy = 0.9774178175281716
+2019-03-29 11:37:23,875 - DEBUG - [Entropy for calculate]:	Class positive = 4	Class negative = 6	Total instances = 10	Entropy = 0.9709505944546686
+2019-03-29 11:37:23,875 - DEBUG - [Entropy for calculate]:	Class positive = 19	Class negative = 17	Total instances = 36	Entropy = 0.9977724720899821
+2019-03-29 11:37:23,875 - DEBUG - [Entropy for calculate]:	Class positive = 3	Class negative = 3	Total instances = 6	Entropy = 1.0
+2019-03-29 11:37:23,875 - DEBUG - [Entropy for calculate]:	Class positive = 1	Class negative = 2	Total instances = 3	Entropy = 0.9182958340544896
+2019-03-29 11:37:23,875 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8088496070847645	Gain Information = 0.06899508808988608
+2019-03-29 11:37:23,875 - DEBUG - [Split Decision Tree]	Column = node_caps
+2019-03-29 11:37:23,890 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'no', 'class_positive': 171, 'class_negative': 51}, {'value': 'yes', 'class_positive': 25, 'class_negative': 31}, {'value': '?', 'class_positive': 5, 'class_negative': 3}]	 Total instances = 286
+2019-03-29 11:37:23,890 - DEBUG - [Entropy for calculate]:	Class positive = 171	Class negative = 51	Total instances = 222	Entropy = 0.7775398641607599
+2019-03-29 11:37:23,890 - DEBUG - [Entropy for calculate]:	Class positive = 25	Class negative = 31	Total instances = 56	Entropy = 0.9917033083725818
+2019-03-29 11:37:23,890 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 3	Total instances = 8	Entropy = 0.954434002924965
+2019-03-29 11:37:23,890 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8244220529229127	Gain Information = 0.05342264225173787
+2019-03-29 11:37:23,890 - DEBUG - [Split Decision Tree]	Column = deg_malig
+2019-03-29 11:37:23,899 - DEBUG - [Gain Information]:	Frequencies = [{'value': '<=', 'class_positive': 161, 'class_negative': 40}, {'value': '>', 'class_positive': 40, 'class_negative': 45}]	 Total instances = 286
+2019-03-29 11:37:23,900 - DEBUG - [Entropy for calculate]:	Class positive = 161	Class negative = 40	Total instances = 201	Entropy = 0.7199335758956061
+2019-03-29 11:37:23,900 - DEBUG - [Entropy for calculate]:	Class positive = 40	Class negative = 45	Total instances = 85	Entropy = 0.9975025463691153
+2019-03-29 11:37:23,900 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8024278503370337	Gain Information = 0.0754168448376169
+2019-03-29 11:37:23,900 - DEBUG - [Split Decision Tree]	Column = breast
+2019-03-29 11:37:23,909 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'left', 'class_positive': 103, 'class_negative': 49}, {'value': 'right', 'class_positive': 98, 'class_negative': 36}]	 Total instances = 286
+2019-03-29 11:37:23,910 - DEBUG - [Entropy for calculate]:	Class positive = 103	Class negative = 49	Total instances = 152	Entropy = 0.906938456459923
+2019-03-29 11:37:23,910 - DEBUG - [Entropy for calculate]:	Class positive = 98	Class negative = 36	Total instances = 134	Entropy = 0.8395304981054317
+2019-03-29 11:37:23,910 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8753557067413851	Gain Information = 0.0024889884332655043
+2019-03-29 11:37:23,910 - DEBUG - [Split Decision Tree]	Column = breast_quad
+2019-03-29 11:37:23,933 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'left_low', 'class_positive': 75, 'class_negative': 35}, {'value': 'right_up', 'class_positive': 20, 'class_negative': 13}, {'value': 'left_up', 'class_positive': 71, 'class_negative': 26}, {'value': 'right_low', 'class_positive': 18, 'class_negative': 6}, {'value': 'central', 'class_positive': 17, 'class_negative': 4}, {'value': '?', 'class_positive': 0, 'class_negative': 1}]	 Total instances = 286
+2019-03-29 11:37:23,933 - DEBUG - [Entropy for calculate]:	Class positive = 75	Class negative = 35	Total instances = 110	Entropy = 0.9023932827949788
+2019-03-29 11:37:23,933 - DEBUG - [Entropy for calculate]:	Class positive = 20	Class negative = 13	Total instances = 33	Entropy = 0.9672947789468944
+2019-03-29 11:37:23,933 - DEBUG - [Entropy for calculate]:	Class positive = 71	Class negative = 26	Total instances = 97	Entropy = 0.8386398715015524
+2019-03-29 11:37:23,933 - DEBUG - [Entropy for calculate]:	Class positive = 18	Class negative = 6	Total instances = 24	Entropy = 0.8112781244591328
+2019-03-29 11:37:23,933 - DEBUG - [Entropy for calculate]:	Class positive = 17	Class negative = 4	Total instances = 21	Entropy = 0.7024665512903903
+2019-03-29 11:37:23,933 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8627780731205006	Gain Information = 0.015066622054149992
+2019-03-29 11:37:23,933 - DEBUG - [Split Decision Tree]	Column = irradiat
+2019-03-29 11:37:23,942 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'no', 'class_positive': 164, 'class_negative': 54}, {'value': 'yes', 'class_positive': 37, 'class_negative': 31}]	 Total instances = 286
+2019-03-29 11:37:23,942 - DEBUG - [Entropy for calculate]:	Class positive = 164	Class negative = 54	Total instances = 218	Entropy = 0.8076226097576923
+2019-03-29 11:37:23,942 - DEBUG - [Entropy for calculate]:	Class positive = 37	Class negative = 31	Total instances = 68	Entropy = 0.9943766625699826
+2019-03-29 11:37:23,942 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8520256712655094	Gain Information = 0.025819023909141148
+2019-03-29 11:37:23,942 - DEBUG - [Split Decision Tree]	Gain Information = {'age': 0.010605956535614025, 'menopause': 0.0020016149737116518, 'tumor_size': 0.05717112532429669, 'inv_nodes': 0.06899508808988608, 'node_caps': 0.05342264225173787, 'deg_malig': 0.0754168448376169, 'breast': 0.0024889884332655043, 'breast_quad': 0.015066622054149992, 'irradiat': 0.025819023909141148}
+2019-03-29 11:38:15,308 - DEBUG - [Prepare calc entropy]:	Column Label Trainning = <__main__.DecisionTree object at 0x0000000D718D0F28>
+2019-03-29 11:38:15,314 - DEBUG - [Entropy for calculate]:	Class positive = 201	Class negative = 85	Total instances = 286	Entropy = 0.8778446951746506
+2019-03-29 11:38:15,315 - DEBUG - [Gauge Stop Recursion]:	 Label Trainning = ['age', 'menopause', 'tumor_size', 'inv_nodes', 'node_caps', 'deg_malig', 'breast', 'breast_quad', 'irradiat']
+2019-03-29 11:38:15,315 - DEBUG - [Split Decision Tree]	Column Trainning = ['age', 'menopause', 'tumor_size', 'inv_nodes', 'node_caps', 'deg_malig', 'breast', 'breast_quad', 'irradiat']
+2019-03-29 11:38:15,315 - DEBUG - [Split Decision Tree]	Column = age
+2019-03-29 11:38:15,357 - DEBUG - [Gain Information]:	Frequencies = [{'value': '30-39', 'class_positive': 21, 'class_negative': 15}, {'value': '40-49', 'class_positive': 63, 'class_negative': 27}, {'value': '60-69', 'class_positive': 40, 'class_negative': 17}, {'value': '50-59', 'class_positive': 71, 'class_negative': 25}, {'value': '70-79', 'class_positive': 5, 'class_negative': 1}, {'value': '20-29', 'class_positive': 1, 'class_negative': 0}]	 Total instances = 286
+2019-03-29 11:38:15,358 - DEBUG - [Entropy for calculate]:	Class positive = 21	Class negative = 15	Total instances = 36	Entropy = 0.9798687566511528
+2019-03-29 11:38:15,358 - DEBUG - [Entropy for calculate]:	Class positive = 63	Class negative = 27	Total instances = 90	Entropy = 0.8812908992306927
+2019-03-29 11:38:15,358 - DEBUG - [Entropy for calculate]:	Class positive = 40	Class negative = 17	Total instances = 57	Entropy = 0.8791357668533336
+2019-03-29 11:38:15,358 - DEBUG - [Entropy for calculate]:	Class positive = 71	Class negative = 25	Total instances = 96	Entropy = 0.8273744775003172
+2019-03-29 11:38:15,358 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 1	Total instances = 6	Entropy = 0.6500224216483541
+2019-03-29 11:38:15,359 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8672387386390366	Gain Information = 0.010605956535614025
+2019-03-29 11:38:15,359 - DEBUG - [Split Decision Tree]	Column = menopause
+2019-03-29 11:38:15,375 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'premeno', 'class_positive': 102, 'class_negative': 48}, {'value': 'ge40', 'class_positive': 94, 'class_negative': 35}, {'value': 'lt40', 'class_positive': 5, 'class_negative': 2}]	 Total instances = 286
+2019-03-29 11:38:15,375 - DEBUG - [Entropy for calculate]:	Class positive = 102	Class negative = 48	Total instances = 150	Entropy = 0.904381457724494
+2019-03-29 11:38:15,375 - DEBUG - [Entropy for calculate]:	Class positive = 94	Class negative = 35	Total instances = 129	Entropy = 0.8433492891382018
+2019-03-29 11:38:15,376 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 2	Total instances = 7	Entropy = 0.863120568566631
+2019-03-29 11:38:15,376 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8758430802009389	Gain Information = 0.0020016149737116518
+2019-03-29 11:38:15,376 - DEBUG - [Split Decision Tree]	Column = tumor_size
+2019-03-29 11:38:15,420 - DEBUG - [Gain Information]:	Frequencies = [{'value': '30-34', 'class_positive': 35, 'class_negative': 25}, {'value': '20-24', 'class_positive': 34, 'class_negative': 16}, {'value': '15-19', 'class_positive': 23, 'class_negative': 7}, {'value': '0-4', 'class_positive': 7, 'class_negative': 1}, {'value': '25-29', 'class_positive': 36, 'class_negative': 18}, {'value': '50-54', 'class_positive': 5, 'class_negative': 3}, {'value': '10-14', 'class_positive': 27, 'class_negative': 1}, {'value': '40-44', 'class_positive': 16, 'class_negative': 6}, {'value': '35-39', 'class_positive': 12, 'class_negative': 7}, {'value': '5-9', 'class_positive': 4, 'class_negative': 0}, {'value': '45-49', 'class_positive': 2, 'class_negative': 1}]	 Total instances = 286
+2019-03-29 11:38:15,420 - DEBUG - [Entropy for calculate]:	Class positive = 35	Class negative = 25	Total instances = 60	Entropy = 0.9798687566511528
+2019-03-29 11:38:15,420 - DEBUG - [Entropy for calculate]:	Class positive = 34	Class negative = 16	Total instances = 50	Entropy = 0.904381457724494
+2019-03-29 11:38:15,420 - DEBUG - [Entropy for calculate]:	Class positive = 23	Class negative = 7	Total instances = 30	Entropy = 0.783776947484701
+2019-03-29 11:38:15,420 - DEBUG - [Entropy for calculate]:	Class positive = 7	Class negative = 1	Total instances = 8	Entropy = 0.5435644431995964
+2019-03-29 11:38:15,420 - DEBUG - [Entropy for calculate]:	Class positive = 36	Class negative = 18	Total instances = 54	Entropy = 0.9182958340544896
+2019-03-29 11:38:15,420 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 3	Total instances = 8	Entropy = 0.954434002924965
+2019-03-29 11:38:15,420 - DEBUG - [Entropy for calculate]:	Class positive = 27	Class negative = 1	Total instances = 28	Entropy = 0.222284830685688
+2019-03-29 11:38:15,420 - DEBUG - [Entropy for calculate]:	Class positive = 16	Class negative = 6	Total instances = 22	Entropy = 0.8453509366224365
+2019-03-29 11:38:15,421 - DEBUG - [Entropy for calculate]:	Class positive = 12	Class negative = 7	Total instances = 19	Entropy = 0.9494520153879484
+2019-03-29 11:38:15,421 - DEBUG - [Entropy for calculate]:	Class positive = 2	Class negative = 1	Total instances = 3	Entropy = 0.9182958340544896
+2019-03-29 11:38:15,421 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8206735698503539	Gain Information = 0.05717112532429669
+2019-03-29 11:38:15,421 - DEBUG - [Split Decision Tree]	Column = inv_nodes
+2019-03-29 11:38:15,446 - DEBUG - [Gain Information]:	Frequencies = [{'value': '0-2', 'class_positive': 167, 'class_negative': 46}, {'value': '6-8', 'class_positive': 7, 'class_negative': 10}, {'value': '9-11', 'class_positive': 4, 'class_negative': 6}, {'value': '3-5', 'class_positive': 19, 'class_negative': 17}, {'value': '15-17', 'class_positive': 3, 'class_negative': 3}, {'value': '12-14', 'class_positive': 1, 'class_negative': 2}, {'value': '24-26', 'class_positive': 0, 'class_negative': 1}]	 Total instances = 286
+2019-03-29 11:38:15,447 - DEBUG - [Entropy for calculate]:	Class positive = 167	Class negative = 46	Total instances = 213	Entropy = 0.7527262079169682
+2019-03-29 11:38:15,447 - DEBUG - [Entropy for calculate]:	Class positive = 7	Class negative = 10	Total instances = 17	Entropy = 0.9774178175281716
+2019-03-29 11:38:15,447 - DEBUG - [Entropy for calculate]:	Class positive = 4	Class negative = 6	Total instances = 10	Entropy = 0.9709505944546686
+2019-03-29 11:38:15,447 - DEBUG - [Entropy for calculate]:	Class positive = 19	Class negative = 17	Total instances = 36	Entropy = 0.9977724720899821
+2019-03-29 11:38:15,447 - DEBUG - [Entropy for calculate]:	Class positive = 3	Class negative = 3	Total instances = 6	Entropy = 1.0
+2019-03-29 11:38:15,447 - DEBUG - [Entropy for calculate]:	Class positive = 1	Class negative = 2	Total instances = 3	Entropy = 0.9182958340544896
+2019-03-29 11:38:15,447 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8088496070847645	Gain Information = 0.06899508808988608
+2019-03-29 11:38:15,448 - DEBUG - [Split Decision Tree]	Column = node_caps
+2019-03-29 11:38:15,462 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'no', 'class_positive': 171, 'class_negative': 51}, {'value': 'yes', 'class_positive': 25, 'class_negative': 31}, {'value': '?', 'class_positive': 5, 'class_negative': 3}]	 Total instances = 286
+2019-03-29 11:38:15,462 - DEBUG - [Entropy for calculate]:	Class positive = 171	Class negative = 51	Total instances = 222	Entropy = 0.7775398641607599
+2019-03-29 11:38:15,462 - DEBUG - [Entropy for calculate]:	Class positive = 25	Class negative = 31	Total instances = 56	Entropy = 0.9917033083725818
+2019-03-29 11:38:15,463 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 3	Total instances = 8	Entropy = 0.954434002924965
+2019-03-29 11:38:15,463 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8244220529229127	Gain Information = 0.05342264225173787
+2019-03-29 11:38:15,463 - DEBUG - [Split Decision Tree]	Column = deg_malig
+2019-03-29 11:38:15,472 - DEBUG - [Gain Information]:	Frequencies = [{'value': '<=', 'class_positive': 161, 'class_negative': 40}, {'value': '>', 'class_positive': 40, 'class_negative': 45}]	 Total instances = 286
+2019-03-29 11:38:15,472 - DEBUG - [Entropy for calculate]:	Class positive = 161	Class negative = 40	Total instances = 201	Entropy = 0.7199335758956061
+2019-03-29 11:38:15,472 - DEBUG - [Entropy for calculate]:	Class positive = 40	Class negative = 45	Total instances = 85	Entropy = 0.9975025463691153
+2019-03-29 11:38:15,472 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8024278503370337	Gain Information = 0.0754168448376169
+2019-03-29 11:38:15,472 - DEBUG - [Split Decision Tree]	Column = breast
+2019-03-29 11:38:15,481 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'left', 'class_positive': 103, 'class_negative': 49}, {'value': 'right', 'class_positive': 98, 'class_negative': 36}]	 Total instances = 286
+2019-03-29 11:38:15,481 - DEBUG - [Entropy for calculate]:	Class positive = 103	Class negative = 49	Total instances = 152	Entropy = 0.906938456459923
+2019-03-29 11:38:15,481 - DEBUG - [Entropy for calculate]:	Class positive = 98	Class negative = 36	Total instances = 134	Entropy = 0.8395304981054317
+2019-03-29 11:38:15,481 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8753557067413851	Gain Information = 0.0024889884332655043
+2019-03-29 11:38:15,481 - DEBUG - [Split Decision Tree]	Column = breast_quad
+2019-03-29 11:38:15,505 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'left_low', 'class_positive': 75, 'class_negative': 35}, {'value': 'right_up', 'class_positive': 20, 'class_negative': 13}, {'value': 'left_up', 'class_positive': 71, 'class_negative': 26}, {'value': 'right_low', 'class_positive': 18, 'class_negative': 6}, {'value': 'central', 'class_positive': 17, 'class_negative': 4}, {'value': '?', 'class_positive': 0, 'class_negative': 1}]	 Total instances = 286
+2019-03-29 11:38:15,505 - DEBUG - [Entropy for calculate]:	Class positive = 75	Class negative = 35	Total instances = 110	Entropy = 0.9023932827949788
+2019-03-29 11:38:15,505 - DEBUG - [Entropy for calculate]:	Class positive = 20	Class negative = 13	Total instances = 33	Entropy = 0.9672947789468944
+2019-03-29 11:38:15,505 - DEBUG - [Entropy for calculate]:	Class positive = 71	Class negative = 26	Total instances = 97	Entropy = 0.8386398715015524
+2019-03-29 11:38:15,505 - DEBUG - [Entropy for calculate]:	Class positive = 18	Class negative = 6	Total instances = 24	Entropy = 0.8112781244591328
+2019-03-29 11:38:15,505 - DEBUG - [Entropy for calculate]:	Class positive = 17	Class negative = 4	Total instances = 21	Entropy = 0.7024665512903903
+2019-03-29 11:38:15,506 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8627780731205006	Gain Information = 0.015066622054149992
+2019-03-29 11:38:15,506 - DEBUG - [Split Decision Tree]	Column = irradiat
+2019-03-29 11:38:15,515 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'no', 'class_positive': 164, 'class_negative': 54}, {'value': 'yes', 'class_positive': 37, 'class_negative': 31}]	 Total instances = 286
+2019-03-29 11:38:15,515 - DEBUG - [Entropy for calculate]:	Class positive = 164	Class negative = 54	Total instances = 218	Entropy = 0.8076226097576923
+2019-03-29 11:38:15,515 - DEBUG - [Entropy for calculate]:	Class positive = 37	Class negative = 31	Total instances = 68	Entropy = 0.9943766625699826
+2019-03-29 11:38:15,515 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8520256712655094	Gain Information = 0.025819023909141148
+2019-03-29 11:38:15,515 - DEBUG - [Split Decision Tree]	Gain Information = {'age': 0.010605956535614025, 'menopause': 0.0020016149737116518, 'tumor_size': 0.05717112532429669, 'inv_nodes': 0.06899508808988608, 'node_caps': 0.05342264225173787, 'deg_malig': 0.0754168448376169, 'breast': 0.0024889884332655043, 'breast_quad': 0.015066622054149992, 'irradiat': 0.025819023909141148}
+2019-03-29 11:38:40,978 - DEBUG - [Prepare calc entropy]:	Column Label Trainning = <__main__.DecisionTree object at 0x0000000D718B4E80>
+2019-03-29 11:38:40,984 - DEBUG - [Entropy for calculate]:	Class positive = 201	Class negative = 85	Total instances = 286	Entropy = 0.8778446951746506
+2019-03-29 11:38:40,985 - DEBUG - [Gauge Stop Recursion]:	 Label Trainning = ['age', 'menopause', 'tumor_size', 'inv_nodes', 'node_caps', 'deg_malig', 'breast', 'breast_quad', 'irradiat']
+2019-03-29 11:38:40,985 - DEBUG - [Split Decision Tree]	Column Trainning = ['age', 'menopause', 'tumor_size', 'inv_nodes', 'node_caps', 'deg_malig', 'breast', 'breast_quad', 'irradiat']
+2019-03-29 11:38:40,985 - DEBUG - [Split Decision Tree]	Column = age
+2019-03-29 11:38:41,025 - DEBUG - [Gain Information]:	Frequencies = [{'value': '30-39', 'class_positive': 21, 'class_negative': 15}, {'value': '40-49', 'class_positive': 63, 'class_negative': 27}, {'value': '60-69', 'class_positive': 40, 'class_negative': 17}, {'value': '50-59', 'class_positive': 71, 'class_negative': 25}, {'value': '70-79', 'class_positive': 5, 'class_negative': 1}, {'value': '20-29', 'class_positive': 1, 'class_negative': 0}]	 Total instances = 286
+2019-03-29 11:38:41,025 - DEBUG - [Entropy for calculate]:	Class positive = 21	Class negative = 15	Total instances = 36	Entropy = 0.9798687566511528
+2019-03-29 11:38:41,025 - DEBUG - [Entropy for calculate]:	Class positive = 63	Class negative = 27	Total instances = 90	Entropy = 0.8812908992306927
+2019-03-29 11:38:41,025 - DEBUG - [Entropy for calculate]:	Class positive = 40	Class negative = 17	Total instances = 57	Entropy = 0.8791357668533336
+2019-03-29 11:38:41,025 - DEBUG - [Entropy for calculate]:	Class positive = 71	Class negative = 25	Total instances = 96	Entropy = 0.8273744775003172
+2019-03-29 11:38:41,026 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 1	Total instances = 6	Entropy = 0.6500224216483541
+2019-03-29 11:38:41,026 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8672387386390366	Gain Information = 0.010605956535614025
+2019-03-29 11:38:41,026 - DEBUG - [Split Decision Tree]	Column = menopause
+2019-03-29 11:38:41,039 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'premeno', 'class_positive': 102, 'class_negative': 48}, {'value': 'ge40', 'class_positive': 94, 'class_negative': 35}, {'value': 'lt40', 'class_positive': 5, 'class_negative': 2}]	 Total instances = 286
+2019-03-29 11:38:41,040 - DEBUG - [Entropy for calculate]:	Class positive = 102	Class negative = 48	Total instances = 150	Entropy = 0.904381457724494
+2019-03-29 11:38:41,040 - DEBUG - [Entropy for calculate]:	Class positive = 94	Class negative = 35	Total instances = 129	Entropy = 0.8433492891382018
+2019-03-29 11:38:41,040 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 2	Total instances = 7	Entropy = 0.863120568566631
+2019-03-29 11:38:41,040 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8758430802009389	Gain Information = 0.0020016149737116518
+2019-03-29 11:38:41,040 - DEBUG - [Split Decision Tree]	Column = tumor_size
+2019-03-29 11:38:41,085 - DEBUG - [Gain Information]:	Frequencies = [{'value': '30-34', 'class_positive': 35, 'class_negative': 25}, {'value': '20-24', 'class_positive': 34, 'class_negative': 16}, {'value': '15-19', 'class_positive': 23, 'class_negative': 7}, {'value': '0-4', 'class_positive': 7, 'class_negative': 1}, {'value': '25-29', 'class_positive': 36, 'class_negative': 18}, {'value': '50-54', 'class_positive': 5, 'class_negative': 3}, {'value': '10-14', 'class_positive': 27, 'class_negative': 1}, {'value': '40-44', 'class_positive': 16, 'class_negative': 6}, {'value': '35-39', 'class_positive': 12, 'class_negative': 7}, {'value': '5-9', 'class_positive': 4, 'class_negative': 0}, {'value': '45-49', 'class_positive': 2, 'class_negative': 1}]	 Total instances = 286
+2019-03-29 11:38:41,085 - DEBUG - [Entropy for calculate]:	Class positive = 35	Class negative = 25	Total instances = 60	Entropy = 0.9798687566511528
+2019-03-29 11:38:41,085 - DEBUG - [Entropy for calculate]:	Class positive = 34	Class negative = 16	Total instances = 50	Entropy = 0.904381457724494
+2019-03-29 11:38:41,086 - DEBUG - [Entropy for calculate]:	Class positive = 23	Class negative = 7	Total instances = 30	Entropy = 0.783776947484701
+2019-03-29 11:38:41,086 - DEBUG - [Entropy for calculate]:	Class positive = 7	Class negative = 1	Total instances = 8	Entropy = 0.5435644431995964
+2019-03-29 11:38:41,086 - DEBUG - [Entropy for calculate]:	Class positive = 36	Class negative = 18	Total instances = 54	Entropy = 0.9182958340544896
+2019-03-29 11:38:41,086 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 3	Total instances = 8	Entropy = 0.954434002924965
+2019-03-29 11:38:41,086 - DEBUG - [Entropy for calculate]:	Class positive = 27	Class negative = 1	Total instances = 28	Entropy = 0.222284830685688
+2019-03-29 11:38:41,086 - DEBUG - [Entropy for calculate]:	Class positive = 16	Class negative = 6	Total instances = 22	Entropy = 0.8453509366224365
+2019-03-29 11:38:41,086 - DEBUG - [Entropy for calculate]:	Class positive = 12	Class negative = 7	Total instances = 19	Entropy = 0.9494520153879484
+2019-03-29 11:38:41,086 - DEBUG - [Entropy for calculate]:	Class positive = 2	Class negative = 1	Total instances = 3	Entropy = 0.9182958340544896
+2019-03-29 11:38:41,086 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8206735698503539	Gain Information = 0.05717112532429669
+2019-03-29 11:38:41,086 - DEBUG - [Split Decision Tree]	Column = inv_nodes
+2019-03-29 11:38:41,113 - DEBUG - [Gain Information]:	Frequencies = [{'value': '0-2', 'class_positive': 167, 'class_negative': 46}, {'value': '6-8', 'class_positive': 7, 'class_negative': 10}, {'value': '9-11', 'class_positive': 4, 'class_negative': 6}, {'value': '3-5', 'class_positive': 19, 'class_negative': 17}, {'value': '15-17', 'class_positive': 3, 'class_negative': 3}, {'value': '12-14', 'class_positive': 1, 'class_negative': 2}, {'value': '24-26', 'class_positive': 0, 'class_negative': 1}]	 Total instances = 286
+2019-03-29 11:38:41,114 - DEBUG - [Entropy for calculate]:	Class positive = 167	Class negative = 46	Total instances = 213	Entropy = 0.7527262079169682
+2019-03-29 11:38:41,114 - DEBUG - [Entropy for calculate]:	Class positive = 7	Class negative = 10	Total instances = 17	Entropy = 0.9774178175281716
+2019-03-29 11:38:41,114 - DEBUG - [Entropy for calculate]:	Class positive = 4	Class negative = 6	Total instances = 10	Entropy = 0.9709505944546686
+2019-03-29 11:38:41,114 - DEBUG - [Entropy for calculate]:	Class positive = 19	Class negative = 17	Total instances = 36	Entropy = 0.9977724720899821
+2019-03-29 11:38:41,114 - DEBUG - [Entropy for calculate]:	Class positive = 3	Class negative = 3	Total instances = 6	Entropy = 1.0
+2019-03-29 11:38:41,114 - DEBUG - [Entropy for calculate]:	Class positive = 1	Class negative = 2	Total instances = 3	Entropy = 0.9182958340544896
+2019-03-29 11:38:41,114 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8088496070847645	Gain Information = 0.06899508808988608
+2019-03-29 11:38:41,114 - DEBUG - [Split Decision Tree]	Column = node_caps
+2019-03-29 11:38:41,128 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'no', 'class_positive': 171, 'class_negative': 51}, {'value': 'yes', 'class_positive': 25, 'class_negative': 31}, {'value': '?', 'class_positive': 5, 'class_negative': 3}]	 Total instances = 286
+2019-03-29 11:38:41,128 - DEBUG - [Entropy for calculate]:	Class positive = 171	Class negative = 51	Total instances = 222	Entropy = 0.7775398641607599
+2019-03-29 11:38:41,128 - DEBUG - [Entropy for calculate]:	Class positive = 25	Class negative = 31	Total instances = 56	Entropy = 0.9917033083725818
+2019-03-29 11:38:41,128 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 3	Total instances = 8	Entropy = 0.954434002924965
+2019-03-29 11:38:41,128 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8244220529229127	Gain Information = 0.05342264225173787
+2019-03-29 11:38:41,128 - DEBUG - [Split Decision Tree]	Column = deg_malig
+2019-03-29 11:38:41,137 - DEBUG - [Gain Information]:	Frequencies = [{'value': '<=', 'class_positive': 161, 'class_negative': 40}, {'value': '>', 'class_positive': 40, 'class_negative': 45}]	 Total instances = 286
+2019-03-29 11:38:41,138 - DEBUG - [Entropy for calculate]:	Class positive = 161	Class negative = 40	Total instances = 201	Entropy = 0.7199335758956061
+2019-03-29 11:38:41,138 - DEBUG - [Entropy for calculate]:	Class positive = 40	Class negative = 45	Total instances = 85	Entropy = 0.9975025463691153
+2019-03-29 11:38:41,138 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8024278503370337	Gain Information = 0.0754168448376169
+2019-03-29 11:38:41,138 - DEBUG - [Split Decision Tree]	Column = breast
+2019-03-29 11:38:41,149 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'left', 'class_positive': 103, 'class_negative': 49}, {'value': 'right', 'class_positive': 98, 'class_negative': 36}]	 Total instances = 286
+2019-03-29 11:38:41,149 - DEBUG - [Entropy for calculate]:	Class positive = 103	Class negative = 49	Total instances = 152	Entropy = 0.906938456459923
+2019-03-29 11:38:41,149 - DEBUG - [Entropy for calculate]:	Class positive = 98	Class negative = 36	Total instances = 134	Entropy = 0.8395304981054317
+2019-03-29 11:38:41,149 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8753557067413851	Gain Information = 0.0024889884332655043
+2019-03-29 11:38:41,149 - DEBUG - [Split Decision Tree]	Column = breast_quad
+2019-03-29 11:38:41,172 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'left_low', 'class_positive': 75, 'class_negative': 35}, {'value': 'right_up', 'class_positive': 20, 'class_negative': 13}, {'value': 'left_up', 'class_positive': 71, 'class_negative': 26}, {'value': 'right_low', 'class_positive': 18, 'class_negative': 6}, {'value': 'central', 'class_positive': 17, 'class_negative': 4}, {'value': '?', 'class_positive': 0, 'class_negative': 1}]	 Total instances = 286
+2019-03-29 11:38:41,172 - DEBUG - [Entropy for calculate]:	Class positive = 75	Class negative = 35	Total instances = 110	Entropy = 0.9023932827949788
+2019-03-29 11:38:41,172 - DEBUG - [Entropy for calculate]:	Class positive = 20	Class negative = 13	Total instances = 33	Entropy = 0.9672947789468944
+2019-03-29 11:38:41,173 - DEBUG - [Entropy for calculate]:	Class positive = 71	Class negative = 26	Total instances = 97	Entropy = 0.8386398715015524
+2019-03-29 11:38:41,173 - DEBUG - [Entropy for calculate]:	Class positive = 18	Class negative = 6	Total instances = 24	Entropy = 0.8112781244591328
+2019-03-29 11:38:41,173 - DEBUG - [Entropy for calculate]:	Class positive = 17	Class negative = 4	Total instances = 21	Entropy = 0.7024665512903903
+2019-03-29 11:38:41,173 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8627780731205006	Gain Information = 0.015066622054149992
+2019-03-29 11:38:41,173 - DEBUG - [Split Decision Tree]	Column = irradiat
+2019-03-29 11:38:41,182 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'no', 'class_positive': 164, 'class_negative': 54}, {'value': 'yes', 'class_positive': 37, 'class_negative': 31}]	 Total instances = 286
+2019-03-29 11:38:41,182 - DEBUG - [Entropy for calculate]:	Class positive = 164	Class negative = 54	Total instances = 218	Entropy = 0.8076226097576923
+2019-03-29 11:38:41,182 - DEBUG - [Entropy for calculate]:	Class positive = 37	Class negative = 31	Total instances = 68	Entropy = 0.9943766625699826
+2019-03-29 11:38:41,182 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8520256712655094	Gain Information = 0.025819023909141148
+2019-03-29 11:38:41,183 - DEBUG - [Split Decision Tree]	Gain Information = {'age': 0.010605956535614025, 'menopause': 0.0020016149737116518, 'tumor_size': 0.05717112532429669, 'inv_nodes': 0.06899508808988608, 'node_caps': 0.05342264225173787, 'deg_malig': 0.0754168448376169, 'breast': 0.0024889884332655043, 'breast_quad': 0.015066622054149992, 'irradiat': 0.025819023909141148}
+2019-03-29 11:39:07,539 - DEBUG - [Prepare calc entropy]:	Column Label Trainning = <__main__.DecisionTree object at 0x0000000D718EA390>
+2019-03-29 11:39:07,545 - DEBUG - [Entropy for calculate]:	Class positive = 201	Class negative = 85	Total instances = 286	Entropy = 0.8778446951746506
+2019-03-29 11:39:07,545 - DEBUG - [Gauge Stop Recursion]:	 Label Trainning = ['age', 'menopause', 'tumor_size', 'inv_nodes', 'node_caps', 'deg_malig', 'breast', 'breast_quad', 'irradiat']
+2019-03-29 11:39:07,545 - DEBUG - [Split Decision Tree]	Column Trainning = ['age', 'menopause', 'tumor_size', 'inv_nodes', 'node_caps', 'deg_malig', 'breast', 'breast_quad', 'irradiat']
+2019-03-29 11:39:07,546 - DEBUG - [Split Decision Tree]	Column = age
+2019-03-29 11:39:07,585 - DEBUG - [Gain Information]:	Frequencies = [{'value': '30-39', 'class_positive': 21, 'class_negative': 15}, {'value': '40-49', 'class_positive': 63, 'class_negative': 27}, {'value': '60-69', 'class_positive': 40, 'class_negative': 17}, {'value': '50-59', 'class_positive': 71, 'class_negative': 25}, {'value': '70-79', 'class_positive': 5, 'class_negative': 1}, {'value': '20-29', 'class_positive': 1, 'class_negative': 0}]	 Total instances = 286
+2019-03-29 11:39:07,586 - DEBUG - [Entropy for calculate]:	Class positive = 21	Class negative = 15	Total instances = 36	Entropy = 0.9798687566511528
+2019-03-29 11:39:07,586 - DEBUG - [Entropy for calculate]:	Class positive = 63	Class negative = 27	Total instances = 90	Entropy = 0.8812908992306927
+2019-03-29 11:39:07,586 - DEBUG - [Entropy for calculate]:	Class positive = 40	Class negative = 17	Total instances = 57	Entropy = 0.8791357668533336
+2019-03-29 11:39:07,586 - DEBUG - [Entropy for calculate]:	Class positive = 71	Class negative = 25	Total instances = 96	Entropy = 0.8273744775003172
+2019-03-29 11:39:07,586 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 1	Total instances = 6	Entropy = 0.6500224216483541
+2019-03-29 11:39:07,586 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8672387386390366	Gain Information = 0.010605956535614025
+2019-03-29 11:39:07,586 - DEBUG - [Split Decision Tree]	Column = menopause
+2019-03-29 11:39:07,600 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'premeno', 'class_positive': 102, 'class_negative': 48}, {'value': 'ge40', 'class_positive': 94, 'class_negative': 35}, {'value': 'lt40', 'class_positive': 5, 'class_negative': 2}]	 Total instances = 286
+2019-03-29 11:39:07,600 - DEBUG - [Entropy for calculate]:	Class positive = 102	Class negative = 48	Total instances = 150	Entropy = 0.904381457724494
+2019-03-29 11:39:07,600 - DEBUG - [Entropy for calculate]:	Class positive = 94	Class negative = 35	Total instances = 129	Entropy = 0.8433492891382018
+2019-03-29 11:39:07,600 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 2	Total instances = 7	Entropy = 0.863120568566631
+2019-03-29 11:39:07,600 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8758430802009389	Gain Information = 0.0020016149737116518
+2019-03-29 11:39:07,601 - DEBUG - [Split Decision Tree]	Column = tumor_size
+2019-03-29 11:39:07,644 - DEBUG - [Gain Information]:	Frequencies = [{'value': '30-34', 'class_positive': 35, 'class_negative': 25}, {'value': '20-24', 'class_positive': 34, 'class_negative': 16}, {'value': '15-19', 'class_positive': 23, 'class_negative': 7}, {'value': '0-4', 'class_positive': 7, 'class_negative': 1}, {'value': '25-29', 'class_positive': 36, 'class_negative': 18}, {'value': '50-54', 'class_positive': 5, 'class_negative': 3}, {'value': '10-14', 'class_positive': 27, 'class_negative': 1}, {'value': '40-44', 'class_positive': 16, 'class_negative': 6}, {'value': '35-39', 'class_positive': 12, 'class_negative': 7}, {'value': '5-9', 'class_positive': 4, 'class_negative': 0}, {'value': '45-49', 'class_positive': 2, 'class_negative': 1}]	 Total instances = 286
+2019-03-29 11:39:07,644 - DEBUG - [Entropy for calculate]:	Class positive = 35	Class negative = 25	Total instances = 60	Entropy = 0.9798687566511528
+2019-03-29 11:39:07,644 - DEBUG - [Entropy for calculate]:	Class positive = 34	Class negative = 16	Total instances = 50	Entropy = 0.904381457724494
+2019-03-29 11:39:07,644 - DEBUG - [Entropy for calculate]:	Class positive = 23	Class negative = 7	Total instances = 30	Entropy = 0.783776947484701
+2019-03-29 11:39:07,644 - DEBUG - [Entropy for calculate]:	Class positive = 7	Class negative = 1	Total instances = 8	Entropy = 0.5435644431995964
+2019-03-29 11:39:07,644 - DEBUG - [Entropy for calculate]:	Class positive = 36	Class negative = 18	Total instances = 54	Entropy = 0.9182958340544896
+2019-03-29 11:39:07,644 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 3	Total instances = 8	Entropy = 0.954434002924965
+2019-03-29 11:39:07,644 - DEBUG - [Entropy for calculate]:	Class positive = 27	Class negative = 1	Total instances = 28	Entropy = 0.222284830685688
+2019-03-29 11:39:07,645 - DEBUG - [Entropy for calculate]:	Class positive = 16	Class negative = 6	Total instances = 22	Entropy = 0.8453509366224365
+2019-03-29 11:39:07,645 - DEBUG - [Entropy for calculate]:	Class positive = 12	Class negative = 7	Total instances = 19	Entropy = 0.9494520153879484
+2019-03-29 11:39:07,645 - DEBUG - [Entropy for calculate]:	Class positive = 2	Class negative = 1	Total instances = 3	Entropy = 0.9182958340544896
+2019-03-29 11:39:07,645 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8206735698503539	Gain Information = 0.05717112532429669
+2019-03-29 11:39:07,645 - DEBUG - [Split Decision Tree]	Column = inv_nodes
+2019-03-29 11:39:07,672 - DEBUG - [Gain Information]:	Frequencies = [{'value': '0-2', 'class_positive': 167, 'class_negative': 46}, {'value': '6-8', 'class_positive': 7, 'class_negative': 10}, {'value': '9-11', 'class_positive': 4, 'class_negative': 6}, {'value': '3-5', 'class_positive': 19, 'class_negative': 17}, {'value': '15-17', 'class_positive': 3, 'class_negative': 3}, {'value': '12-14', 'class_positive': 1, 'class_negative': 2}, {'value': '24-26', 'class_positive': 0, 'class_negative': 1}]	 Total instances = 286
+2019-03-29 11:39:07,672 - DEBUG - [Entropy for calculate]:	Class positive = 167	Class negative = 46	Total instances = 213	Entropy = 0.7527262079169682
+2019-03-29 11:39:07,672 - DEBUG - [Entropy for calculate]:	Class positive = 7	Class negative = 10	Total instances = 17	Entropy = 0.9774178175281716
+2019-03-29 11:39:07,673 - DEBUG - [Entropy for calculate]:	Class positive = 4	Class negative = 6	Total instances = 10	Entropy = 0.9709505944546686
+2019-03-29 11:39:07,673 - DEBUG - [Entropy for calculate]:	Class positive = 19	Class negative = 17	Total instances = 36	Entropy = 0.9977724720899821
+2019-03-29 11:39:07,673 - DEBUG - [Entropy for calculate]:	Class positive = 3	Class negative = 3	Total instances = 6	Entropy = 1.0
+2019-03-29 11:39:07,673 - DEBUG - [Entropy for calculate]:	Class positive = 1	Class negative = 2	Total instances = 3	Entropy = 0.9182958340544896
+2019-03-29 11:39:07,673 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8088496070847645	Gain Information = 0.06899508808988608
+2019-03-29 11:39:07,673 - DEBUG - [Split Decision Tree]	Column = node_caps
+2019-03-29 11:39:07,687 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'no', 'class_positive': 171, 'class_negative': 51}, {'value': 'yes', 'class_positive': 25, 'class_negative': 31}, {'value': '?', 'class_positive': 5, 'class_negative': 3}]	 Total instances = 286
+2019-03-29 11:39:07,688 - DEBUG - [Entropy for calculate]:	Class positive = 171	Class negative = 51	Total instances = 222	Entropy = 0.7775398641607599
+2019-03-29 11:39:07,688 - DEBUG - [Entropy for calculate]:	Class positive = 25	Class negative = 31	Total instances = 56	Entropy = 0.9917033083725818
+2019-03-29 11:39:07,688 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 3	Total instances = 8	Entropy = 0.954434002924965
+2019-03-29 11:39:07,688 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8244220529229127	Gain Information = 0.05342264225173787
+2019-03-29 11:39:07,688 - DEBUG - [Split Decision Tree]	Column = deg_malig
+2019-03-29 11:39:07,700 - DEBUG - [Gain Information]:	Frequencies = [{'value': '<=', 'class_positive': 161, 'class_negative': 40}, {'value': '>', 'class_positive': 40, 'class_negative': 45}]	 Total instances = 286
+2019-03-29 11:39:07,701 - DEBUG - [Entropy for calculate]:	Class positive = 161	Class negative = 40	Total instances = 201	Entropy = 0.7199335758956061
+2019-03-29 11:39:07,701 - DEBUG - [Entropy for calculate]:	Class positive = 40	Class negative = 45	Total instances = 85	Entropy = 0.9975025463691153
+2019-03-29 11:39:07,701 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8024278503370337	Gain Information = 0.0754168448376169
+2019-03-29 11:39:07,701 - DEBUG - [Split Decision Tree]	Column = breast
+2019-03-29 11:39:07,711 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'left', 'class_positive': 103, 'class_negative': 49}, {'value': 'right', 'class_positive': 98, 'class_negative': 36}]	 Total instances = 286
+2019-03-29 11:39:07,711 - DEBUG - [Entropy for calculate]:	Class positive = 103	Class negative = 49	Total instances = 152	Entropy = 0.906938456459923
+2019-03-29 11:39:07,711 - DEBUG - [Entropy for calculate]:	Class positive = 98	Class negative = 36	Total instances = 134	Entropy = 0.8395304981054317
+2019-03-29 11:39:07,711 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8753557067413851	Gain Information = 0.0024889884332655043
+2019-03-29 11:39:07,711 - DEBUG - [Split Decision Tree]	Column = breast_quad
+2019-03-29 11:39:07,733 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'left_low', 'class_positive': 75, 'class_negative': 35}, {'value': 'right_up', 'class_positive': 20, 'class_negative': 13}, {'value': 'left_up', 'class_positive': 71, 'class_negative': 26}, {'value': 'right_low', 'class_positive': 18, 'class_negative': 6}, {'value': 'central', 'class_positive': 17, 'class_negative': 4}, {'value': '?', 'class_positive': 0, 'class_negative': 1}]	 Total instances = 286
+2019-03-29 11:39:07,733 - DEBUG - [Entropy for calculate]:	Class positive = 75	Class negative = 35	Total instances = 110	Entropy = 0.9023932827949788
+2019-03-29 11:39:07,733 - DEBUG - [Entropy for calculate]:	Class positive = 20	Class negative = 13	Total instances = 33	Entropy = 0.9672947789468944
+2019-03-29 11:39:07,733 - DEBUG - [Entropy for calculate]:	Class positive = 71	Class negative = 26	Total instances = 97	Entropy = 0.8386398715015524
+2019-03-29 11:39:07,734 - DEBUG - [Entropy for calculate]:	Class positive = 18	Class negative = 6	Total instances = 24	Entropy = 0.8112781244591328
+2019-03-29 11:39:07,734 - DEBUG - [Entropy for calculate]:	Class positive = 17	Class negative = 4	Total instances = 21	Entropy = 0.7024665512903903
+2019-03-29 11:39:07,734 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8627780731205006	Gain Information = 0.015066622054149992
+2019-03-29 11:39:07,734 - DEBUG - [Split Decision Tree]	Column = irradiat
+2019-03-29 11:39:07,742 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'no', 'class_positive': 164, 'class_negative': 54}, {'value': 'yes', 'class_positive': 37, 'class_negative': 31}]	 Total instances = 286
+2019-03-29 11:39:07,743 - DEBUG - [Entropy for calculate]:	Class positive = 164	Class negative = 54	Total instances = 218	Entropy = 0.8076226097576923
+2019-03-29 11:39:07,743 - DEBUG - [Entropy for calculate]:	Class positive = 37	Class negative = 31	Total instances = 68	Entropy = 0.9943766625699826
+2019-03-29 11:39:07,743 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8520256712655094	Gain Information = 0.025819023909141148
+2019-03-29 11:39:07,743 - DEBUG - [Split Decision Tree]	Gain Information = {'age': 0.010605956535614025, 'menopause': 0.0020016149737116518, 'tumor_size': 0.05717112532429669, 'inv_nodes': 0.06899508808988608, 'node_caps': 0.05342264225173787, 'deg_malig': 0.0754168448376169, 'breast': 0.0024889884332655043, 'breast_quad': 0.015066622054149992, 'irradiat': 0.025819023909141148}
+2019-03-29 11:39:07,751 - DEBUG - [Gauge Stop Recursion]:	 Label Trainning = ['age', 'menopause', 'tumor_size', 'inv_nodes', 'node_caps']
+2019-03-29 11:39:07,752 - DEBUG - [Split Decision Tree]	Column Trainning = ['age', 'menopause', 'tumor_size', 'inv_nodes', 'node_caps']
+2019-03-29 11:39:07,752 - DEBUG - [Split Decision Tree]	Column = age
+2019-03-29 11:39:07,774 - DEBUG - [Gain Information]:	Frequencies = [{'value': '30-39', 'class_positive': 21, 'class_negative': 15}, {'value': '40-49', 'class_positive': 63, 'class_negative': 27}, {'value': '60-69', 'class_positive': 40, 'class_negative': 17}, {'value': '50-59', 'class_positive': 71, 'class_negative': 25}, {'value': '70-79', 'class_positive': 5, 'class_negative': 1}, {'value': '20-29', 'class_positive': 1, 'class_negative': 0}]	 Total instances = 286
+2019-03-29 11:39:07,774 - DEBUG - [Entropy for calculate]:	Class positive = 21	Class negative = 15	Total instances = 36	Entropy = 0.9798687566511528
+2019-03-29 11:39:07,774 - DEBUG - [Entropy for calculate]:	Class positive = 63	Class negative = 27	Total instances = 90	Entropy = 0.8812908992306927
+2019-03-29 11:39:07,774 - DEBUG - [Entropy for calculate]:	Class positive = 40	Class negative = 17	Total instances = 57	Entropy = 0.8791357668533336
+2019-03-29 11:39:07,774 - DEBUG - [Entropy for calculate]:	Class positive = 71	Class negative = 25	Total instances = 96	Entropy = 0.8273744775003172
+2019-03-29 11:39:07,774 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 1	Total instances = 6	Entropy = 0.6500224216483541
+2019-03-29 11:39:07,774 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8672387386390366	Gain Information = 0.010605956535614025
+2019-03-29 11:39:07,774 - DEBUG - [Split Decision Tree]	Column = menopause
+2019-03-29 11:39:07,788 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'premeno', 'class_positive': 102, 'class_negative': 48}, {'value': 'ge40', 'class_positive': 94, 'class_negative': 35}, {'value': 'lt40', 'class_positive': 5, 'class_negative': 2}]	 Total instances = 286
+2019-03-29 11:39:07,788 - DEBUG - [Entropy for calculate]:	Class positive = 102	Class negative = 48	Total instances = 150	Entropy = 0.904381457724494
+2019-03-29 11:39:07,788 - DEBUG - [Entropy for calculate]:	Class positive = 94	Class negative = 35	Total instances = 129	Entropy = 0.8433492891382018
+2019-03-29 11:39:07,789 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 2	Total instances = 7	Entropy = 0.863120568566631
+2019-03-29 11:39:07,789 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8758430802009389	Gain Information = 0.0020016149737116518
+2019-03-29 11:39:07,789 - DEBUG - [Split Decision Tree]	Column = tumor_size
+2019-03-29 11:39:07,828 - DEBUG - [Gain Information]:	Frequencies = [{'value': '30-34', 'class_positive': 35, 'class_negative': 25}, {'value': '20-24', 'class_positive': 34, 'class_negative': 16}, {'value': '15-19', 'class_positive': 23, 'class_negative': 7}, {'value': '0-4', 'class_positive': 7, 'class_negative': 1}, {'value': '25-29', 'class_positive': 36, 'class_negative': 18}, {'value': '50-54', 'class_positive': 5, 'class_negative': 3}, {'value': '10-14', 'class_positive': 27, 'class_negative': 1}, {'value': '40-44', 'class_positive': 16, 'class_negative': 6}, {'value': '35-39', 'class_positive': 12, 'class_negative': 7}, {'value': '5-9', 'class_positive': 4, 'class_negative': 0}, {'value': '45-49', 'class_positive': 2, 'class_negative': 1}]	 Total instances = 286
+2019-03-29 11:39:07,828 - DEBUG - [Entropy for calculate]:	Class positive = 35	Class negative = 25	Total instances = 60	Entropy = 0.9798687566511528
+2019-03-29 11:39:07,828 - DEBUG - [Entropy for calculate]:	Class positive = 34	Class negative = 16	Total instances = 50	Entropy = 0.904381457724494
+2019-03-29 11:39:07,829 - DEBUG - [Entropy for calculate]:	Class positive = 23	Class negative = 7	Total instances = 30	Entropy = 0.783776947484701
+2019-03-29 11:39:07,829 - DEBUG - [Entropy for calculate]:	Class positive = 7	Class negative = 1	Total instances = 8	Entropy = 0.5435644431995964
+2019-03-29 11:39:07,829 - DEBUG - [Entropy for calculate]:	Class positive = 36	Class negative = 18	Total instances = 54	Entropy = 0.9182958340544896
+2019-03-29 11:39:07,829 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 3	Total instances = 8	Entropy = 0.954434002924965
+2019-03-29 11:39:07,829 - DEBUG - [Entropy for calculate]:	Class positive = 27	Class negative = 1	Total instances = 28	Entropy = 0.222284830685688
+2019-03-29 11:39:07,829 - DEBUG - [Entropy for calculate]:	Class positive = 16	Class negative = 6	Total instances = 22	Entropy = 0.8453509366224365
+2019-03-29 11:39:07,829 - DEBUG - [Entropy for calculate]:	Class positive = 12	Class negative = 7	Total instances = 19	Entropy = 0.9494520153879484
+2019-03-29 11:39:07,829 - DEBUG - [Entropy for calculate]:	Class positive = 2	Class negative = 1	Total instances = 3	Entropy = 0.9182958340544896
+2019-03-29 11:39:07,829 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8206735698503539	Gain Information = 0.05717112532429669
+2019-03-29 11:39:07,829 - DEBUG - [Split Decision Tree]	Column = inv_nodes
+2019-03-29 11:39:07,855 - DEBUG - [Gain Information]:	Frequencies = [{'value': '0-2', 'class_positive': 167, 'class_negative': 46}, {'value': '6-8', 'class_positive': 7, 'class_negative': 10}, {'value': '9-11', 'class_positive': 4, 'class_negative': 6}, {'value': '3-5', 'class_positive': 19, 'class_negative': 17}, {'value': '15-17', 'class_positive': 3, 'class_negative': 3}, {'value': '12-14', 'class_positive': 1, 'class_negative': 2}, {'value': '24-26', 'class_positive': 0, 'class_negative': 1}]	 Total instances = 286
+2019-03-29 11:39:07,855 - DEBUG - [Entropy for calculate]:	Class positive = 167	Class negative = 46	Total instances = 213	Entropy = 0.7527262079169682
+2019-03-29 11:39:07,855 - DEBUG - [Entropy for calculate]:	Class positive = 7	Class negative = 10	Total instances = 17	Entropy = 0.9774178175281716
+2019-03-29 11:39:07,855 - DEBUG - [Entropy for calculate]:	Class positive = 4	Class negative = 6	Total instances = 10	Entropy = 0.9709505944546686
+2019-03-29 11:39:07,855 - DEBUG - [Entropy for calculate]:	Class positive = 19	Class negative = 17	Total instances = 36	Entropy = 0.9977724720899821
+2019-03-29 11:39:07,855 - DEBUG - [Entropy for calculate]:	Class positive = 3	Class negative = 3	Total instances = 6	Entropy = 1.0
+2019-03-29 11:39:07,855 - DEBUG - [Entropy for calculate]:	Class positive = 1	Class negative = 2	Total instances = 3	Entropy = 0.9182958340544896
+2019-03-29 11:39:07,855 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8088496070847645	Gain Information = 0.06899508808988608
+2019-03-29 11:39:07,855 - DEBUG - [Split Decision Tree]	Column = node_caps
+2019-03-29 11:39:07,867 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'no', 'class_positive': 171, 'class_negative': 51}, {'value': 'yes', 'class_positive': 25, 'class_negative': 31}, {'value': '?', 'class_positive': 5, 'class_negative': 3}]	 Total instances = 286
+2019-03-29 11:39:07,867 - DEBUG - [Entropy for calculate]:	Class positive = 171	Class negative = 51	Total instances = 222	Entropy = 0.7775398641607599
+2019-03-29 11:39:07,867 - DEBUG - [Entropy for calculate]:	Class positive = 25	Class negative = 31	Total instances = 56	Entropy = 0.9917033083725818
+2019-03-29 11:39:07,868 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 3	Total instances = 8	Entropy = 0.954434002924965
+2019-03-29 11:39:07,868 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8244220529229127	Gain Information = 0.05342264225173787
+2019-03-29 11:39:07,868 - DEBUG - [Split Decision Tree]	Gain Information = {'age': 0.010605956535614025, 'menopause': 0.0020016149737116518, 'tumor_size': 0.05717112532429669, 'inv_nodes': 0.06899508808988608, 'node_caps': 0.05342264225173787}
+2019-03-29 11:39:07,896 - DEBUG - [Gauge Stop Recursion]:	 Label Trainning = ['age', 'menopause', 'tumor_size']
+2019-03-29 11:39:07,896 - DEBUG - [Split Decision Tree]	Column Trainning = ['age', 'menopause', 'tumor_size']
+2019-03-29 11:39:07,896 - DEBUG - [Split Decision Tree]	Column = age
+2019-03-29 11:39:07,919 - DEBUG - [Gain Information]:	Frequencies = [{'value': '30-39', 'class_positive': 21, 'class_negative': 15}, {'value': '40-49', 'class_positive': 63, 'class_negative': 27}, {'value': '60-69', 'class_positive': 40, 'class_negative': 17}, {'value': '50-59', 'class_positive': 71, 'class_negative': 25}, {'value': '70-79', 'class_positive': 5, 'class_negative': 1}, {'value': '20-29', 'class_positive': 1, 'class_negative': 0}]	 Total instances = 286
+2019-03-29 11:39:07,919 - DEBUG - [Entropy for calculate]:	Class positive = 21	Class negative = 15	Total instances = 36	Entropy = 0.9798687566511528
+2019-03-29 11:39:07,919 - DEBUG - [Entropy for calculate]:	Class positive = 63	Class negative = 27	Total instances = 90	Entropy = 0.8812908992306927
+2019-03-29 11:39:07,919 - DEBUG - [Entropy for calculate]:	Class positive = 40	Class negative = 17	Total instances = 57	Entropy = 0.8791357668533336
+2019-03-29 11:39:07,919 - DEBUG - [Entropy for calculate]:	Class positive = 71	Class negative = 25	Total instances = 96	Entropy = 0.8273744775003172
+2019-03-29 11:39:07,919 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 1	Total instances = 6	Entropy = 0.6500224216483541
+2019-03-29 11:39:07,919 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8672387386390366	Gain Information = 0.010605956535614025
+2019-03-29 11:39:07,919 - DEBUG - [Split Decision Tree]	Column = menopause
+2019-03-29 11:39:07,931 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'premeno', 'class_positive': 102, 'class_negative': 48}, {'value': 'ge40', 'class_positive': 94, 'class_negative': 35}, {'value': 'lt40', 'class_positive': 5, 'class_negative': 2}]	 Total instances = 286
+2019-03-29 11:39:07,931 - DEBUG - [Entropy for calculate]:	Class positive = 102	Class negative = 48	Total instances = 150	Entropy = 0.904381457724494
+2019-03-29 11:39:07,931 - DEBUG - [Entropy for calculate]:	Class positive = 94	Class negative = 35	Total instances = 129	Entropy = 0.8433492891382018
+2019-03-29 11:39:07,931 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 2	Total instances = 7	Entropy = 0.863120568566631
+2019-03-29 11:39:07,932 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8758430802009389	Gain Information = 0.0020016149737116518
+2019-03-29 11:39:07,932 - DEBUG - [Split Decision Tree]	Column = tumor_size
+2019-03-29 11:39:07,970 - DEBUG - [Gain Information]:	Frequencies = [{'value': '30-34', 'class_positive': 35, 'class_negative': 25}, {'value': '20-24', 'class_positive': 34, 'class_negative': 16}, {'value': '15-19', 'class_positive': 23, 'class_negative': 7}, {'value': '0-4', 'class_positive': 7, 'class_negative': 1}, {'value': '25-29', 'class_positive': 36, 'class_negative': 18}, {'value': '50-54', 'class_positive': 5, 'class_negative': 3}, {'value': '10-14', 'class_positive': 27, 'class_negative': 1}, {'value': '40-44', 'class_positive': 16, 'class_negative': 6}, {'value': '35-39', 'class_positive': 12, 'class_negative': 7}, {'value': '5-9', 'class_positive': 4, 'class_negative': 0}, {'value': '45-49', 'class_positive': 2, 'class_negative': 1}]	 Total instances = 286
+2019-03-29 11:39:07,970 - DEBUG - [Entropy for calculate]:	Class positive = 35	Class negative = 25	Total instances = 60	Entropy = 0.9798687566511528
+2019-03-29 11:39:07,970 - DEBUG - [Entropy for calculate]:	Class positive = 34	Class negative = 16	Total instances = 50	Entropy = 0.904381457724494
+2019-03-29 11:39:07,970 - DEBUG - [Entropy for calculate]:	Class positive = 23	Class negative = 7	Total instances = 30	Entropy = 0.783776947484701
+2019-03-29 11:39:07,971 - DEBUG - [Entropy for calculate]:	Class positive = 7	Class negative = 1	Total instances = 8	Entropy = 0.5435644431995964
+2019-03-29 11:39:07,971 - DEBUG - [Entropy for calculate]:	Class positive = 36	Class negative = 18	Total instances = 54	Entropy = 0.9182958340544896
+2019-03-29 11:39:07,971 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 3	Total instances = 8	Entropy = 0.954434002924965
+2019-03-29 11:39:07,971 - DEBUG - [Entropy for calculate]:	Class positive = 27	Class negative = 1	Total instances = 28	Entropy = 0.222284830685688
+2019-03-29 11:39:07,971 - DEBUG - [Entropy for calculate]:	Class positive = 16	Class negative = 6	Total instances = 22	Entropy = 0.8453509366224365
+2019-03-29 11:39:07,971 - DEBUG - [Entropy for calculate]:	Class positive = 12	Class negative = 7	Total instances = 19	Entropy = 0.9494520153879484
+2019-03-29 11:39:07,971 - DEBUG - [Entropy for calculate]:	Class positive = 2	Class negative = 1	Total instances = 3	Entropy = 0.9182958340544896
+2019-03-29 11:39:07,971 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8206735698503539	Gain Information = 0.05717112532429669
+2019-03-29 11:39:07,971 - DEBUG - [Split Decision Tree]	Gain Information = {'age': 0.010605956535614025, 'menopause': 0.0020016149737116518, 'tumor_size': 0.05717112532429669}
+2019-03-29 11:39:08,015 - DEBUG - [Gauge Stop Recursion]:	 Label Trainning = ['age', 'menopause']
+2019-03-29 11:39:08,015 - DEBUG - [Split Decision Tree]	Column Trainning = ['age', 'menopause']
+2019-03-29 11:39:08,015 - DEBUG - [Split Decision Tree]	Column = age
+2019-03-29 11:39:08,038 - DEBUG - [Gain Information]:	Frequencies = [{'value': '30-39', 'class_positive': 21, 'class_negative': 15}, {'value': '40-49', 'class_positive': 63, 'class_negative': 27}, {'value': '60-69', 'class_positive': 40, 'class_negative': 17}, {'value': '50-59', 'class_positive': 71, 'class_negative': 25}, {'value': '70-79', 'class_positive': 5, 'class_negative': 1}, {'value': '20-29', 'class_positive': 1, 'class_negative': 0}]	 Total instances = 286
+2019-03-29 11:39:08,038 - DEBUG - [Entropy for calculate]:	Class positive = 21	Class negative = 15	Total instances = 36	Entropy = 0.9798687566511528
+2019-03-29 11:39:08,038 - DEBUG - [Entropy for calculate]:	Class positive = 63	Class negative = 27	Total instances = 90	Entropy = 0.8812908992306927
+2019-03-29 11:39:08,038 - DEBUG - [Entropy for calculate]:	Class positive = 40	Class negative = 17	Total instances = 57	Entropy = 0.8791357668533336
+2019-03-29 11:39:08,038 - DEBUG - [Entropy for calculate]:	Class positive = 71	Class negative = 25	Total instances = 96	Entropy = 0.8273744775003172
+2019-03-29 11:39:08,038 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 1	Total instances = 6	Entropy = 0.6500224216483541
+2019-03-29 11:39:08,038 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8672387386390366	Gain Information = 0.010605956535614025
+2019-03-29 11:39:08,039 - DEBUG - [Split Decision Tree]	Column = menopause
+2019-03-29 11:39:08,050 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'premeno', 'class_positive': 102, 'class_negative': 48}, {'value': 'ge40', 'class_positive': 94, 'class_negative': 35}, {'value': 'lt40', 'class_positive': 5, 'class_negative': 2}]	 Total instances = 286
+2019-03-29 11:39:08,050 - DEBUG - [Entropy for calculate]:	Class positive = 102	Class negative = 48	Total instances = 150	Entropy = 0.904381457724494
+2019-03-29 11:39:08,050 - DEBUG - [Entropy for calculate]:	Class positive = 94	Class negative = 35	Total instances = 129	Entropy = 0.8433492891382018
+2019-03-29 11:39:08,051 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 2	Total instances = 7	Entropy = 0.863120568566631
+2019-03-29 11:39:08,051 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8758430802009389	Gain Information = 0.0020016149737116518
+2019-03-29 11:39:08,051 - DEBUG - [Split Decision Tree]	Gain Information = {'age': 0.010605956535614025, 'menopause': 0.0020016149737116518}
+2019-03-29 11:39:08,072 - DEBUG - [Gauge Stop Recursion]:	 Label Trainning = []
+2019-03-29 11:39:08,073 - DEBUG - [Split Decision Tree]	Column Trainning = []
+2019-03-29 11:39:08,073 - DEBUG - [Split Decision Tree]	Gain Information = {}
+2019-03-29 11:40:34,739 - DEBUG - [Prepare calc entropy]:	Column Label Trainning = <__main__.DecisionTree object at 0x0000000D718B1400>
+2019-03-29 11:40:34,748 - DEBUG - [Entropy for calculate]:	Class positive = 201	Class negative = 85	Total instances = 286	Entropy = 0.8778446951746506
+2019-03-29 11:40:34,748 - DEBUG - [Gauge Stop Recursion]:	 Label Trainning = ['age', 'menopause', 'tumor_size', 'inv_nodes', 'node_caps', 'deg_malig', 'breast', 'breast_quad', 'irradiat']
+2019-03-29 11:40:34,749 - DEBUG - [Split Decision Tree]	Column Trainning = ['age', 'menopause', 'tumor_size', 'inv_nodes', 'node_caps', 'deg_malig', 'breast', 'breast_quad', 'irradiat']
+2019-03-29 11:40:34,750 - DEBUG - [Split Decision Tree]	Column = age
+2019-03-29 11:40:34,785 - DEBUG - [Gain Information]:	Frequencies = [{'value': '30-39', 'class_positive': 21, 'class_negative': 15}, {'value': '40-49', 'class_positive': 63, 'class_negative': 27}, {'value': '60-69', 'class_positive': 40, 'class_negative': 17}, {'value': '50-59', 'class_positive': 71, 'class_negative': 25}, {'value': '70-79', 'class_positive': 5, 'class_negative': 1}, {'value': '20-29', 'class_positive': 1, 'class_negative': 0}]	 Total instances = 286
+2019-03-29 11:40:34,786 - DEBUG - [Entropy for calculate]:	Class positive = 21	Class negative = 15	Total instances = 36	Entropy = 0.9798687566511528
+2019-03-29 11:40:34,786 - DEBUG - [Entropy for calculate]:	Class positive = 63	Class negative = 27	Total instances = 90	Entropy = 0.8812908992306927
+2019-03-29 11:40:34,786 - DEBUG - [Entropy for calculate]:	Class positive = 40	Class negative = 17	Total instances = 57	Entropy = 0.8791357668533336
+2019-03-29 11:40:34,786 - DEBUG - [Entropy for calculate]:	Class positive = 71	Class negative = 25	Total instances = 96	Entropy = 0.8273744775003172
+2019-03-29 11:40:34,786 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 1	Total instances = 6	Entropy = 0.6500224216483541
+2019-03-29 11:40:34,786 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8672387386390366	Gain Information = 0.010605956535614025
+2019-03-29 11:40:34,786 - DEBUG - [Split Decision Tree]	Column = menopause
+2019-03-29 11:40:34,799 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'premeno', 'class_positive': 102, 'class_negative': 48}, {'value': 'ge40', 'class_positive': 94, 'class_negative': 35}, {'value': 'lt40', 'class_positive': 5, 'class_negative': 2}]	 Total instances = 286
+2019-03-29 11:40:34,800 - DEBUG - [Entropy for calculate]:	Class positive = 102	Class negative = 48	Total instances = 150	Entropy = 0.904381457724494
+2019-03-29 11:40:34,800 - DEBUG - [Entropy for calculate]:	Class positive = 94	Class negative = 35	Total instances = 129	Entropy = 0.8433492891382018
+2019-03-29 11:40:34,800 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 2	Total instances = 7	Entropy = 0.863120568566631
+2019-03-29 11:40:34,800 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8758430802009389	Gain Information = 0.0020016149737116518
+2019-03-29 11:40:34,800 - DEBUG - [Split Decision Tree]	Column = tumor_size
+2019-03-29 11:40:34,841 - DEBUG - [Gain Information]:	Frequencies = [{'value': '30-34', 'class_positive': 35, 'class_negative': 25}, {'value': '20-24', 'class_positive': 34, 'class_negative': 16}, {'value': '15-19', 'class_positive': 23, 'class_negative': 7}, {'value': '0-4', 'class_positive': 7, 'class_negative': 1}, {'value': '25-29', 'class_positive': 36, 'class_negative': 18}, {'value': '50-54', 'class_positive': 5, 'class_negative': 3}, {'value': '10-14', 'class_positive': 27, 'class_negative': 1}, {'value': '40-44', 'class_positive': 16, 'class_negative': 6}, {'value': '35-39', 'class_positive': 12, 'class_negative': 7}, {'value': '5-9', 'class_positive': 4, 'class_negative': 0}, {'value': '45-49', 'class_positive': 2, 'class_negative': 1}]	 Total instances = 286
+2019-03-29 11:40:34,841 - DEBUG - [Entropy for calculate]:	Class positive = 35	Class negative = 25	Total instances = 60	Entropy = 0.9798687566511528
+2019-03-29 11:40:34,841 - DEBUG - [Entropy for calculate]:	Class positive = 34	Class negative = 16	Total instances = 50	Entropy = 0.904381457724494
+2019-03-29 11:40:34,841 - DEBUG - [Entropy for calculate]:	Class positive = 23	Class negative = 7	Total instances = 30	Entropy = 0.783776947484701
+2019-03-29 11:40:34,841 - DEBUG - [Entropy for calculate]:	Class positive = 7	Class negative = 1	Total instances = 8	Entropy = 0.5435644431995964
+2019-03-29 11:40:34,841 - DEBUG - [Entropy for calculate]:	Class positive = 36	Class negative = 18	Total instances = 54	Entropy = 0.9182958340544896
+2019-03-29 11:40:34,841 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 3	Total instances = 8	Entropy = 0.954434002924965
+2019-03-29 11:40:34,841 - DEBUG - [Entropy for calculate]:	Class positive = 27	Class negative = 1	Total instances = 28	Entropy = 0.222284830685688
+2019-03-29 11:40:34,841 - DEBUG - [Entropy for calculate]:	Class positive = 16	Class negative = 6	Total instances = 22	Entropy = 0.8453509366224365
+2019-03-29 11:40:34,841 - DEBUG - [Entropy for calculate]:	Class positive = 12	Class negative = 7	Total instances = 19	Entropy = 0.9494520153879484
+2019-03-29 11:40:34,841 - DEBUG - [Entropy for calculate]:	Class positive = 2	Class negative = 1	Total instances = 3	Entropy = 0.9182958340544896
+2019-03-29 11:40:34,842 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8206735698503539	Gain Information = 0.05717112532429669
+2019-03-29 11:40:34,842 - DEBUG - [Split Decision Tree]	Column = inv_nodes
+2019-03-29 11:40:34,871 - DEBUG - [Gain Information]:	Frequencies = [{'value': '0-2', 'class_positive': 167, 'class_negative': 46}, {'value': '6-8', 'class_positive': 7, 'class_negative': 10}, {'value': '9-11', 'class_positive': 4, 'class_negative': 6}, {'value': '3-5', 'class_positive': 19, 'class_negative': 17}, {'value': '15-17', 'class_positive': 3, 'class_negative': 3}, {'value': '12-14', 'class_positive': 1, 'class_negative': 2}, {'value': '24-26', 'class_positive': 0, 'class_negative': 1}]	 Total instances = 286
+2019-03-29 11:40:34,871 - DEBUG - [Entropy for calculate]:	Class positive = 167	Class negative = 46	Total instances = 213	Entropy = 0.7527262079169682
+2019-03-29 11:40:34,871 - DEBUG - [Entropy for calculate]:	Class positive = 7	Class negative = 10	Total instances = 17	Entropy = 0.9774178175281716
+2019-03-29 11:40:34,871 - DEBUG - [Entropy for calculate]:	Class positive = 4	Class negative = 6	Total instances = 10	Entropy = 0.9709505944546686
+2019-03-29 11:40:34,871 - DEBUG - [Entropy for calculate]:	Class positive = 19	Class negative = 17	Total instances = 36	Entropy = 0.9977724720899821
+2019-03-29 11:40:34,871 - DEBUG - [Entropy for calculate]:	Class positive = 3	Class negative = 3	Total instances = 6	Entropy = 1.0
+2019-03-29 11:40:34,871 - DEBUG - [Entropy for calculate]:	Class positive = 1	Class negative = 2	Total instances = 3	Entropy = 0.9182958340544896
+2019-03-29 11:40:34,872 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8088496070847645	Gain Information = 0.06899508808988608
+2019-03-29 11:40:34,872 - DEBUG - [Split Decision Tree]	Column = node_caps
+2019-03-29 11:40:34,884 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'no', 'class_positive': 171, 'class_negative': 51}, {'value': 'yes', 'class_positive': 25, 'class_negative': 31}, {'value': '?', 'class_positive': 5, 'class_negative': 3}]	 Total instances = 286
+2019-03-29 11:40:34,884 - DEBUG - [Entropy for calculate]:	Class positive = 171	Class negative = 51	Total instances = 222	Entropy = 0.7775398641607599
+2019-03-29 11:40:34,884 - DEBUG - [Entropy for calculate]:	Class positive = 25	Class negative = 31	Total instances = 56	Entropy = 0.9917033083725818
+2019-03-29 11:40:34,884 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 3	Total instances = 8	Entropy = 0.954434002924965
+2019-03-29 11:40:34,884 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8244220529229127	Gain Information = 0.05342264225173787
+2019-03-29 11:40:34,885 - DEBUG - [Split Decision Tree]	Column = deg_malig
+2019-03-29 11:40:34,894 - DEBUG - [Gain Information]:	Frequencies = [{'value': '<=', 'class_positive': 161, 'class_negative': 40}, {'value': '>', 'class_positive': 40, 'class_negative': 45}]	 Total instances = 286
+2019-03-29 11:40:34,894 - DEBUG - [Entropy for calculate]:	Class positive = 161	Class negative = 40	Total instances = 201	Entropy = 0.7199335758956061
+2019-03-29 11:40:34,894 - DEBUG - [Entropy for calculate]:	Class positive = 40	Class negative = 45	Total instances = 85	Entropy = 0.9975025463691153
+2019-03-29 11:40:34,894 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8024278503370337	Gain Information = 0.0754168448376169
+2019-03-29 11:40:34,894 - DEBUG - [Split Decision Tree]	Column = breast
+2019-03-29 11:40:34,904 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'left', 'class_positive': 103, 'class_negative': 49}, {'value': 'right', 'class_positive': 98, 'class_negative': 36}]	 Total instances = 286
+2019-03-29 11:40:34,904 - DEBUG - [Entropy for calculate]:	Class positive = 103	Class negative = 49	Total instances = 152	Entropy = 0.906938456459923
+2019-03-29 11:40:34,904 - DEBUG - [Entropy for calculate]:	Class positive = 98	Class negative = 36	Total instances = 134	Entropy = 0.8395304981054317
+2019-03-29 11:40:34,904 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8753557067413851	Gain Information = 0.0024889884332655043
+2019-03-29 11:40:34,904 - DEBUG - [Split Decision Tree]	Column = breast_quad
+2019-03-29 11:40:34,927 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'left_low', 'class_positive': 75, 'class_negative': 35}, {'value': 'right_up', 'class_positive': 20, 'class_negative': 13}, {'value': 'left_up', 'class_positive': 71, 'class_negative': 26}, {'value': 'right_low', 'class_positive': 18, 'class_negative': 6}, {'value': 'central', 'class_positive': 17, 'class_negative': 4}, {'value': '?', 'class_positive': 0, 'class_negative': 1}]	 Total instances = 286
+2019-03-29 11:40:34,927 - DEBUG - [Entropy for calculate]:	Class positive = 75	Class negative = 35	Total instances = 110	Entropy = 0.9023932827949788
+2019-03-29 11:40:34,927 - DEBUG - [Entropy for calculate]:	Class positive = 20	Class negative = 13	Total instances = 33	Entropy = 0.9672947789468944
+2019-03-29 11:40:34,927 - DEBUG - [Entropy for calculate]:	Class positive = 71	Class negative = 26	Total instances = 97	Entropy = 0.8386398715015524
+2019-03-29 11:40:34,927 - DEBUG - [Entropy for calculate]:	Class positive = 18	Class negative = 6	Total instances = 24	Entropy = 0.8112781244591328
+2019-03-29 11:40:34,927 - DEBUG - [Entropy for calculate]:	Class positive = 17	Class negative = 4	Total instances = 21	Entropy = 0.7024665512903903
+2019-03-29 11:40:34,928 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8627780731205006	Gain Information = 0.015066622054149992
+2019-03-29 11:40:34,928 - DEBUG - [Split Decision Tree]	Column = irradiat
+2019-03-29 11:40:34,936 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'no', 'class_positive': 164, 'class_negative': 54}, {'value': 'yes', 'class_positive': 37, 'class_negative': 31}]	 Total instances = 286
+2019-03-29 11:40:34,936 - DEBUG - [Entropy for calculate]:	Class positive = 164	Class negative = 54	Total instances = 218	Entropy = 0.8076226097576923
+2019-03-29 11:40:34,937 - DEBUG - [Entropy for calculate]:	Class positive = 37	Class negative = 31	Total instances = 68	Entropy = 0.9943766625699826
+2019-03-29 11:40:34,937 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8520256712655094	Gain Information = 0.025819023909141148
+2019-03-29 11:40:34,937 - DEBUG - [Split Decision Tree]	Gain Information = {'age': 0.010605956535614025, 'menopause': 0.0020016149737116518, 'tumor_size': 0.05717112532429669, 'inv_nodes': 0.06899508808988608, 'node_caps': 0.05342264225173787, 'deg_malig': 0.0754168448376169, 'breast': 0.0024889884332655043, 'breast_quad': 0.015066622054149992, 'irradiat': 0.025819023909141148}
+2019-03-29 11:40:34,946 - DEBUG - [Gauge Stop Recursion]:	 Label Trainning = ['age', 'menopause', 'tumor_size', 'inv_nodes', 'node_caps']
+2019-03-29 11:40:34,955 - DEBUG - [Split Decision Tree]	Column Trainning = ['age', 'menopause', 'tumor_size', 'inv_nodes', 'node_caps']
+2019-03-29 11:40:34,955 - DEBUG - [Split Decision Tree]	Column = age
+2019-03-29 11:40:34,987 - DEBUG - [Gain Information]:	Frequencies = [{'value': '30-39', 'class_positive': 21, 'class_negative': 15}, {'value': '40-49', 'class_positive': 63, 'class_negative': 27}, {'value': '60-69', 'class_positive': 40, 'class_negative': 17}, {'value': '50-59', 'class_positive': 71, 'class_negative': 25}, {'value': '70-79', 'class_positive': 5, 'class_negative': 1}, {'value': '20-29', 'class_positive': 1, 'class_negative': 0}]	 Total instances = 286
+2019-03-29 11:40:34,987 - DEBUG - [Entropy for calculate]:	Class positive = 21	Class negative = 15	Total instances = 36	Entropy = 0.9798687566511528
+2019-03-29 11:40:34,987 - DEBUG - [Entropy for calculate]:	Class positive = 63	Class negative = 27	Total instances = 90	Entropy = 0.8812908992306927
+2019-03-29 11:40:34,987 - DEBUG - [Entropy for calculate]:	Class positive = 40	Class negative = 17	Total instances = 57	Entropy = 0.8791357668533336
+2019-03-29 11:40:34,987 - DEBUG - [Entropy for calculate]:	Class positive = 71	Class negative = 25	Total instances = 96	Entropy = 0.8273744775003172
+2019-03-29 11:40:34,987 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 1	Total instances = 6	Entropy = 0.6500224216483541
+2019-03-29 11:40:34,987 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8672387386390366	Gain Information = 0.010605956535614025
+2019-03-29 11:40:34,987 - DEBUG - [Split Decision Tree]	Column = menopause
+2019-03-29 11:40:35,000 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'premeno', 'class_positive': 102, 'class_negative': 48}, {'value': 'ge40', 'class_positive': 94, 'class_negative': 35}, {'value': 'lt40', 'class_positive': 5, 'class_negative': 2}]	 Total instances = 286
+2019-03-29 11:40:35,000 - DEBUG - [Entropy for calculate]:	Class positive = 102	Class negative = 48	Total instances = 150	Entropy = 0.904381457724494
+2019-03-29 11:40:35,000 - DEBUG - [Entropy for calculate]:	Class positive = 94	Class negative = 35	Total instances = 129	Entropy = 0.8433492891382018
+2019-03-29 11:40:35,000 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 2	Total instances = 7	Entropy = 0.863120568566631
+2019-03-29 11:40:35,000 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8758430802009389	Gain Information = 0.0020016149737116518
+2019-03-29 11:40:35,000 - DEBUG - [Split Decision Tree]	Column = tumor_size
+2019-03-29 11:40:35,040 - DEBUG - [Gain Information]:	Frequencies = [{'value': '30-34', 'class_positive': 35, 'class_negative': 25}, {'value': '20-24', 'class_positive': 34, 'class_negative': 16}, {'value': '15-19', 'class_positive': 23, 'class_negative': 7}, {'value': '0-4', 'class_positive': 7, 'class_negative': 1}, {'value': '25-29', 'class_positive': 36, 'class_negative': 18}, {'value': '50-54', 'class_positive': 5, 'class_negative': 3}, {'value': '10-14', 'class_positive': 27, 'class_negative': 1}, {'value': '40-44', 'class_positive': 16, 'class_negative': 6}, {'value': '35-39', 'class_positive': 12, 'class_negative': 7}, {'value': '5-9', 'class_positive': 4, 'class_negative': 0}, {'value': '45-49', 'class_positive': 2, 'class_negative': 1}]	 Total instances = 286
+2019-03-29 11:40:35,040 - DEBUG - [Entropy for calculate]:	Class positive = 35	Class negative = 25	Total instances = 60	Entropy = 0.9798687566511528
+2019-03-29 11:40:35,040 - DEBUG - [Entropy for calculate]:	Class positive = 34	Class negative = 16	Total instances = 50	Entropy = 0.904381457724494
+2019-03-29 11:40:35,040 - DEBUG - [Entropy for calculate]:	Class positive = 23	Class negative = 7	Total instances = 30	Entropy = 0.783776947484701
+2019-03-29 11:40:35,040 - DEBUG - [Entropy for calculate]:	Class positive = 7	Class negative = 1	Total instances = 8	Entropy = 0.5435644431995964
+2019-03-29 11:40:35,040 - DEBUG - [Entropy for calculate]:	Class positive = 36	Class negative = 18	Total instances = 54	Entropy = 0.9182958340544896
+2019-03-29 11:40:35,040 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 3	Total instances = 8	Entropy = 0.954434002924965
+2019-03-29 11:40:35,040 - DEBUG - [Entropy for calculate]:	Class positive = 27	Class negative = 1	Total instances = 28	Entropy = 0.222284830685688
+2019-03-29 11:40:35,041 - DEBUG - [Entropy for calculate]:	Class positive = 16	Class negative = 6	Total instances = 22	Entropy = 0.8453509366224365
+2019-03-29 11:40:35,041 - DEBUG - [Entropy for calculate]:	Class positive = 12	Class negative = 7	Total instances = 19	Entropy = 0.9494520153879484
+2019-03-29 11:40:35,041 - DEBUG - [Entropy for calculate]:	Class positive = 2	Class negative = 1	Total instances = 3	Entropy = 0.9182958340544896
+2019-03-29 11:40:35,041 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8206735698503539	Gain Information = 0.05717112532429669
+2019-03-29 11:40:35,041 - DEBUG - [Split Decision Tree]	Column = inv_nodes
+2019-03-29 11:40:35,066 - DEBUG - [Gain Information]:	Frequencies = [{'value': '0-2', 'class_positive': 167, 'class_negative': 46}, {'value': '6-8', 'class_positive': 7, 'class_negative': 10}, {'value': '9-11', 'class_positive': 4, 'class_negative': 6}, {'value': '3-5', 'class_positive': 19, 'class_negative': 17}, {'value': '15-17', 'class_positive': 3, 'class_negative': 3}, {'value': '12-14', 'class_positive': 1, 'class_negative': 2}, {'value': '24-26', 'class_positive': 0, 'class_negative': 1}]	 Total instances = 286
+2019-03-29 11:40:35,067 - DEBUG - [Entropy for calculate]:	Class positive = 167	Class negative = 46	Total instances = 213	Entropy = 0.7527262079169682
+2019-03-29 11:40:35,067 - DEBUG - [Entropy for calculate]:	Class positive = 7	Class negative = 10	Total instances = 17	Entropy = 0.9774178175281716
+2019-03-29 11:40:35,067 - DEBUG - [Entropy for calculate]:	Class positive = 4	Class negative = 6	Total instances = 10	Entropy = 0.9709505944546686
+2019-03-29 11:40:35,067 - DEBUG - [Entropy for calculate]:	Class positive = 19	Class negative = 17	Total instances = 36	Entropy = 0.9977724720899821
+2019-03-29 11:40:35,067 - DEBUG - [Entropy for calculate]:	Class positive = 3	Class negative = 3	Total instances = 6	Entropy = 1.0
+2019-03-29 11:40:35,067 - DEBUG - [Entropy for calculate]:	Class positive = 1	Class negative = 2	Total instances = 3	Entropy = 0.9182958340544896
+2019-03-29 11:40:35,067 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8088496070847645	Gain Information = 0.06899508808988608
+2019-03-29 11:40:35,067 - DEBUG - [Split Decision Tree]	Column = node_caps
+2019-03-29 11:40:35,083 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'no', 'class_positive': 171, 'class_negative': 51}, {'value': 'yes', 'class_positive': 25, 'class_negative': 31}, {'value': '?', 'class_positive': 5, 'class_negative': 3}]	 Total instances = 286
+2019-03-29 11:40:35,084 - DEBUG - [Entropy for calculate]:	Class positive = 171	Class negative = 51	Total instances = 222	Entropy = 0.7775398641607599
+2019-03-29 11:40:35,084 - DEBUG - [Entropy for calculate]:	Class positive = 25	Class negative = 31	Total instances = 56	Entropy = 0.9917033083725818
+2019-03-29 11:40:35,084 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 3	Total instances = 8	Entropy = 0.954434002924965
+2019-03-29 11:40:35,084 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8244220529229127	Gain Information = 0.05342264225173787
+2019-03-29 11:40:35,084 - DEBUG - [Split Decision Tree]	Gain Information = {'age': 0.010605956535614025, 'menopause': 0.0020016149737116518, 'tumor_size': 0.05717112532429669, 'inv_nodes': 0.06899508808988608, 'node_caps': 0.05342264225173787}
+2019-03-29 11:40:35,114 - DEBUG - [Gauge Stop Recursion]:	 Label Trainning = ['age', 'menopause', 'tumor_size']
+2019-03-29 11:40:35,115 - DEBUG - [Split Decision Tree]	Column Trainning = ['age', 'menopause', 'tumor_size']
+2019-03-29 11:40:35,115 - DEBUG - [Split Decision Tree]	Column = age
+2019-03-29 11:40:35,138 - DEBUG - [Gain Information]:	Frequencies = [{'value': '30-39', 'class_positive': 21, 'class_negative': 15}, {'value': '40-49', 'class_positive': 63, 'class_negative': 27}, {'value': '60-69', 'class_positive': 40, 'class_negative': 17}, {'value': '50-59', 'class_positive': 71, 'class_negative': 25}, {'value': '70-79', 'class_positive': 5, 'class_negative': 1}, {'value': '20-29', 'class_positive': 1, 'class_negative': 0}]	 Total instances = 286
+2019-03-29 11:40:35,138 - DEBUG - [Entropy for calculate]:	Class positive = 21	Class negative = 15	Total instances = 36	Entropy = 0.9798687566511528
+2019-03-29 11:40:35,138 - DEBUG - [Entropy for calculate]:	Class positive = 63	Class negative = 27	Total instances = 90	Entropy = 0.8812908992306927
+2019-03-29 11:40:35,138 - DEBUG - [Entropy for calculate]:	Class positive = 40	Class negative = 17	Total instances = 57	Entropy = 0.8791357668533336
+2019-03-29 11:40:35,138 - DEBUG - [Entropy for calculate]:	Class positive = 71	Class negative = 25	Total instances = 96	Entropy = 0.8273744775003172
+2019-03-29 11:40:35,139 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 1	Total instances = 6	Entropy = 0.6500224216483541
+2019-03-29 11:40:35,139 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8672387386390366	Gain Information = 0.010605956535614025
+2019-03-29 11:40:35,139 - DEBUG - [Split Decision Tree]	Column = menopause
+2019-03-29 11:40:35,150 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'premeno', 'class_positive': 102, 'class_negative': 48}, {'value': 'ge40', 'class_positive': 94, 'class_negative': 35}, {'value': 'lt40', 'class_positive': 5, 'class_negative': 2}]	 Total instances = 286
+2019-03-29 11:40:35,151 - DEBUG - [Entropy for calculate]:	Class positive = 102	Class negative = 48	Total instances = 150	Entropy = 0.904381457724494
+2019-03-29 11:40:35,151 - DEBUG - [Entropy for calculate]:	Class positive = 94	Class negative = 35	Total instances = 129	Entropy = 0.8433492891382018
+2019-03-29 11:40:35,151 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 2	Total instances = 7	Entropy = 0.863120568566631
+2019-03-29 11:40:35,151 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8758430802009389	Gain Information = 0.0020016149737116518
+2019-03-29 11:40:35,151 - DEBUG - [Split Decision Tree]	Column = tumor_size
+2019-03-29 11:40:35,195 - DEBUG - [Gain Information]:	Frequencies = [{'value': '30-34', 'class_positive': 35, 'class_negative': 25}, {'value': '20-24', 'class_positive': 34, 'class_negative': 16}, {'value': '15-19', 'class_positive': 23, 'class_negative': 7}, {'value': '0-4', 'class_positive': 7, 'class_negative': 1}, {'value': '25-29', 'class_positive': 36, 'class_negative': 18}, {'value': '50-54', 'class_positive': 5, 'class_negative': 3}, {'value': '10-14', 'class_positive': 27, 'class_negative': 1}, {'value': '40-44', 'class_positive': 16, 'class_negative': 6}, {'value': '35-39', 'class_positive': 12, 'class_negative': 7}, {'value': '5-9', 'class_positive': 4, 'class_negative': 0}, {'value': '45-49', 'class_positive': 2, 'class_negative': 1}]	 Total instances = 286
+2019-03-29 11:40:35,195 - DEBUG - [Entropy for calculate]:	Class positive = 35	Class negative = 25	Total instances = 60	Entropy = 0.9798687566511528
+2019-03-29 11:40:35,196 - DEBUG - [Entropy for calculate]:	Class positive = 34	Class negative = 16	Total instances = 50	Entropy = 0.904381457724494
+2019-03-29 11:40:35,196 - DEBUG - [Entropy for calculate]:	Class positive = 23	Class negative = 7	Total instances = 30	Entropy = 0.783776947484701
+2019-03-29 11:40:35,196 - DEBUG - [Entropy for calculate]:	Class positive = 7	Class negative = 1	Total instances = 8	Entropy = 0.5435644431995964
+2019-03-29 11:40:35,196 - DEBUG - [Entropy for calculate]:	Class positive = 36	Class negative = 18	Total instances = 54	Entropy = 0.9182958340544896
+2019-03-29 11:40:35,196 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 3	Total instances = 8	Entropy = 0.954434002924965
+2019-03-29 11:40:35,196 - DEBUG - [Entropy for calculate]:	Class positive = 27	Class negative = 1	Total instances = 28	Entropy = 0.222284830685688
+2019-03-29 11:40:35,196 - DEBUG - [Entropy for calculate]:	Class positive = 16	Class negative = 6	Total instances = 22	Entropy = 0.8453509366224365
+2019-03-29 11:40:35,196 - DEBUG - [Entropy for calculate]:	Class positive = 12	Class negative = 7	Total instances = 19	Entropy = 0.9494520153879484
+2019-03-29 11:40:35,196 - DEBUG - [Entropy for calculate]:	Class positive = 2	Class negative = 1	Total instances = 3	Entropy = 0.9182958340544896
+2019-03-29 11:40:35,197 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8206735698503539	Gain Information = 0.05717112532429669
+2019-03-29 11:40:35,197 - DEBUG - [Split Decision Tree]	Gain Information = {'age': 0.010605956535614025, 'menopause': 0.0020016149737116518, 'tumor_size': 0.05717112532429669}
+2019-03-29 11:40:35,241 - DEBUG - [Gauge Stop Recursion]:	 Label Trainning = ['age', 'menopause']
+2019-03-29 11:40:35,242 - DEBUG - [Split Decision Tree]	Column Trainning = ['age', 'menopause']
+2019-03-29 11:40:35,242 - DEBUG - [Split Decision Tree]	Column = age
+2019-03-29 11:40:35,264 - DEBUG - [Gain Information]:	Frequencies = [{'value': '30-39', 'class_positive': 21, 'class_negative': 15}, {'value': '40-49', 'class_positive': 63, 'class_negative': 27}, {'value': '60-69', 'class_positive': 40, 'class_negative': 17}, {'value': '50-59', 'class_positive': 71, 'class_negative': 25}, {'value': '70-79', 'class_positive': 5, 'class_negative': 1}, {'value': '20-29', 'class_positive': 1, 'class_negative': 0}]	 Total instances = 286
+2019-03-29 11:40:35,265 - DEBUG - [Entropy for calculate]:	Class positive = 21	Class negative = 15	Total instances = 36	Entropy = 0.9798687566511528
+2019-03-29 11:40:35,265 - DEBUG - [Entropy for calculate]:	Class positive = 63	Class negative = 27	Total instances = 90	Entropy = 0.8812908992306927
+2019-03-29 11:40:35,265 - DEBUG - [Entropy for calculate]:	Class positive = 40	Class negative = 17	Total instances = 57	Entropy = 0.8791357668533336
+2019-03-29 11:40:35,265 - DEBUG - [Entropy for calculate]:	Class positive = 71	Class negative = 25	Total instances = 96	Entropy = 0.8273744775003172
+2019-03-29 11:40:35,265 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 1	Total instances = 6	Entropy = 0.6500224216483541
+2019-03-29 11:40:35,265 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8672387386390366	Gain Information = 0.010605956535614025
+2019-03-29 11:40:35,265 - DEBUG - [Split Decision Tree]	Column = menopause
+2019-03-29 11:40:35,279 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'premeno', 'class_positive': 102, 'class_negative': 48}, {'value': 'ge40', 'class_positive': 94, 'class_negative': 35}, {'value': 'lt40', 'class_positive': 5, 'class_negative': 2}]	 Total instances = 286
+2019-03-29 11:40:35,279 - DEBUG - [Entropy for calculate]:	Class positive = 102	Class negative = 48	Total instances = 150	Entropy = 0.904381457724494
+2019-03-29 11:40:35,279 - DEBUG - [Entropy for calculate]:	Class positive = 94	Class negative = 35	Total instances = 129	Entropy = 0.8433492891382018
+2019-03-29 11:40:35,279 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 2	Total instances = 7	Entropy = 0.863120568566631
+2019-03-29 11:40:35,279 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8758430802009389	Gain Information = 0.0020016149737116518
+2019-03-29 11:40:35,280 - DEBUG - [Split Decision Tree]	Gain Information = {'age': 0.010605956535614025, 'menopause': 0.0020016149737116518}
+2019-03-29 11:40:35,306 - DEBUG - [Gauge Stop Recursion]:	 Label Trainning = []
+2019-03-29 11:40:35,307 - DEBUG - [Split Decision Tree]	Column Trainning = []
+2019-03-29 11:40:35,307 - DEBUG - [Split Decision Tree]	Gain Information = {}
+2019-03-29 11:50:01,374 - DEBUG - [Prepare calc entropy]:	Column Label Trainning = <__main__.DecisionTree object at 0x0000000D71942588>
+2019-03-29 11:50:01,383 - DEBUG - [Entropy for calculate]:	Class positive = 201	Class negative = 85	Total instances = 286	Entropy = 0.8778446951746506
+2019-03-29 11:50:01,383 - DEBUG - [Gauge Stop Recursion]:	 Label Trainning = ['age', 'menopause', 'tumor_size', 'inv_nodes', 'node_caps', 'deg_malig', 'breast', 'breast_quad', 'irradiat']
+2019-03-29 11:50:01,385 - DEBUG - [Split Decision Tree]	Column Trainning = ['age', 'menopause', 'tumor_size', 'inv_nodes', 'node_caps', 'deg_malig', 'breast', 'breast_quad', 'irradiat']
+2019-03-29 11:50:01,385 - DEBUG - [Split Decision Tree]	Column = age
+2019-03-29 11:50:01,424 - DEBUG - [Gain Information]:	Frequencies = [{'value': '30-39', 'class_positive': 21, 'class_negative': 15}, {'value': '40-49', 'class_positive': 63, 'class_negative': 27}, {'value': '60-69', 'class_positive': 40, 'class_negative': 17}, {'value': '50-59', 'class_positive': 71, 'class_negative': 25}, {'value': '70-79', 'class_positive': 5, 'class_negative': 1}, {'value': '20-29', 'class_positive': 1, 'class_negative': 0}]	 Total instances = 286
+2019-03-29 11:50:01,424 - DEBUG - [Entropy for calculate]:	Class positive = 21	Class negative = 15	Total instances = 36	Entropy = 0.9798687566511528
+2019-03-29 11:50:01,425 - DEBUG - [Entropy for calculate]:	Class positive = 63	Class negative = 27	Total instances = 90	Entropy = 0.8812908992306927
+2019-03-29 11:50:01,425 - DEBUG - [Entropy for calculate]:	Class positive = 40	Class negative = 17	Total instances = 57	Entropy = 0.8791357668533336
+2019-03-29 11:50:01,425 - DEBUG - [Entropy for calculate]:	Class positive = 71	Class negative = 25	Total instances = 96	Entropy = 0.8273744775003172
+2019-03-29 11:50:01,425 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 1	Total instances = 6	Entropy = 0.6500224216483541
+2019-03-29 11:50:01,425 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8672387386390366	Gain Information = 0.010605956535614025
+2019-03-29 11:50:01,425 - DEBUG - [Split Decision Tree]	Column = menopause
+2019-03-29 11:50:01,439 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'premeno', 'class_positive': 102, 'class_negative': 48}, {'value': 'ge40', 'class_positive': 94, 'class_negative': 35}, {'value': 'lt40', 'class_positive': 5, 'class_negative': 2}]	 Total instances = 286
+2019-03-29 11:50:01,439 - DEBUG - [Entropy for calculate]:	Class positive = 102	Class negative = 48	Total instances = 150	Entropy = 0.904381457724494
+2019-03-29 11:50:01,439 - DEBUG - [Entropy for calculate]:	Class positive = 94	Class negative = 35	Total instances = 129	Entropy = 0.8433492891382018
+2019-03-29 11:50:01,440 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 2	Total instances = 7	Entropy = 0.863120568566631
+2019-03-29 11:50:01,440 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8758430802009389	Gain Information = 0.0020016149737116518
+2019-03-29 11:50:01,440 - DEBUG - [Split Decision Tree]	Column = tumor_size
+2019-03-29 11:50:01,479 - DEBUG - [Gain Information]:	Frequencies = [{'value': '30-34', 'class_positive': 35, 'class_negative': 25}, {'value': '20-24', 'class_positive': 34, 'class_negative': 16}, {'value': '15-19', 'class_positive': 23, 'class_negative': 7}, {'value': '0-4', 'class_positive': 7, 'class_negative': 1}, {'value': '25-29', 'class_positive': 36, 'class_negative': 18}, {'value': '50-54', 'class_positive': 5, 'class_negative': 3}, {'value': '10-14', 'class_positive': 27, 'class_negative': 1}, {'value': '40-44', 'class_positive': 16, 'class_negative': 6}, {'value': '35-39', 'class_positive': 12, 'class_negative': 7}, {'value': '5-9', 'class_positive': 4, 'class_negative': 0}, {'value': '45-49', 'class_positive': 2, 'class_negative': 1}]	 Total instances = 286
+2019-03-29 11:50:01,479 - DEBUG - [Entropy for calculate]:	Class positive = 35	Class negative = 25	Total instances = 60	Entropy = 0.9798687566511528
+2019-03-29 11:50:01,480 - DEBUG - [Entropy for calculate]:	Class positive = 34	Class negative = 16	Total instances = 50	Entropy = 0.904381457724494
+2019-03-29 11:50:01,480 - DEBUG - [Entropy for calculate]:	Class positive = 23	Class negative = 7	Total instances = 30	Entropy = 0.783776947484701
+2019-03-29 11:50:01,480 - DEBUG - [Entropy for calculate]:	Class positive = 7	Class negative = 1	Total instances = 8	Entropy = 0.5435644431995964
+2019-03-29 11:50:01,480 - DEBUG - [Entropy for calculate]:	Class positive = 36	Class negative = 18	Total instances = 54	Entropy = 0.9182958340544896
+2019-03-29 11:50:01,480 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 3	Total instances = 8	Entropy = 0.954434002924965
+2019-03-29 11:50:01,480 - DEBUG - [Entropy for calculate]:	Class positive = 27	Class negative = 1	Total instances = 28	Entropy = 0.222284830685688
+2019-03-29 11:50:01,480 - DEBUG - [Entropy for calculate]:	Class positive = 16	Class negative = 6	Total instances = 22	Entropy = 0.8453509366224365
+2019-03-29 11:50:01,481 - DEBUG - [Entropy for calculate]:	Class positive = 12	Class negative = 7	Total instances = 19	Entropy = 0.9494520153879484
+2019-03-29 11:50:01,481 - DEBUG - [Entropy for calculate]:	Class positive = 2	Class negative = 1	Total instances = 3	Entropy = 0.9182958340544896
+2019-03-29 11:50:01,481 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8206735698503539	Gain Information = 0.05717112532429669
+2019-03-29 11:50:01,481 - DEBUG - [Split Decision Tree]	Column = inv_nodes
+2019-03-29 11:50:01,510 - DEBUG - [Gain Information]:	Frequencies = [{'value': '0-2', 'class_positive': 167, 'class_negative': 46}, {'value': '6-8', 'class_positive': 7, 'class_negative': 10}, {'value': '9-11', 'class_positive': 4, 'class_negative': 6}, {'value': '3-5', 'class_positive': 19, 'class_negative': 17}, {'value': '15-17', 'class_positive': 3, 'class_negative': 3}, {'value': '12-14', 'class_positive': 1, 'class_negative': 2}, {'value': '24-26', 'class_positive': 0, 'class_negative': 1}]	 Total instances = 286
+2019-03-29 11:50:01,510 - DEBUG - [Entropy for calculate]:	Class positive = 167	Class negative = 46	Total instances = 213	Entropy = 0.7527262079169682
+2019-03-29 11:50:01,510 - DEBUG - [Entropy for calculate]:	Class positive = 7	Class negative = 10	Total instances = 17	Entropy = 0.9774178175281716
+2019-03-29 11:50:01,510 - DEBUG - [Entropy for calculate]:	Class positive = 4	Class negative = 6	Total instances = 10	Entropy = 0.9709505944546686
+2019-03-29 11:50:01,510 - DEBUG - [Entropy for calculate]:	Class positive = 19	Class negative = 17	Total instances = 36	Entropy = 0.9977724720899821
+2019-03-29 11:50:01,510 - DEBUG - [Entropy for calculate]:	Class positive = 3	Class negative = 3	Total instances = 6	Entropy = 1.0
+2019-03-29 11:50:01,510 - DEBUG - [Entropy for calculate]:	Class positive = 1	Class negative = 2	Total instances = 3	Entropy = 0.9182958340544896
+2019-03-29 11:50:01,511 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8088496070847645	Gain Information = 0.06899508808988608
+2019-03-29 11:50:01,511 - DEBUG - [Split Decision Tree]	Column = node_caps
+2019-03-29 11:50:01,524 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'no', 'class_positive': 171, 'class_negative': 51}, {'value': 'yes', 'class_positive': 25, 'class_negative': 31}, {'value': '?', 'class_positive': 5, 'class_negative': 3}]	 Total instances = 286
+2019-03-29 11:50:01,524 - DEBUG - [Entropy for calculate]:	Class positive = 171	Class negative = 51	Total instances = 222	Entropy = 0.7775398641607599
+2019-03-29 11:50:01,524 - DEBUG - [Entropy for calculate]:	Class positive = 25	Class negative = 31	Total instances = 56	Entropy = 0.9917033083725818
+2019-03-29 11:50:01,524 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 3	Total instances = 8	Entropy = 0.954434002924965
+2019-03-29 11:50:01,525 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8244220529229127	Gain Information = 0.05342264225173787
+2019-03-29 11:50:01,525 - DEBUG - [Split Decision Tree]	Column = deg_malig
+2019-03-29 11:50:01,533 - DEBUG - [Gain Information]:	Frequencies = [{'value': '<=', 'class_positive': 161, 'class_negative': 40}, {'value': '>', 'class_positive': 40, 'class_negative': 45}]	 Total instances = 286
+2019-03-29 11:50:01,534 - DEBUG - [Entropy for calculate]:	Class positive = 161	Class negative = 40	Total instances = 201	Entropy = 0.7199335758956061
+2019-03-29 11:50:01,534 - DEBUG - [Entropy for calculate]:	Class positive = 40	Class negative = 45	Total instances = 85	Entropy = 0.9975025463691153
+2019-03-29 11:50:01,534 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8024278503370337	Gain Information = 0.0754168448376169
+2019-03-29 11:50:01,534 - DEBUG - [Split Decision Tree]	Column = breast
+2019-03-29 11:50:01,543 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'left', 'class_positive': 103, 'class_negative': 49}, {'value': 'right', 'class_positive': 98, 'class_negative': 36}]	 Total instances = 286
+2019-03-29 11:50:01,543 - DEBUG - [Entropy for calculate]:	Class positive = 103	Class negative = 49	Total instances = 152	Entropy = 0.906938456459923
+2019-03-29 11:50:01,543 - DEBUG - [Entropy for calculate]:	Class positive = 98	Class negative = 36	Total instances = 134	Entropy = 0.8395304981054317
+2019-03-29 11:50:01,543 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8753557067413851	Gain Information = 0.0024889884332655043
+2019-03-29 11:50:01,543 - DEBUG - [Split Decision Tree]	Column = breast_quad
+2019-03-29 11:50:01,566 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'left_low', 'class_positive': 75, 'class_negative': 35}, {'value': 'right_up', 'class_positive': 20, 'class_negative': 13}, {'value': 'left_up', 'class_positive': 71, 'class_negative': 26}, {'value': 'right_low', 'class_positive': 18, 'class_negative': 6}, {'value': 'central', 'class_positive': 17, 'class_negative': 4}, {'value': '?', 'class_positive': 0, 'class_negative': 1}]	 Total instances = 286
+2019-03-29 11:50:01,566 - DEBUG - [Entropy for calculate]:	Class positive = 75	Class negative = 35	Total instances = 110	Entropy = 0.9023932827949788
+2019-03-29 11:50:01,566 - DEBUG - [Entropy for calculate]:	Class positive = 20	Class negative = 13	Total instances = 33	Entropy = 0.9672947789468944
+2019-03-29 11:50:01,566 - DEBUG - [Entropy for calculate]:	Class positive = 71	Class negative = 26	Total instances = 97	Entropy = 0.8386398715015524
+2019-03-29 11:50:01,566 - DEBUG - [Entropy for calculate]:	Class positive = 18	Class negative = 6	Total instances = 24	Entropy = 0.8112781244591328
+2019-03-29 11:50:01,566 - DEBUG - [Entropy for calculate]:	Class positive = 17	Class negative = 4	Total instances = 21	Entropy = 0.7024665512903903
+2019-03-29 11:50:01,567 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8627780731205006	Gain Information = 0.015066622054149992
+2019-03-29 11:50:01,567 - DEBUG - [Split Decision Tree]	Column = irradiat
+2019-03-29 11:50:01,575 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'no', 'class_positive': 164, 'class_negative': 54}, {'value': 'yes', 'class_positive': 37, 'class_negative': 31}]	 Total instances = 286
+2019-03-29 11:50:01,576 - DEBUG - [Entropy for calculate]:	Class positive = 164	Class negative = 54	Total instances = 218	Entropy = 0.8076226097576923
+2019-03-29 11:50:01,576 - DEBUG - [Entropy for calculate]:	Class positive = 37	Class negative = 31	Total instances = 68	Entropy = 0.9943766625699826
+2019-03-29 11:50:01,576 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8520256712655094	Gain Information = 0.025819023909141148
+2019-03-29 11:50:01,576 - DEBUG - [Split Decision Tree]	Gain Information = {'age': 0.010605956535614025, 'menopause': 0.0020016149737116518, 'tumor_size': 0.05717112532429669, 'inv_nodes': 0.06899508808988608, 'node_caps': 0.05342264225173787, 'deg_malig': 0.0754168448376169, 'breast': 0.0024889884332655043, 'breast_quad': 0.015066622054149992, 'irradiat': 0.025819023909141148}
+2019-03-29 11:50:01,585 - DEBUG - [Gauge Stop Recursion]:	 Label Trainning = ['age', 'menopause', 'tumor_size', 'inv_nodes', 'node_caps']
+2019-03-29 11:50:01,586 - DEBUG - [Split Decision Tree]	Column Trainning = ['age', 'menopause', 'tumor_size', 'inv_nodes', 'node_caps']
+2019-03-29 11:50:01,586 - DEBUG - [Split Decision Tree]	Column = age
+2019-03-29 11:50:01,618 - DEBUG - [Gain Information]:	Frequencies = [{'value': '30-39', 'class_positive': 21, 'class_negative': 15}, {'value': '40-49', 'class_positive': 63, 'class_negative': 27}, {'value': '60-69', 'class_positive': 40, 'class_negative': 17}, {'value': '50-59', 'class_positive': 71, 'class_negative': 25}, {'value': '70-79', 'class_positive': 5, 'class_negative': 1}, {'value': '20-29', 'class_positive': 1, 'class_negative': 0}]	 Total instances = 286
+2019-03-29 11:50:01,618 - DEBUG - [Entropy for calculate]:	Class positive = 21	Class negative = 15	Total instances = 36	Entropy = 0.9798687566511528
+2019-03-29 11:50:01,618 - DEBUG - [Entropy for calculate]:	Class positive = 63	Class negative = 27	Total instances = 90	Entropy = 0.8812908992306927
+2019-03-29 11:50:01,618 - DEBUG - [Entropy for calculate]:	Class positive = 40	Class negative = 17	Total instances = 57	Entropy = 0.8791357668533336
+2019-03-29 11:50:01,618 - DEBUG - [Entropy for calculate]:	Class positive = 71	Class negative = 25	Total instances = 96	Entropy = 0.8273744775003172
+2019-03-29 11:50:01,619 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 1	Total instances = 6	Entropy = 0.6500224216483541
+2019-03-29 11:50:01,619 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8672387386390366	Gain Information = 0.010605956535614025
+2019-03-29 11:50:01,619 - DEBUG - [Split Decision Tree]	Column = menopause
+2019-03-29 11:50:01,631 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'premeno', 'class_positive': 102, 'class_negative': 48}, {'value': 'ge40', 'class_positive': 94, 'class_negative': 35}, {'value': 'lt40', 'class_positive': 5, 'class_negative': 2}]	 Total instances = 286
+2019-03-29 11:50:01,631 - DEBUG - [Entropy for calculate]:	Class positive = 102	Class negative = 48	Total instances = 150	Entropy = 0.904381457724494
+2019-03-29 11:50:01,631 - DEBUG - [Entropy for calculate]:	Class positive = 94	Class negative = 35	Total instances = 129	Entropy = 0.8433492891382018
+2019-03-29 11:50:01,631 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 2	Total instances = 7	Entropy = 0.863120568566631
+2019-03-29 11:50:01,631 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8758430802009389	Gain Information = 0.0020016149737116518
+2019-03-29 11:50:01,631 - DEBUG - [Split Decision Tree]	Column = tumor_size
+2019-03-29 11:50:01,670 - DEBUG - [Gain Information]:	Frequencies = [{'value': '30-34', 'class_positive': 35, 'class_negative': 25}, {'value': '20-24', 'class_positive': 34, 'class_negative': 16}, {'value': '15-19', 'class_positive': 23, 'class_negative': 7}, {'value': '0-4', 'class_positive': 7, 'class_negative': 1}, {'value': '25-29', 'class_positive': 36, 'class_negative': 18}, {'value': '50-54', 'class_positive': 5, 'class_negative': 3}, {'value': '10-14', 'class_positive': 27, 'class_negative': 1}, {'value': '40-44', 'class_positive': 16, 'class_negative': 6}, {'value': '35-39', 'class_positive': 12, 'class_negative': 7}, {'value': '5-9', 'class_positive': 4, 'class_negative': 0}, {'value': '45-49', 'class_positive': 2, 'class_negative': 1}]	 Total instances = 286
+2019-03-29 11:50:01,670 - DEBUG - [Entropy for calculate]:	Class positive = 35	Class negative = 25	Total instances = 60	Entropy = 0.9798687566511528
+2019-03-29 11:50:01,670 - DEBUG - [Entropy for calculate]:	Class positive = 34	Class negative = 16	Total instances = 50	Entropy = 0.904381457724494
+2019-03-29 11:50:01,671 - DEBUG - [Entropy for calculate]:	Class positive = 23	Class negative = 7	Total instances = 30	Entropy = 0.783776947484701
+2019-03-29 11:50:01,671 - DEBUG - [Entropy for calculate]:	Class positive = 7	Class negative = 1	Total instances = 8	Entropy = 0.5435644431995964
+2019-03-29 11:50:01,671 - DEBUG - [Entropy for calculate]:	Class positive = 36	Class negative = 18	Total instances = 54	Entropy = 0.9182958340544896
+2019-03-29 11:50:01,671 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 3	Total instances = 8	Entropy = 0.954434002924965
+2019-03-29 11:50:01,671 - DEBUG - [Entropy for calculate]:	Class positive = 27	Class negative = 1	Total instances = 28	Entropy = 0.222284830685688
+2019-03-29 11:50:01,671 - DEBUG - [Entropy for calculate]:	Class positive = 16	Class negative = 6	Total instances = 22	Entropy = 0.8453509366224365
+2019-03-29 11:50:01,671 - DEBUG - [Entropy for calculate]:	Class positive = 12	Class negative = 7	Total instances = 19	Entropy = 0.9494520153879484
+2019-03-29 11:50:01,671 - DEBUG - [Entropy for calculate]:	Class positive = 2	Class negative = 1	Total instances = 3	Entropy = 0.9182958340544896
+2019-03-29 11:50:01,671 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8206735698503539	Gain Information = 0.05717112532429669
+2019-03-29 11:50:01,671 - DEBUG - [Split Decision Tree]	Column = inv_nodes
+2019-03-29 11:50:01,700 - DEBUG - [Gain Information]:	Frequencies = [{'value': '0-2', 'class_positive': 167, 'class_negative': 46}, {'value': '6-8', 'class_positive': 7, 'class_negative': 10}, {'value': '9-11', 'class_positive': 4, 'class_negative': 6}, {'value': '3-5', 'class_positive': 19, 'class_negative': 17}, {'value': '15-17', 'class_positive': 3, 'class_negative': 3}, {'value': '12-14', 'class_positive': 1, 'class_negative': 2}, {'value': '24-26', 'class_positive': 0, 'class_negative': 1}]	 Total instances = 286
+2019-03-29 11:50:01,700 - DEBUG - [Entropy for calculate]:	Class positive = 167	Class negative = 46	Total instances = 213	Entropy = 0.7527262079169682
+2019-03-29 11:50:01,700 - DEBUG - [Entropy for calculate]:	Class positive = 7	Class negative = 10	Total instances = 17	Entropy = 0.9774178175281716
+2019-03-29 11:50:01,700 - DEBUG - [Entropy for calculate]:	Class positive = 4	Class negative = 6	Total instances = 10	Entropy = 0.9709505944546686
+2019-03-29 11:50:01,700 - DEBUG - [Entropy for calculate]:	Class positive = 19	Class negative = 17	Total instances = 36	Entropy = 0.9977724720899821
+2019-03-29 11:50:01,700 - DEBUG - [Entropy for calculate]:	Class positive = 3	Class negative = 3	Total instances = 6	Entropy = 1.0
+2019-03-29 11:50:01,700 - DEBUG - [Entropy for calculate]:	Class positive = 1	Class negative = 2	Total instances = 3	Entropy = 0.9182958340544896
+2019-03-29 11:50:01,700 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8088496070847645	Gain Information = 0.06899508808988608
+2019-03-29 11:50:01,700 - DEBUG - [Split Decision Tree]	Column = node_caps
+2019-03-29 11:50:01,713 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'no', 'class_positive': 171, 'class_negative': 51}, {'value': 'yes', 'class_positive': 25, 'class_negative': 31}, {'value': '?', 'class_positive': 5, 'class_negative': 3}]	 Total instances = 286
+2019-03-29 11:50:01,713 - DEBUG - [Entropy for calculate]:	Class positive = 171	Class negative = 51	Total instances = 222	Entropy = 0.7775398641607599
+2019-03-29 11:50:01,713 - DEBUG - [Entropy for calculate]:	Class positive = 25	Class negative = 31	Total instances = 56	Entropy = 0.9917033083725818
+2019-03-29 11:50:01,713 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 3	Total instances = 8	Entropy = 0.954434002924965
+2019-03-29 11:50:01,713 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8244220529229127	Gain Information = 0.05342264225173787
+2019-03-29 11:50:01,713 - DEBUG - [Split Decision Tree]	Gain Information = {'age': 0.010605956535614025, 'menopause': 0.0020016149737116518, 'tumor_size': 0.05717112532429669, 'inv_nodes': 0.06899508808988608, 'node_caps': 0.05342264225173787}
+2019-03-29 11:50:01,739 - DEBUG - [Gauge Stop Recursion]:	 Label Trainning = ['age', 'menopause', 'tumor_size']
+2019-03-29 11:50:01,740 - DEBUG - [Split Decision Tree]	Column Trainning = ['age', 'menopause', 'tumor_size']
+2019-03-29 11:50:01,741 - DEBUG - [Split Decision Tree]	Column = age
+2019-03-29 11:50:01,763 - DEBUG - [Gain Information]:	Frequencies = [{'value': '30-39', 'class_positive': 21, 'class_negative': 15}, {'value': '40-49', 'class_positive': 63, 'class_negative': 27}, {'value': '60-69', 'class_positive': 40, 'class_negative': 17}, {'value': '50-59', 'class_positive': 71, 'class_negative': 25}, {'value': '70-79', 'class_positive': 5, 'class_negative': 1}, {'value': '20-29', 'class_positive': 1, 'class_negative': 0}]	 Total instances = 286
+2019-03-29 11:50:01,763 - DEBUG - [Entropy for calculate]:	Class positive = 21	Class negative = 15	Total instances = 36	Entropy = 0.9798687566511528
+2019-03-29 11:50:01,764 - DEBUG - [Entropy for calculate]:	Class positive = 63	Class negative = 27	Total instances = 90	Entropy = 0.8812908992306927
+2019-03-29 11:50:01,764 - DEBUG - [Entropy for calculate]:	Class positive = 40	Class negative = 17	Total instances = 57	Entropy = 0.8791357668533336
+2019-03-29 11:50:01,764 - DEBUG - [Entropy for calculate]:	Class positive = 71	Class negative = 25	Total instances = 96	Entropy = 0.8273744775003172
+2019-03-29 11:50:01,764 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 1	Total instances = 6	Entropy = 0.6500224216483541
+2019-03-29 11:50:01,764 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8672387386390366	Gain Information = 0.010605956535614025
+2019-03-29 11:50:01,764 - DEBUG - [Split Decision Tree]	Column = menopause
+2019-03-29 11:50:01,776 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'premeno', 'class_positive': 102, 'class_negative': 48}, {'value': 'ge40', 'class_positive': 94, 'class_negative': 35}, {'value': 'lt40', 'class_positive': 5, 'class_negative': 2}]	 Total instances = 286
+2019-03-29 11:50:01,776 - DEBUG - [Entropy for calculate]:	Class positive = 102	Class negative = 48	Total instances = 150	Entropy = 0.904381457724494
+2019-03-29 11:50:01,776 - DEBUG - [Entropy for calculate]:	Class positive = 94	Class negative = 35	Total instances = 129	Entropy = 0.8433492891382018
+2019-03-29 11:50:01,776 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 2	Total instances = 7	Entropy = 0.863120568566631
+2019-03-29 11:50:01,776 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8758430802009389	Gain Information = 0.0020016149737116518
+2019-03-29 11:50:01,776 - DEBUG - [Split Decision Tree]	Column = tumor_size
+2019-03-29 11:50:01,818 - DEBUG - [Gain Information]:	Frequencies = [{'value': '30-34', 'class_positive': 35, 'class_negative': 25}, {'value': '20-24', 'class_positive': 34, 'class_negative': 16}, {'value': '15-19', 'class_positive': 23, 'class_negative': 7}, {'value': '0-4', 'class_positive': 7, 'class_negative': 1}, {'value': '25-29', 'class_positive': 36, 'class_negative': 18}, {'value': '50-54', 'class_positive': 5, 'class_negative': 3}, {'value': '10-14', 'class_positive': 27, 'class_negative': 1}, {'value': '40-44', 'class_positive': 16, 'class_negative': 6}, {'value': '35-39', 'class_positive': 12, 'class_negative': 7}, {'value': '5-9', 'class_positive': 4, 'class_negative': 0}, {'value': '45-49', 'class_positive': 2, 'class_negative': 1}]	 Total instances = 286
+2019-03-29 11:50:01,818 - DEBUG - [Entropy for calculate]:	Class positive = 35	Class negative = 25	Total instances = 60	Entropy = 0.9798687566511528
+2019-03-29 11:50:01,818 - DEBUG - [Entropy for calculate]:	Class positive = 34	Class negative = 16	Total instances = 50	Entropy = 0.904381457724494
+2019-03-29 11:50:01,819 - DEBUG - [Entropy for calculate]:	Class positive = 23	Class negative = 7	Total instances = 30	Entropy = 0.783776947484701
+2019-03-29 11:50:01,819 - DEBUG - [Entropy for calculate]:	Class positive = 7	Class negative = 1	Total instances = 8	Entropy = 0.5435644431995964
+2019-03-29 11:50:01,819 - DEBUG - [Entropy for calculate]:	Class positive = 36	Class negative = 18	Total instances = 54	Entropy = 0.9182958340544896
+2019-03-29 11:50:01,819 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 3	Total instances = 8	Entropy = 0.954434002924965
+2019-03-29 11:50:01,819 - DEBUG - [Entropy for calculate]:	Class positive = 27	Class negative = 1	Total instances = 28	Entropy = 0.222284830685688
+2019-03-29 11:50:01,819 - DEBUG - [Entropy for calculate]:	Class positive = 16	Class negative = 6	Total instances = 22	Entropy = 0.8453509366224365
+2019-03-29 11:50:01,819 - DEBUG - [Entropy for calculate]:	Class positive = 12	Class negative = 7	Total instances = 19	Entropy = 0.9494520153879484
+2019-03-29 11:50:01,819 - DEBUG - [Entropy for calculate]:	Class positive = 2	Class negative = 1	Total instances = 3	Entropy = 0.9182958340544896
+2019-03-29 11:50:01,819 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8206735698503539	Gain Information = 0.05717112532429669
+2019-03-29 11:50:01,820 - DEBUG - [Split Decision Tree]	Gain Information = {'age': 0.010605956535614025, 'menopause': 0.0020016149737116518, 'tumor_size': 0.05717112532429669}
+2019-03-29 11:50:01,868 - DEBUG - [Gauge Stop Recursion]:	 Label Trainning = ['age', 'menopause']
+2019-03-29 11:50:01,869 - DEBUG - [Split Decision Tree]	Column Trainning = ['age', 'menopause']
+2019-03-29 11:50:01,869 - DEBUG - [Split Decision Tree]	Column = age
+2019-03-29 11:50:01,894 - DEBUG - [Gain Information]:	Frequencies = [{'value': '30-39', 'class_positive': 21, 'class_negative': 15}, {'value': '40-49', 'class_positive': 63, 'class_negative': 27}, {'value': '60-69', 'class_positive': 40, 'class_negative': 17}, {'value': '50-59', 'class_positive': 71, 'class_negative': 25}, {'value': '70-79', 'class_positive': 5, 'class_negative': 1}, {'value': '20-29', 'class_positive': 1, 'class_negative': 0}]	 Total instances = 286
+2019-03-29 11:50:01,895 - DEBUG - [Entropy for calculate]:	Class positive = 21	Class negative = 15	Total instances = 36	Entropy = 0.9798687566511528
+2019-03-29 11:50:01,895 - DEBUG - [Entropy for calculate]:	Class positive = 63	Class negative = 27	Total instances = 90	Entropy = 0.8812908992306927
+2019-03-29 11:50:01,895 - DEBUG - [Entropy for calculate]:	Class positive = 40	Class negative = 17	Total instances = 57	Entropy = 0.8791357668533336
+2019-03-29 11:50:01,895 - DEBUG - [Entropy for calculate]:	Class positive = 71	Class negative = 25	Total instances = 96	Entropy = 0.8273744775003172
+2019-03-29 11:50:01,895 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 1	Total instances = 6	Entropy = 0.6500224216483541
+2019-03-29 11:50:01,895 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8672387386390366	Gain Information = 0.010605956535614025
+2019-03-29 11:50:01,895 - DEBUG - [Split Decision Tree]	Column = menopause
+2019-03-29 11:50:01,908 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'premeno', 'class_positive': 102, 'class_negative': 48}, {'value': 'ge40', 'class_positive': 94, 'class_negative': 35}, {'value': 'lt40', 'class_positive': 5, 'class_negative': 2}]	 Total instances = 286
+2019-03-29 11:50:01,908 - DEBUG - [Entropy for calculate]:	Class positive = 102	Class negative = 48	Total instances = 150	Entropy = 0.904381457724494
+2019-03-29 11:50:01,908 - DEBUG - [Entropy for calculate]:	Class positive = 94	Class negative = 35	Total instances = 129	Entropy = 0.8433492891382018
+2019-03-29 11:50:01,908 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 2	Total instances = 7	Entropy = 0.863120568566631
+2019-03-29 11:50:01,908 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8758430802009389	Gain Information = 0.0020016149737116518
+2019-03-29 11:50:01,908 - DEBUG - [Split Decision Tree]	Gain Information = {'age': 0.010605956535614025, 'menopause': 0.0020016149737116518}
+2019-03-29 11:50:01,931 - DEBUG - [Gauge Stop Recursion]:	 Label Trainning = []
+2019-03-29 11:50:01,931 - DEBUG - [Split Decision Tree]	Column Trainning = []
+2019-03-29 11:50:01,932 - DEBUG - [Split Decision Tree]	Gain Information = {}
+2019-03-29 13:32:18,543 - DEBUG - [Prepare calc entropy]:	Column Label Trainning = <__main__.DecisionTree object at 0x0000000D7192B908>
+2019-03-29 13:32:18,550 - DEBUG - [Entropy for calculate]:	Class positive = 201	Class negative = 85	Total instances = 286	Entropy = 0.8778446951746506
+2019-03-29 13:32:18,550 - DEBUG - [Gauge Stop Recursion]:	 Label Trainning = ['age', 'menopause', 'tumor_size', 'inv_nodes', 'node_caps', 'deg_malig', 'breast', 'breast_quad', 'irradiat']
+2019-03-29 13:32:18,550 - DEBUG - [Split Decision Tree]	Column Trainning = ['age', 'menopause', 'tumor_size', 'inv_nodes', 'node_caps', 'deg_malig', 'breast', 'breast_quad', 'irradiat']
+2019-03-29 13:32:18,551 - DEBUG - [Split Decision Tree]	Column = age
+2019-03-29 13:32:18,589 - DEBUG - [Gain Information]:	Frequencies = [{'value': '30-39', 'class_positive': 21, 'class_negative': 15}, {'value': '40-49', 'class_positive': 63, 'class_negative': 27}, {'value': '60-69', 'class_positive': 40, 'class_negative': 17}, {'value': '50-59', 'class_positive': 71, 'class_negative': 25}, {'value': '70-79', 'class_positive': 5, 'class_negative': 1}, {'value': '20-29', 'class_positive': 1, 'class_negative': 0}]	 Total instances = 286
+2019-03-29 13:32:18,590 - DEBUG - [Entropy for calculate]:	Class positive = 21	Class negative = 15	Total instances = 36	Entropy = 0.9798687566511528
+2019-03-29 13:32:18,590 - DEBUG - [Entropy for calculate]:	Class positive = 63	Class negative = 27	Total instances = 90	Entropy = 0.8812908992306927
+2019-03-29 13:32:18,590 - DEBUG - [Entropy for calculate]:	Class positive = 40	Class negative = 17	Total instances = 57	Entropy = 0.8791357668533336
+2019-03-29 13:32:18,590 - DEBUG - [Entropy for calculate]:	Class positive = 71	Class negative = 25	Total instances = 96	Entropy = 0.8273744775003172
+2019-03-29 13:32:18,590 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 1	Total instances = 6	Entropy = 0.6500224216483541
+2019-03-29 13:32:18,590 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8672387386390366	Gain Information = 0.010605956535614025
+2019-03-29 13:32:18,591 - DEBUG - [Split Decision Tree]	Column = menopause
+2019-03-29 13:32:18,606 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'premeno', 'class_positive': 102, 'class_negative': 48}, {'value': 'ge40', 'class_positive': 94, 'class_negative': 35}, {'value': 'lt40', 'class_positive': 5, 'class_negative': 2}]	 Total instances = 286
+2019-03-29 13:32:18,606 - DEBUG - [Entropy for calculate]:	Class positive = 102	Class negative = 48	Total instances = 150	Entropy = 0.904381457724494
+2019-03-29 13:32:18,607 - DEBUG - [Entropy for calculate]:	Class positive = 94	Class negative = 35	Total instances = 129	Entropy = 0.8433492891382018
+2019-03-29 13:32:18,607 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 2	Total instances = 7	Entropy = 0.863120568566631
+2019-03-29 13:32:18,607 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8758430802009389	Gain Information = 0.0020016149737116518
+2019-03-29 13:32:18,607 - DEBUG - [Split Decision Tree]	Column = tumor_size
+2019-03-29 13:32:18,650 - DEBUG - [Gain Information]:	Frequencies = [{'value': '30-34', 'class_positive': 35, 'class_negative': 25}, {'value': '20-24', 'class_positive': 34, 'class_negative': 16}, {'value': '15-19', 'class_positive': 23, 'class_negative': 7}, {'value': '0-4', 'class_positive': 7, 'class_negative': 1}, {'value': '25-29', 'class_positive': 36, 'class_negative': 18}, {'value': '50-54', 'class_positive': 5, 'class_negative': 3}, {'value': '10-14', 'class_positive': 27, 'class_negative': 1}, {'value': '40-44', 'class_positive': 16, 'class_negative': 6}, {'value': '35-39', 'class_positive': 12, 'class_negative': 7}, {'value': '5-9', 'class_positive': 4, 'class_negative': 0}, {'value': '45-49', 'class_positive': 2, 'class_negative': 1}]	 Total instances = 286
+2019-03-29 13:32:18,650 - DEBUG - [Entropy for calculate]:	Class positive = 35	Class negative = 25	Total instances = 60	Entropy = 0.9798687566511528
+2019-03-29 13:32:18,650 - DEBUG - [Entropy for calculate]:	Class positive = 34	Class negative = 16	Total instances = 50	Entropy = 0.904381457724494
+2019-03-29 13:32:18,650 - DEBUG - [Entropy for calculate]:	Class positive = 23	Class negative = 7	Total instances = 30	Entropy = 0.783776947484701
+2019-03-29 13:32:18,650 - DEBUG - [Entropy for calculate]:	Class positive = 7	Class negative = 1	Total instances = 8	Entropy = 0.5435644431995964
+2019-03-29 13:32:18,651 - DEBUG - [Entropy for calculate]:	Class positive = 36	Class negative = 18	Total instances = 54	Entropy = 0.9182958340544896
+2019-03-29 13:32:18,651 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 3	Total instances = 8	Entropy = 0.954434002924965
+2019-03-29 13:32:18,651 - DEBUG - [Entropy for calculate]:	Class positive = 27	Class negative = 1	Total instances = 28	Entropy = 0.222284830685688
+2019-03-29 13:32:18,651 - DEBUG - [Entropy for calculate]:	Class positive = 16	Class negative = 6	Total instances = 22	Entropy = 0.8453509366224365
+2019-03-29 13:32:18,651 - DEBUG - [Entropy for calculate]:	Class positive = 12	Class negative = 7	Total instances = 19	Entropy = 0.9494520153879484
+2019-03-29 13:32:18,651 - DEBUG - [Entropy for calculate]:	Class positive = 2	Class negative = 1	Total instances = 3	Entropy = 0.9182958340544896
+2019-03-29 13:32:18,651 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8206735698503539	Gain Information = 0.05717112532429669
+2019-03-29 13:32:18,651 - DEBUG - [Split Decision Tree]	Column = inv_nodes
+2019-03-29 13:32:18,682 - DEBUG - [Gain Information]:	Frequencies = [{'value': '0-2', 'class_positive': 167, 'class_negative': 46}, {'value': '6-8', 'class_positive': 7, 'class_negative': 10}, {'value': '9-11', 'class_positive': 4, 'class_negative': 6}, {'value': '3-5', 'class_positive': 19, 'class_negative': 17}, {'value': '15-17', 'class_positive': 3, 'class_negative': 3}, {'value': '12-14', 'class_positive': 1, 'class_negative': 2}, {'value': '24-26', 'class_positive': 0, 'class_negative': 1}]	 Total instances = 286
+2019-03-29 13:32:18,682 - DEBUG - [Entropy for calculate]:	Class positive = 167	Class negative = 46	Total instances = 213	Entropy = 0.7527262079169682
+2019-03-29 13:32:18,682 - DEBUG - [Entropy for calculate]:	Class positive = 7	Class negative = 10	Total instances = 17	Entropy = 0.9774178175281716
+2019-03-29 13:32:18,682 - DEBUG - [Entropy for calculate]:	Class positive = 4	Class negative = 6	Total instances = 10	Entropy = 0.9709505944546686
+2019-03-29 13:32:18,682 - DEBUG - [Entropy for calculate]:	Class positive = 19	Class negative = 17	Total instances = 36	Entropy = 0.9977724720899821
+2019-03-29 13:32:18,682 - DEBUG - [Entropy for calculate]:	Class positive = 3	Class negative = 3	Total instances = 6	Entropy = 1.0
+2019-03-29 13:32:18,682 - DEBUG - [Entropy for calculate]:	Class positive = 1	Class negative = 2	Total instances = 3	Entropy = 0.9182958340544896
+2019-03-29 13:32:18,683 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8088496070847645	Gain Information = 0.06899508808988608
+2019-03-29 13:32:18,683 - DEBUG - [Split Decision Tree]	Column = node_caps
+2019-03-29 13:32:18,699 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'no', 'class_positive': 171, 'class_negative': 51}, {'value': 'yes', 'class_positive': 25, 'class_negative': 31}, {'value': '?', 'class_positive': 5, 'class_negative': 3}]	 Total instances = 286
+2019-03-29 13:32:18,699 - DEBUG - [Entropy for calculate]:	Class positive = 171	Class negative = 51	Total instances = 222	Entropy = 0.7775398641607599
+2019-03-29 13:32:18,700 - DEBUG - [Entropy for calculate]:	Class positive = 25	Class negative = 31	Total instances = 56	Entropy = 0.9917033083725818
+2019-03-29 13:32:18,700 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 3	Total instances = 8	Entropy = 0.954434002924965
+2019-03-29 13:32:18,700 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8244220529229127	Gain Information = 0.05342264225173787
+2019-03-29 13:32:18,700 - DEBUG - [Split Decision Tree]	Column = deg_malig
+2019-03-29 13:32:18,710 - DEBUG - [Gain Information]:	Frequencies = [{'value': '<=', 'class_positive': 161, 'class_negative': 40}, {'value': '>', 'class_positive': 40, 'class_negative': 45}]	 Total instances = 286
+2019-03-29 13:32:18,710 - DEBUG - [Entropy for calculate]:	Class positive = 161	Class negative = 40	Total instances = 201	Entropy = 0.7199335758956061
+2019-03-29 13:32:18,710 - DEBUG - [Entropy for calculate]:	Class positive = 40	Class negative = 45	Total instances = 85	Entropy = 0.9975025463691153
+2019-03-29 13:32:18,710 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8024278503370337	Gain Information = 0.0754168448376169
+2019-03-29 13:32:18,710 - DEBUG - [Split Decision Tree]	Column = breast
+2019-03-29 13:32:18,719 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'left', 'class_positive': 103, 'class_negative': 49}, {'value': 'right', 'class_positive': 98, 'class_negative': 36}]	 Total instances = 286
+2019-03-29 13:32:18,720 - DEBUG - [Entropy for calculate]:	Class positive = 103	Class negative = 49	Total instances = 152	Entropy = 0.906938456459923
+2019-03-29 13:32:18,720 - DEBUG - [Entropy for calculate]:	Class positive = 98	Class negative = 36	Total instances = 134	Entropy = 0.8395304981054317
+2019-03-29 13:32:18,720 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8753557067413851	Gain Information = 0.0024889884332655043
+2019-03-29 13:32:18,720 - DEBUG - [Split Decision Tree]	Column = breast_quad
+2019-03-29 13:32:18,745 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'left_low', 'class_positive': 75, 'class_negative': 35}, {'value': 'right_up', 'class_positive': 20, 'class_negative': 13}, {'value': 'left_up', 'class_positive': 71, 'class_negative': 26}, {'value': 'right_low', 'class_positive': 18, 'class_negative': 6}, {'value': 'central', 'class_positive': 17, 'class_negative': 4}, {'value': '?', 'class_positive': 0, 'class_negative': 1}]	 Total instances = 286
+2019-03-29 13:32:18,745 - DEBUG - [Entropy for calculate]:	Class positive = 75	Class negative = 35	Total instances = 110	Entropy = 0.9023932827949788
+2019-03-29 13:32:18,745 - DEBUG - [Entropy for calculate]:	Class positive = 20	Class negative = 13	Total instances = 33	Entropy = 0.9672947789468944
+2019-03-29 13:32:18,746 - DEBUG - [Entropy for calculate]:	Class positive = 71	Class negative = 26	Total instances = 97	Entropy = 0.8386398715015524
+2019-03-29 13:32:18,746 - DEBUG - [Entropy for calculate]:	Class positive = 18	Class negative = 6	Total instances = 24	Entropy = 0.8112781244591328
+2019-03-29 13:32:18,746 - DEBUG - [Entropy for calculate]:	Class positive = 17	Class negative = 4	Total instances = 21	Entropy = 0.7024665512903903
+2019-03-29 13:32:18,746 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8627780731205006	Gain Information = 0.015066622054149992
+2019-03-29 13:32:18,746 - DEBUG - [Split Decision Tree]	Column = irradiat
+2019-03-29 13:32:18,758 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'no', 'class_positive': 164, 'class_negative': 54}, {'value': 'yes', 'class_positive': 37, 'class_negative': 31}]	 Total instances = 286
+2019-03-29 13:32:18,759 - DEBUG - [Entropy for calculate]:	Class positive = 164	Class negative = 54	Total instances = 218	Entropy = 0.8076226097576923
+2019-03-29 13:32:18,759 - DEBUG - [Entropy for calculate]:	Class positive = 37	Class negative = 31	Total instances = 68	Entropy = 0.9943766625699826
+2019-03-29 13:32:18,759 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8520256712655094	Gain Information = 0.025819023909141148
+2019-03-29 13:32:18,759 - DEBUG - [Split Decision Tree]	Gain Information = {'age': 0.010605956535614025, 'menopause': 0.0020016149737116518, 'tumor_size': 0.05717112532429669, 'inv_nodes': 0.06899508808988608, 'node_caps': 0.05342264225173787, 'deg_malig': 0.0754168448376169, 'breast': 0.0024889884332655043, 'breast_quad': 0.015066622054149992, 'irradiat': 0.025819023909141148}
+2019-03-29 13:32:18,775 - DEBUG - [Gauge Stop Recursion]:	 Label Trainning = ['age', 'menopause', 'tumor_size', 'inv_nodes', 'node_caps']
+2019-03-29 13:32:18,776 - DEBUG - [Split Decision Tree]	Column Trainning = ['age', 'menopause', 'tumor_size', 'inv_nodes', 'node_caps']
+2019-03-29 13:32:18,776 - DEBUG - [Split Decision Tree]	Column = age
+2019-03-29 13:32:18,803 - DEBUG - [Gain Information]:	Frequencies = [{'value': '30-39', 'class_positive': 21, 'class_negative': 15}, {'value': '40-49', 'class_positive': 63, 'class_negative': 27}, {'value': '60-69', 'class_positive': 40, 'class_negative': 17}, {'value': '50-59', 'class_positive': 71, 'class_negative': 25}, {'value': '70-79', 'class_positive': 5, 'class_negative': 1}, {'value': '20-29', 'class_positive': 1, 'class_negative': 0}]	 Total instances = 286
+2019-03-29 13:32:18,804 - DEBUG - [Entropy for calculate]:	Class positive = 21	Class negative = 15	Total instances = 36	Entropy = 0.9798687566511528
+2019-03-29 13:32:18,804 - DEBUG - [Entropy for calculate]:	Class positive = 63	Class negative = 27	Total instances = 90	Entropy = 0.8812908992306927
+2019-03-29 13:32:18,804 - DEBUG - [Entropy for calculate]:	Class positive = 40	Class negative = 17	Total instances = 57	Entropy = 0.8791357668533336
+2019-03-29 13:32:18,804 - DEBUG - [Entropy for calculate]:	Class positive = 71	Class negative = 25	Total instances = 96	Entropy = 0.8273744775003172
+2019-03-29 13:32:18,804 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 1	Total instances = 6	Entropy = 0.6500224216483541
+2019-03-29 13:32:18,804 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8672387386390366	Gain Information = 0.010605956535614025
+2019-03-29 13:32:18,804 - DEBUG - [Split Decision Tree]	Column = menopause
+2019-03-29 13:32:18,817 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'premeno', 'class_positive': 102, 'class_negative': 48}, {'value': 'ge40', 'class_positive': 94, 'class_negative': 35}, {'value': 'lt40', 'class_positive': 5, 'class_negative': 2}]	 Total instances = 286
+2019-03-29 13:32:18,817 - DEBUG - [Entropy for calculate]:	Class positive = 102	Class negative = 48	Total instances = 150	Entropy = 0.904381457724494
+2019-03-29 13:32:18,817 - DEBUG - [Entropy for calculate]:	Class positive = 94	Class negative = 35	Total instances = 129	Entropy = 0.8433492891382018
+2019-03-29 13:32:18,817 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 2	Total instances = 7	Entropy = 0.863120568566631
+2019-03-29 13:32:18,817 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8758430802009389	Gain Information = 0.0020016149737116518
+2019-03-29 13:32:18,817 - DEBUG - [Split Decision Tree]	Column = tumor_size
+2019-03-29 13:32:18,869 - DEBUG - [Gain Information]:	Frequencies = [{'value': '30-34', 'class_positive': 35, 'class_negative': 25}, {'value': '20-24', 'class_positive': 34, 'class_negative': 16}, {'value': '15-19', 'class_positive': 23, 'class_negative': 7}, {'value': '0-4', 'class_positive': 7, 'class_negative': 1}, {'value': '25-29', 'class_positive': 36, 'class_negative': 18}, {'value': '50-54', 'class_positive': 5, 'class_negative': 3}, {'value': '10-14', 'class_positive': 27, 'class_negative': 1}, {'value': '40-44', 'class_positive': 16, 'class_negative': 6}, {'value': '35-39', 'class_positive': 12, 'class_negative': 7}, {'value': '5-9', 'class_positive': 4, 'class_negative': 0}, {'value': '45-49', 'class_positive': 2, 'class_negative': 1}]	 Total instances = 286
+2019-03-29 13:32:18,869 - DEBUG - [Entropy for calculate]:	Class positive = 35	Class negative = 25	Total instances = 60	Entropy = 0.9798687566511528
+2019-03-29 13:32:18,869 - DEBUG - [Entropy for calculate]:	Class positive = 34	Class negative = 16	Total instances = 50	Entropy = 0.904381457724494
+2019-03-29 13:32:18,870 - DEBUG - [Entropy for calculate]:	Class positive = 23	Class negative = 7	Total instances = 30	Entropy = 0.783776947484701
+2019-03-29 13:32:18,870 - DEBUG - [Entropy for calculate]:	Class positive = 7	Class negative = 1	Total instances = 8	Entropy = 0.5435644431995964
+2019-03-29 13:32:18,870 - DEBUG - [Entropy for calculate]:	Class positive = 36	Class negative = 18	Total instances = 54	Entropy = 0.9182958340544896
+2019-03-29 13:32:18,870 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 3	Total instances = 8	Entropy = 0.954434002924965
+2019-03-29 13:32:18,870 - DEBUG - [Entropy for calculate]:	Class positive = 27	Class negative = 1	Total instances = 28	Entropy = 0.222284830685688
+2019-03-29 13:32:18,870 - DEBUG - [Entropy for calculate]:	Class positive = 16	Class negative = 6	Total instances = 22	Entropy = 0.8453509366224365
+2019-03-29 13:32:18,871 - DEBUG - [Entropy for calculate]:	Class positive = 12	Class negative = 7	Total instances = 19	Entropy = 0.9494520153879484
+2019-03-29 13:32:18,871 - DEBUG - [Entropy for calculate]:	Class positive = 2	Class negative = 1	Total instances = 3	Entropy = 0.9182958340544896
+2019-03-29 13:32:18,871 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8206735698503539	Gain Information = 0.05717112532429669
+2019-03-29 13:32:18,871 - DEBUG - [Split Decision Tree]	Column = inv_nodes
+2019-03-29 13:32:18,920 - DEBUG - [Gain Information]:	Frequencies = [{'value': '0-2', 'class_positive': 167, 'class_negative': 46}, {'value': '6-8', 'class_positive': 7, 'class_negative': 10}, {'value': '9-11', 'class_positive': 4, 'class_negative': 6}, {'value': '3-5', 'class_positive': 19, 'class_negative': 17}, {'value': '15-17', 'class_positive': 3, 'class_negative': 3}, {'value': '12-14', 'class_positive': 1, 'class_negative': 2}, {'value': '24-26', 'class_positive': 0, 'class_negative': 1}]	 Total instances = 286
+2019-03-29 13:32:18,921 - DEBUG - [Entropy for calculate]:	Class positive = 167	Class negative = 46	Total instances = 213	Entropy = 0.7527262079169682
+2019-03-29 13:32:18,921 - DEBUG - [Entropy for calculate]:	Class positive = 7	Class negative = 10	Total instances = 17	Entropy = 0.9774178175281716
+2019-03-29 13:32:18,921 - DEBUG - [Entropy for calculate]:	Class positive = 4	Class negative = 6	Total instances = 10	Entropy = 0.9709505944546686
+2019-03-29 13:32:18,921 - DEBUG - [Entropy for calculate]:	Class positive = 19	Class negative = 17	Total instances = 36	Entropy = 0.9977724720899821
+2019-03-29 13:32:18,921 - DEBUG - [Entropy for calculate]:	Class positive = 3	Class negative = 3	Total instances = 6	Entropy = 1.0
+2019-03-29 13:32:18,921 - DEBUG - [Entropy for calculate]:	Class positive = 1	Class negative = 2	Total instances = 3	Entropy = 0.9182958340544896
+2019-03-29 13:32:18,921 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8088496070847645	Gain Information = 0.06899508808988608
+2019-03-29 13:32:18,921 - DEBUG - [Split Decision Tree]	Column = node_caps
+2019-03-29 13:32:18,936 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'no', 'class_positive': 171, 'class_negative': 51}, {'value': 'yes', 'class_positive': 25, 'class_negative': 31}, {'value': '?', 'class_positive': 5, 'class_negative': 3}]	 Total instances = 286
+2019-03-29 13:32:18,936 - DEBUG - [Entropy for calculate]:	Class positive = 171	Class negative = 51	Total instances = 222	Entropy = 0.7775398641607599
+2019-03-29 13:32:18,936 - DEBUG - [Entropy for calculate]:	Class positive = 25	Class negative = 31	Total instances = 56	Entropy = 0.9917033083725818
+2019-03-29 13:32:18,936 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 3	Total instances = 8	Entropy = 0.954434002924965
+2019-03-29 13:32:18,936 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8244220529229127	Gain Information = 0.05342264225173787
+2019-03-29 13:32:18,936 - DEBUG - [Split Decision Tree]	Gain Information = {'age': 0.010605956535614025, 'menopause': 0.0020016149737116518, 'tumor_size': 0.05717112532429669, 'inv_nodes': 0.06899508808988608, 'node_caps': 0.05342264225173787}
+2019-03-29 13:32:18,967 - DEBUG - [Gauge Stop Recursion]:	 Label Trainning = ['age', 'menopause', 'tumor_size']
+2019-03-29 13:32:18,968 - DEBUG - [Split Decision Tree]	Column Trainning = ['age', 'menopause', 'tumor_size']
+2019-03-29 13:32:18,968 - DEBUG - [Split Decision Tree]	Column = age
+2019-03-29 13:32:19,000 - DEBUG - [Gain Information]:	Frequencies = [{'value': '30-39', 'class_positive': 21, 'class_negative': 15}, {'value': '40-49', 'class_positive': 63, 'class_negative': 27}, {'value': '60-69', 'class_positive': 40, 'class_negative': 17}, {'value': '50-59', 'class_positive': 71, 'class_negative': 25}, {'value': '70-79', 'class_positive': 5, 'class_negative': 1}, {'value': '20-29', 'class_positive': 1, 'class_negative': 0}]	 Total instances = 286
+2019-03-29 13:32:19,000 - DEBUG - [Entropy for calculate]:	Class positive = 21	Class negative = 15	Total instances = 36	Entropy = 0.9798687566511528
+2019-03-29 13:32:19,000 - DEBUG - [Entropy for calculate]:	Class positive = 63	Class negative = 27	Total instances = 90	Entropy = 0.8812908992306927
+2019-03-29 13:32:19,000 - DEBUG - [Entropy for calculate]:	Class positive = 40	Class negative = 17	Total instances = 57	Entropy = 0.8791357668533336
+2019-03-29 13:32:19,001 - DEBUG - [Entropy for calculate]:	Class positive = 71	Class negative = 25	Total instances = 96	Entropy = 0.8273744775003172
+2019-03-29 13:32:19,001 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 1	Total instances = 6	Entropy = 0.6500224216483541
+2019-03-29 13:32:19,001 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8672387386390366	Gain Information = 0.010605956535614025
+2019-03-29 13:32:19,001 - DEBUG - [Split Decision Tree]	Column = menopause
+2019-03-29 13:32:19,014 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'premeno', 'class_positive': 102, 'class_negative': 48}, {'value': 'ge40', 'class_positive': 94, 'class_negative': 35}, {'value': 'lt40', 'class_positive': 5, 'class_negative': 2}]	 Total instances = 286
+2019-03-29 13:32:19,014 - DEBUG - [Entropy for calculate]:	Class positive = 102	Class negative = 48	Total instances = 150	Entropy = 0.904381457724494
+2019-03-29 13:32:19,014 - DEBUG - [Entropy for calculate]:	Class positive = 94	Class negative = 35	Total instances = 129	Entropy = 0.8433492891382018
+2019-03-29 13:32:19,015 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 2	Total instances = 7	Entropy = 0.863120568566631
+2019-03-29 13:32:19,015 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8758430802009389	Gain Information = 0.0020016149737116518
+2019-03-29 13:32:19,015 - DEBUG - [Split Decision Tree]	Column = tumor_size
+2019-03-29 13:32:19,056 - DEBUG - [Gain Information]:	Frequencies = [{'value': '30-34', 'class_positive': 35, 'class_negative': 25}, {'value': '20-24', 'class_positive': 34, 'class_negative': 16}, {'value': '15-19', 'class_positive': 23, 'class_negative': 7}, {'value': '0-4', 'class_positive': 7, 'class_negative': 1}, {'value': '25-29', 'class_positive': 36, 'class_negative': 18}, {'value': '50-54', 'class_positive': 5, 'class_negative': 3}, {'value': '10-14', 'class_positive': 27, 'class_negative': 1}, {'value': '40-44', 'class_positive': 16, 'class_negative': 6}, {'value': '35-39', 'class_positive': 12, 'class_negative': 7}, {'value': '5-9', 'class_positive': 4, 'class_negative': 0}, {'value': '45-49', 'class_positive': 2, 'class_negative': 1}]	 Total instances = 286
+2019-03-29 13:32:19,057 - DEBUG - [Entropy for calculate]:	Class positive = 35	Class negative = 25	Total instances = 60	Entropy = 0.9798687566511528
+2019-03-29 13:32:19,057 - DEBUG - [Entropy for calculate]:	Class positive = 34	Class negative = 16	Total instances = 50	Entropy = 0.904381457724494
+2019-03-29 13:32:19,057 - DEBUG - [Entropy for calculate]:	Class positive = 23	Class negative = 7	Total instances = 30	Entropy = 0.783776947484701
+2019-03-29 13:32:19,057 - DEBUG - [Entropy for calculate]:	Class positive = 7	Class negative = 1	Total instances = 8	Entropy = 0.5435644431995964
+2019-03-29 13:32:19,057 - DEBUG - [Entropy for calculate]:	Class positive = 36	Class negative = 18	Total instances = 54	Entropy = 0.9182958340544896
+2019-03-29 13:32:19,057 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 3	Total instances = 8	Entropy = 0.954434002924965
+2019-03-29 13:32:19,057 - DEBUG - [Entropy for calculate]:	Class positive = 27	Class negative = 1	Total instances = 28	Entropy = 0.222284830685688
+2019-03-29 13:32:19,057 - DEBUG - [Entropy for calculate]:	Class positive = 16	Class negative = 6	Total instances = 22	Entropy = 0.8453509366224365
+2019-03-29 13:32:19,057 - DEBUG - [Entropy for calculate]:	Class positive = 12	Class negative = 7	Total instances = 19	Entropy = 0.9494520153879484
+2019-03-29 13:32:19,057 - DEBUG - [Entropy for calculate]:	Class positive = 2	Class negative = 1	Total instances = 3	Entropy = 0.9182958340544896
+2019-03-29 13:32:19,057 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8206735698503539	Gain Information = 0.05717112532429669
+2019-03-29 13:32:19,057 - DEBUG - [Split Decision Tree]	Gain Information = {'age': 0.010605956535614025, 'menopause': 0.0020016149737116518, 'tumor_size': 0.05717112532429669}
+2019-03-29 13:32:19,098 - DEBUG - [Gauge Stop Recursion]:	 Label Trainning = ['age', 'menopause']
+2019-03-29 13:32:19,099 - DEBUG - [Split Decision Tree]	Column Trainning = ['age', 'menopause']
+2019-03-29 13:32:19,099 - DEBUG - [Split Decision Tree]	Column = age
+2019-03-29 13:32:19,121 - DEBUG - [Gain Information]:	Frequencies = [{'value': '30-39', 'class_positive': 21, 'class_negative': 15}, {'value': '40-49', 'class_positive': 63, 'class_negative': 27}, {'value': '60-69', 'class_positive': 40, 'class_negative': 17}, {'value': '50-59', 'class_positive': 71, 'class_negative': 25}, {'value': '70-79', 'class_positive': 5, 'class_negative': 1}, {'value': '20-29', 'class_positive': 1, 'class_negative': 0}]	 Total instances = 286
+2019-03-29 13:32:19,122 - DEBUG - [Entropy for calculate]:	Class positive = 21	Class negative = 15	Total instances = 36	Entropy = 0.9798687566511528
+2019-03-29 13:32:19,122 - DEBUG - [Entropy for calculate]:	Class positive = 63	Class negative = 27	Total instances = 90	Entropy = 0.8812908992306927
+2019-03-29 13:32:19,122 - DEBUG - [Entropy for calculate]:	Class positive = 40	Class negative = 17	Total instances = 57	Entropy = 0.8791357668533336
+2019-03-29 13:32:19,122 - DEBUG - [Entropy for calculate]:	Class positive = 71	Class negative = 25	Total instances = 96	Entropy = 0.8273744775003172
+2019-03-29 13:32:19,122 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 1	Total instances = 6	Entropy = 0.6500224216483541
+2019-03-29 13:32:19,122 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8672387386390366	Gain Information = 0.010605956535614025
+2019-03-29 13:32:19,122 - DEBUG - [Split Decision Tree]	Column = menopause
+2019-03-29 13:32:19,135 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'premeno', 'class_positive': 102, 'class_negative': 48}, {'value': 'ge40', 'class_positive': 94, 'class_negative': 35}, {'value': 'lt40', 'class_positive': 5, 'class_negative': 2}]	 Total instances = 286
+2019-03-29 13:32:19,135 - DEBUG - [Entropy for calculate]:	Class positive = 102	Class negative = 48	Total instances = 150	Entropy = 0.904381457724494
+2019-03-29 13:32:19,135 - DEBUG - [Entropy for calculate]:	Class positive = 94	Class negative = 35	Total instances = 129	Entropy = 0.8433492891382018
+2019-03-29 13:32:19,135 - DEBUG - [Entropy for calculate]:	Class positive = 5	Class negative = 2	Total instances = 7	Entropy = 0.863120568566631
+2019-03-29 13:32:19,135 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8758430802009389	Gain Information = 0.0020016149737116518
+2019-03-29 13:32:19,135 - DEBUG - [Split Decision Tree]	Gain Information = {'age': 0.010605956535614025, 'menopause': 0.0020016149737116518}
+2019-03-29 13:32:19,157 - DEBUG - [Gauge Stop Recursion]:	 Label Trainning = []
+2019-03-29 13:32:19,157 - DEBUG - [Gauge Stop Recursion]:	 Label Trainning = ['menopause']
+2019-03-29 13:32:19,169 - DEBUG - [Gauge Stop Recursion]:	 Label Trainning = []
+2019-03-29 13:32:19,169 - DEBUG - [Gauge Stop Recursion]:	 Label Trainning = ['node_caps']
+2019-03-29 13:32:19,189 - DEBUG - [Gauge Stop Recursion]:	 Label Trainning = ['breast', 'breast_quad', 'irradiat']
+2019-03-29 13:32:19,189 - DEBUG - [Split Decision Tree]	Column Trainning = ['breast', 'breast_quad', 'irradiat']
+2019-03-29 13:32:19,190 - DEBUG - [Split Decision Tree]	Column = breast
+2019-03-29 13:32:19,199 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'left', 'class_positive': 103, 'class_negative': 49}, {'value': 'right', 'class_positive': 98, 'class_negative': 36}]	 Total instances = 286
+2019-03-29 13:32:19,199 - DEBUG - [Entropy for calculate]:	Class positive = 103	Class negative = 49	Total instances = 152	Entropy = 0.906938456459923
+2019-03-29 13:32:19,199 - DEBUG - [Entropy for calculate]:	Class positive = 98	Class negative = 36	Total instances = 134	Entropy = 0.8395304981054317
+2019-03-29 13:32:19,199 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8753557067413851	Gain Information = 0.0024889884332655043
+2019-03-29 13:32:19,199 - DEBUG - [Split Decision Tree]	Column = breast_quad
+2019-03-29 13:32:19,222 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'left_low', 'class_positive': 75, 'class_negative': 35}, {'value': 'right_up', 'class_positive': 20, 'class_negative': 13}, {'value': 'left_up', 'class_positive': 71, 'class_negative': 26}, {'value': 'right_low', 'class_positive': 18, 'class_negative': 6}, {'value': 'central', 'class_positive': 17, 'class_negative': 4}, {'value': '?', 'class_positive': 0, 'class_negative': 1}]	 Total instances = 286
+2019-03-29 13:32:19,222 - DEBUG - [Entropy for calculate]:	Class positive = 75	Class negative = 35	Total instances = 110	Entropy = 0.9023932827949788
+2019-03-29 13:32:19,222 - DEBUG - [Entropy for calculate]:	Class positive = 20	Class negative = 13	Total instances = 33	Entropy = 0.9672947789468944
+2019-03-29 13:32:19,222 - DEBUG - [Entropy for calculate]:	Class positive = 71	Class negative = 26	Total instances = 97	Entropy = 0.8386398715015524
+2019-03-29 13:32:19,222 - DEBUG - [Entropy for calculate]:	Class positive = 18	Class negative = 6	Total instances = 24	Entropy = 0.8112781244591328
+2019-03-29 13:32:19,222 - DEBUG - [Entropy for calculate]:	Class positive = 17	Class negative = 4	Total instances = 21	Entropy = 0.7024665512903903
+2019-03-29 13:32:19,222 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8627780731205006	Gain Information = 0.015066622054149992
+2019-03-29 13:32:19,222 - DEBUG - [Split Decision Tree]	Column = irradiat
+2019-03-29 13:32:19,231 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'no', 'class_positive': 164, 'class_negative': 54}, {'value': 'yes', 'class_positive': 37, 'class_negative': 31}]	 Total instances = 286
+2019-03-29 13:32:19,231 - DEBUG - [Entropy for calculate]:	Class positive = 164	Class negative = 54	Total instances = 218	Entropy = 0.8076226097576923
+2019-03-29 13:32:19,231 - DEBUG - [Entropy for calculate]:	Class positive = 37	Class negative = 31	Total instances = 68	Entropy = 0.9943766625699826
+2019-03-29 13:32:19,231 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8520256712655094	Gain Information = 0.025819023909141148
+2019-03-29 13:32:19,232 - DEBUG - [Split Decision Tree]	Gain Information = {'breast': 0.0024889884332655043, 'breast_quad': 0.015066622054149992, 'irradiat': 0.025819023909141148}
+2019-03-29 13:32:19,240 - DEBUG - [Gauge Stop Recursion]:	 Label Trainning = ['breast', 'breast_quad']
+2019-03-29 13:32:19,241 - DEBUG - [Split Decision Tree]	Column Trainning = ['breast', 'breast_quad']
+2019-03-29 13:32:19,241 - DEBUG - [Split Decision Tree]	Column = breast
+2019-03-29 13:32:19,250 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'left', 'class_positive': 103, 'class_negative': 49}, {'value': 'right', 'class_positive': 98, 'class_negative': 36}]	 Total instances = 286
+2019-03-29 13:32:19,250 - DEBUG - [Entropy for calculate]:	Class positive = 103	Class negative = 49	Total instances = 152	Entropy = 0.906938456459923
+2019-03-29 13:32:19,251 - DEBUG - [Entropy for calculate]:	Class positive = 98	Class negative = 36	Total instances = 134	Entropy = 0.8395304981054317
+2019-03-29 13:32:19,251 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8753557067413851	Gain Information = 0.0024889884332655043
+2019-03-29 13:32:19,251 - DEBUG - [Split Decision Tree]	Column = breast_quad
+2019-03-29 13:32:19,273 - DEBUG - [Gain Information]:	Frequencies = [{'value': 'left_low', 'class_positive': 75, 'class_negative': 35}, {'value': 'right_up', 'class_positive': 20, 'class_negative': 13}, {'value': 'left_up', 'class_positive': 71, 'class_negative': 26}, {'value': 'right_low', 'class_positive': 18, 'class_negative': 6}, {'value': 'central', 'class_positive': 17, 'class_negative': 4}, {'value': '?', 'class_positive': 0, 'class_negative': 1}]	 Total instances = 286
+2019-03-29 13:32:19,273 - DEBUG - [Entropy for calculate]:	Class positive = 75	Class negative = 35	Total instances = 110	Entropy = 0.9023932827949788
+2019-03-29 13:32:19,274 - DEBUG - [Entropy for calculate]:	Class positive = 20	Class negative = 13	Total instances = 33	Entropy = 0.9672947789468944
+2019-03-29 13:32:19,274 - DEBUG - [Entropy for calculate]:	Class positive = 71	Class negative = 26	Total instances = 97	Entropy = 0.8386398715015524
+2019-03-29 13:32:19,274 - DEBUG - [Entropy for calculate]:	Class positive = 18	Class negative = 6	Total instances = 24	Entropy = 0.8112781244591328
+2019-03-29 13:32:19,274 - DEBUG - [Entropy for calculate]:	Class positive = 17	Class negative = 4	Total instances = 21	Entropy = 0.7024665512903903
+2019-03-29 13:32:19,274 - DEBUG - [Gain Information]	Entropy Global = 0.8778446951746506	Entropy Local = 0.8627780731205006	Gain Information = 0.015066622054149992
+2019-03-29 13:32:19,274 - DEBUG - [Split Decision Tree]	Gain Information = {'breast': 0.0024889884332655043, 'breast_quad': 0.015066622054149992}
+2019-03-29 13:32:19,298 - DEBUG - [Gauge Stop Recursion]:	 Label Trainning = ['breast']
+2019-03-29 13:32:19,307 - DEBUG - [Gauge Stop Recursion]:	 Label Trainning = []
+2019-03-29 13:32:19,307 - DEBUG - [Gauge Stop Recursion]:	 Label Trainning = []
